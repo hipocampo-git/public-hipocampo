@@ -1,0 +1,6 @@
+scripts/api/importDeck/runImport.sh
+scripts/api/exportDeck/runExport.sh
+scripts/api/deleteDeck/loopDelete.sh
+*.log
+.idea
+logs
