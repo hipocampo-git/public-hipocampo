@@ -1,0 +1,214 @@
+{
+ objects: [
+  {
+   type: 'deck',
+   name: 'History of AI',
+   id: 45997,
+   description: '',
+   textToSpeech: 0,
+   preface: 1,
+   feedback: 0,
+   showDontKnow: 0,
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: 'The concept of artificial intelligence (AI) was first introduced in 1956 at the __________, where a group of scientists and mathematicians came together to discuss the possibility of creating machines that could "think" like humans.',
+   hint: null,
+   answers: [
+    {
+     id: 26368,
+     text: 'Dartmouth Conference',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69282,
+   deckId: '_45997',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: 'The first AI program was written in 1951 by Christopher Strachey, who created a _________-playing program for the Ferranti Mark I computer.',
+   hint: null,
+   answers: [
+    {
+     id: 26369,
+     text: 'checkers',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69283,
+   deckId: '_45997',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: 'In 1957, John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon created the first AI program that could simulate problem-solving skills, called the "_________."',
+   hint: null,
+   answers: [
+    {
+     id: 26370,
+     text: 'Logic Theorist',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69284,
+   deckId: '_45997',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: 'The 1960s and 1970s were known as the "__________" because of the lack of progress in the field and a decrease in funding.',
+   hint: null,
+   answers: [
+    {
+     id: 26371,
+     text: 'AI Winter',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69285,
+   deckId: '_45997',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: 'In the 1980s, AI research saw a resurgence with the development of expert systems and _______ networks.',
+   hint: null,
+   answers: [
+    {
+     id: 26372,
+     text: 'Neural',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69286,
+   deckId: '_45997',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: "In 1997, IBM's _________ defeated world chess champion Garry Kasparov in a six-game match, marking a significant milestone in the development of AI.",
+   hint: null,
+   answers: [
+    {
+     id: 26373,
+     text: 'Deep Blue',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69287,
+   deckId: '_45997',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: "In 2011, IBM's _________ computer defeated two human champions in the game show Jeopardy!, showcasing the potential of AI in natural language processing and information retrieval.",
+   hint: null,
+   answers: [
+    {
+     id: 26374,
+     text: 'Watson',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69288,
+   deckId: '_45997',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: '____________, a subfield of AI that uses artificial neural networks to learn and improve from data, has seen significant advancements in recent years and is now used in a wide range of applications, including image recognition and natural language processing.',
+   hint: null,
+   answers: [
+    {
+     id: 26375,
+     text: 'Deep Learning',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69289,
+   deckId: '_45997',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: 'The development of ___________  is a major area of AI research, with companies like Google, Tesla, and Uber investing heavily in the technology.',
+   hint: null,
+   answers: [
+    {
+     id: 26376,
+     text: 'self-driving cars',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69290,
+   deckId: '_45997',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'History of AI',
+   question: '___________ concerns around AI are becoming increasingly important, with questions about privacy, bias, and job displacement being hotly debated in academia and industry',
+   hint: null,
+   answers: [
+    {
+     id: 26377,
+     text: 'ethical',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 69291,
+   deckId: '_45997',
+  },
+ ],
+}
