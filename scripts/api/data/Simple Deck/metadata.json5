@@ -93,7 +93,7 @@
       type: 'card',
       algo: 5,
       deck: 'Git Test',
-      question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/14263" />',
+      question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/14263" />\nThis is card #2',
       hint: null,
       explanation: '',
       notes: '',
@@ -101,7 +101,7 @@
       answers: [
         {
           id: 46889,
-          text: 'India',
+          text: 'India_plus some text',
           number: 1,
           isCorrect: 1,
           groupIndex: 1,
@@ -300,7 +300,7 @@
       type: 'card',
       algo: 5,
       deck: 'Git Test',
-      question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/14266" />',
+      question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/14266" />\nThis is card #5',
       hint: null,
       explanation: '',
       notes: '',
