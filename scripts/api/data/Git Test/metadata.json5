@@ -2,9 +2,10 @@
  objects: [
   {
    type: 'deck',
-   name: 'Flags Tutorial',
+   name: 'Git Test',
    id: 49007,
-   description: 'This is the deck for the Flags Tutorial',
+   description: 'Based off of Flags Tutorial',
+   synopsis: null,
    textToSpeech: 1,
    preface: 1,
    feedback: 0,
