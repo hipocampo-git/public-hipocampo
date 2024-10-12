@@ -1,1 +1,36 @@
-{objects:[{type:'deck',name:'Simple Deck',id:46014,description:'Updated description from push',textToSpeech:0,preface:1,feedback:0,showDontKnow:0},{type:'card',algo:2,deck:'Simple Deck',question:'Translate to english:<br />\nMemoria minuitur nisi eam exerceas',hint:null,answers:[{id:26792,text:"Memory diminishes if you don't exorcise it",number:1,isCorrect:0}],algoSettings:{pdType:'natural',threshold:0.7,caseSensitive:false},id:69516,deckId:'_46014'}]}
+{
+ objects: [
+  {
+   type: 'deck',
+   name: 'Simple Deck',
+   id: 46014,
+   description: 'Updated description from push',
+   textToSpeech: 0,
+   preface: 1,
+   feedback: 0,
+   showDontKnow: 0,
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'Simple Deck',
+   question: 'Translate to english:<br />\nMemoria minuitur nisi eam exerceas',
+   hint: null,
+   answers: [
+    {
+     id: 26792,
+     text: "Memory diminishes if you don't exorcise it",
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'natural',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69516,
+   deckId: '_46014',
+  },
+ ],
+}
