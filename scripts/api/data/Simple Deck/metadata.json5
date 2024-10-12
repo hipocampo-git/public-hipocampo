@@ -4,7 +4,7 @@
       type: 'deck',
       name: 'Git Test',
       id: 49926,
-      description: 'This is the deck for the Flags Tutorial',
+      description: 'This is the deck for the Flags Tutorial. Here is some more text.',
       synopsis: null,
       textToSpeech: 1,
       preface: 1,
