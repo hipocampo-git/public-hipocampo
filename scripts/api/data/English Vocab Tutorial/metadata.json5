@@ -6,6 +6,7 @@
       id: 49927,
       description: 'Vocabulary words pulled from <br />Vocabulary.com\'s  <a href="https://www.vocabulary.com/lists/191545" target="_blank">300 Most Difficult SAT Words</a>',
       synopsis: 'This is some content',
+      notes: 'Here are some notes',
       textToSpeech: 0,
       preface: 1,
       feedback: 0,
