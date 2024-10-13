@@ -5,7 +5,7 @@
       name: 'English Vocab Tutorial',
       id: 49927,
       description: 'Vocabulary words pulled from <br />Vocabulary.com\'s  <a href="https://www.vocabulary.com/lists/191545" target="_blank">300 Most Difficult SAT Words</a>',
-      synopsis: null,
+      synopsis: 'This is some content',
       textToSpeech: 0,
       preface: 1,
       feedback: 0,
