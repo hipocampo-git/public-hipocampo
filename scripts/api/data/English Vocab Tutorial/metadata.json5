@@ -1127,6 +1127,7 @@
       defaultIsRandomMode: 0,
       defaultIsTextToSpeechMode: 0,
       defaultIsSaveResponsesMode: 0,
+      defaultIsPoolMultipleChoiceOptionsMode: 0,
       default_layout_id: 1,
     },
   ],
