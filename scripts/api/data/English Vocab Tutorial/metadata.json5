@@ -1122,10 +1122,10 @@
     },
     {
       type: 'share',
-      expiration: '2028-10-06T07:02:02.000Z',
+      expiration: '2030-10-04T07:02:02.000Z',
       defaultIsAdminMode: 1,
-      defaultIsRandomMode: 0,
-      defaultIsTextToSpeechMode: 0,
+      defaultIsRandomMode: 1,
+      defaultIsTextToSpeechMode: 1,
       defaultIsSaveResponsesMode: 0,
       defaultIsPoolMultipleChoiceOptionsMode: 0,
       default_layout_id: 1,
