@@ -1120,5 +1120,15 @@
       id: 81215,
       deckId: '_49927',
     },
+    {
+      type: 'share',
+      expiration: '2026-10-02T07:04:00.000Z',
+      defaultIsAdminMode: 1,
+      defaultIsRandomMode: 1,
+      defaultIsTextToSpeechMode: 0,
+      defaultIsSaveResponsesMode: 0,
+      defaultIsPoolMultipleChoiceOptionsMode: 0,
+      default_layout_id: 1,
+    },
   ],
 }
