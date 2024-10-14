@@ -1122,7 +1122,7 @@
     },
     {
       type: 'share',
-      expiration: '2025-10-01T07:02:02.000Z',
+      expiration: '2028-10-06T07:02:02.000Z',
       defaultIsAdminMode: 1,
       defaultIsRandomMode: 0,
       defaultIsTextToSpeechMode: 0,
