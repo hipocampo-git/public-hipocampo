@@ -3,7 +3,7 @@
     {
       type: 'deck',
       name: 'English Vocab Tutorial git1',
-      id: 49998,
+      id: 1,
       description: null,
       synopsis: null,
       notes: null,
@@ -23,7 +23,6 @@
       number: 1,
       answers: [
         {
-          id: 47925,
           text: 'beguile',
           number: 1,
           isCorrect: 1,
@@ -36,8 +35,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82096,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -50,7 +48,6 @@
       number: 2,
       answers: [
         {
-          id: 47926,
           text: 'camaraderie',
           number: 1,
           isCorrect: 1,
@@ -63,8 +60,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82097,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -77,14 +73,12 @@
       number: 3,
       answers: [
         {
-          id: 47927,
           text: 'constituent',
           number: 1,
           isCorrect: 1,
           groupIndex: 1,
         },
         {
-          id: 47928,
           text: 'Constituents ',
           number: 2,
           isCorrect: 0,
@@ -97,8 +91,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82098,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -111,7 +104,6 @@
       number: 4,
       answers: [
         {
-          id: 47929,
           text: 'diaphanous',
           number: 1,
           isCorrect: 1,
@@ -124,8 +116,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82099,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -138,7 +129,6 @@
       number: 5,
       answers: [
         {
-          id: 47930,
           text: 'evanescent',
           number: 1,
           isCorrect: 1,
@@ -151,8 +141,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82100,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -165,7 +154,6 @@
       number: 6,
       answers: [
         {
-          id: 47931,
           text: 'fatuous',
           number: 1,
           isCorrect: 1,
@@ -178,8 +166,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82101,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -192,7 +179,6 @@
       number: 7,
       answers: [
         {
-          id: 47932,
           text: 'flagrant',
           number: 1,
           isCorrect: 1,
@@ -205,8 +191,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82102,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -219,7 +204,6 @@
       number: 8,
       answers: [
         {
-          id: 47933,
           text: 'obfuscate',
           number: 1,
           isCorrect: 1,
@@ -232,8 +216,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82103,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -246,7 +229,6 @@
       number: 9,
       answers: [
         {
-          id: 47934,
           text: 'portent',
           number: 1,
           isCorrect: 1,
@@ -259,8 +241,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82104,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -273,7 +254,6 @@
       number: 10,
       answers: [
         {
-          id: 47935,
           text: 'surfeit',
           number: 1,
           isCorrect: 1,
@@ -286,8 +266,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82105,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -300,7 +279,6 @@
       number: 11,
       answers: [
         {
-          id: 47936,
           text: 'beguile',
           number: 1,
           isCorrect: 1,
@@ -313,8 +291,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82106,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -327,7 +304,6 @@
       number: 12,
       answers: [
         {
-          id: 47937,
           text: 'camaraderie',
           number: 1,
           isCorrect: 1,
@@ -340,8 +316,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82107,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -354,14 +329,12 @@
       number: 13,
       answers: [
         {
-          id: 47938,
           text: 'constituent',
           number: 1,
           isCorrect: 1,
           groupIndex: 1,
         },
         {
-          id: 47939,
           text: 'Constituents ',
           number: 2,
           isCorrect: 0,
@@ -374,8 +347,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82108,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -388,7 +360,6 @@
       number: 14,
       answers: [
         {
-          id: 47940,
           text: 'diaphanous',
           number: 1,
           isCorrect: 1,
@@ -401,8 +372,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82109,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -415,7 +385,6 @@
       number: 15,
       answers: [
         {
-          id: 47941,
           text: 'evanescent',
           number: 1,
           isCorrect: 1,
@@ -428,8 +397,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82110,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -442,7 +410,6 @@
       number: 16,
       answers: [
         {
-          id: 47942,
           text: 'fatuous',
           number: 1,
           isCorrect: 1,
@@ -455,8 +422,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82111,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -469,7 +435,6 @@
       number: 17,
       answers: [
         {
-          id: 47943,
           text: 'flagrant',
           number: 1,
           isCorrect: 1,
@@ -482,8 +447,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82112,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -496,7 +460,6 @@
       number: 18,
       answers: [
         {
-          id: 47944,
           text: 'obfuscate',
           number: 1,
           isCorrect: 1,
@@ -509,8 +472,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82113,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -523,7 +485,6 @@
       number: 19,
       answers: [
         {
-          id: 47945,
           text: 'portent',
           number: 1,
           isCorrect: 1,
@@ -536,8 +497,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82114,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -550,7 +510,6 @@
       number: 20,
       answers: [
         {
-          id: 47946,
           text: 'surfeit',
           number: 1,
           isCorrect: 1,
@@ -563,8 +522,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82115,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -577,7 +535,6 @@
       number: 21,
       answers: [
         {
-          id: 47947,
           text: 'beguile',
           number: 1,
           isCorrect: 1,
@@ -590,8 +547,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82116,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -604,7 +560,6 @@
       number: 22,
       answers: [
         {
-          id: 47948,
           text: 'camaraderie',
           number: 1,
           isCorrect: 1,
@@ -617,8 +572,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82117,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -631,14 +585,12 @@
       number: 23,
       answers: [
         {
-          id: 47949,
           text: 'constituent',
           number: 1,
           isCorrect: 1,
           groupIndex: 1,
         },
         {
-          id: 47950,
           text: 'Constituents ',
           number: 2,
           isCorrect: 0,
@@ -651,8 +603,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82118,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -665,7 +616,6 @@
       number: 24,
       answers: [
         {
-          id: 47951,
           text: 'diaphanous',
           number: 1,
           isCorrect: 1,
@@ -678,8 +628,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82119,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -692,7 +641,6 @@
       number: 25,
       answers: [
         {
-          id: 47952,
           text: 'evanescent',
           number: 1,
           isCorrect: 1,
@@ -705,8 +653,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82120,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -719,7 +666,6 @@
       number: 26,
       answers: [
         {
-          id: 47953,
           text: 'fatuous',
           number: 1,
           isCorrect: 1,
@@ -732,8 +678,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82121,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -746,7 +691,6 @@
       number: 27,
       answers: [
         {
-          id: 47954,
           text: 'flagrant',
           number: 1,
           isCorrect: 1,
@@ -759,8 +703,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82122,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -773,7 +716,6 @@
       number: 28,
       answers: [
         {
-          id: 47955,
           text: 'obfuscate',
           number: 1,
           isCorrect: 1,
@@ -786,8 +728,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82123,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -800,7 +741,6 @@
       number: 29,
       answers: [
         {
-          id: 47956,
           text: 'portent',
           number: 1,
           isCorrect: 1,
@@ -813,8 +753,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82124,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -827,7 +766,6 @@
       number: 30,
       answers: [
         {
-          id: 47957,
           text: 'blah blah blah',
           number: 1,
           isCorrect: 1,
@@ -840,8 +778,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82125,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -854,7 +791,6 @@
       number: 31,
       answers: [
         {
-          id: 47958,
           text: 'beguile',
           number: 1,
           isCorrect: 1,
@@ -867,8 +803,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82126,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -881,7 +816,6 @@
       number: 32,
       answers: [
         {
-          id: 47959,
           text: 'camaraderie',
           number: 1,
           isCorrect: 1,
@@ -894,8 +828,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82127,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -908,14 +841,12 @@
       number: 33,
       answers: [
         {
-          id: 47960,
           text: 'constituent',
           number: 1,
           isCorrect: 1,
           groupIndex: 1,
         },
         {
-          id: 47961,
           text: 'Constituents ',
           number: 2,
           isCorrect: 0,
@@ -928,8 +859,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82128,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -942,7 +872,6 @@
       number: 34,
       answers: [
         {
-          id: 47962,
           text: 'diaphanous',
           number: 1,
           isCorrect: 1,
@@ -955,8 +884,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82129,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -969,7 +897,6 @@
       number: 35,
       answers: [
         {
-          id: 47963,
           text: 'evanescent',
           number: 1,
           isCorrect: 1,
@@ -982,8 +909,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82130,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -996,7 +922,6 @@
       number: 36,
       answers: [
         {
-          id: 47964,
           text: 'fatuous',
           number: 1,
           isCorrect: 1,
@@ -1009,8 +934,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82131,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -1023,7 +947,6 @@
       number: 37,
       answers: [
         {
-          id: 47965,
           text: 'flagrant',
           number: 1,
           isCorrect: 1,
@@ -1036,8 +959,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82132,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -1050,7 +972,6 @@
       number: 38,
       answers: [
         {
-          id: 47966,
           text: 'obfuscate',
           number: 1,
           isCorrect: 1,
@@ -1063,8 +984,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82133,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -1077,7 +997,6 @@
       number: 39,
       answers: [
         {
-          id: 47967,
           text: 'portent',
           number: 1,
           isCorrect: 1,
@@ -1090,8 +1009,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82134,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'card',
@@ -1104,7 +1022,6 @@
       number: 40,
       answers: [
         {
-          id: 47968,
           text: 'surfeit',
           number: 1,
           isCorrect: 1,
@@ -1117,8 +1034,7 @@
         ignoreOrder: false,
         caseSensitive: false,
       },
-      id: 82135,
-      deckId: '_49998',
+      deckId: '_1',
     },
     {
       type: 'share',
