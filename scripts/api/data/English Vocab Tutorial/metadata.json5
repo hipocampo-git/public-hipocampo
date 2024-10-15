@@ -2,7 +2,7 @@
   objects: [
     {
       type: 'deck',
-      name: 'English Vocab Tutorial git1',
+      name: 'English Vocab Tutorial',
       id: 49933,
       description: null,
       synopsis: null,
