@@ -2,7 +2,7 @@
   objects: [
     {
       type: 'deck',
-      name: 'English Vocab Tutorial git1',
+      name: 'English Vocab Tutorial foo1',
       id: 1,
       description: null,
       synopsis: null,
@@ -15,7 +15,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to influence by slyness<br />\nStarts with letter "b"<br />\n<speak>to influence by slyness. Starts with letter "b"</speak>',
       hint: '"In a dull, flat voice—to show I was not ________ (past participle) by his good looks or his family photograph—I told Doctor Gordon about not sleeping and not eating and not reading."\n--The Bell Jar by Sylvia Plath',
       explanation: '',
@@ -40,7 +40,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'the quality of affording easy familiarity and sociability<br />\nStarts with letter "c"<br />\n<speak>the quality of affording easy familiarity and sociability. Starts with letter "c"</speak>',
       hint: "What we’re aiming for, says Aunt Lydia, is a spirit of _________ among women.\n--The Handmaid's Tale by Margaret Atwood\n",
       explanation: '',
@@ -65,7 +65,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'one of the individual parts making up a composite entity<br />\nStarts with letter "c"<br />\n<speak>one of the individual parts making up a composite entity. Starts with letter "c"</speak>',
       hint: '"If a politician found he had cannibals among his _______________, he would promise them missionaries for dinner."--HL Mencken',
       explanation: '',
@@ -96,7 +96,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'so thin as to transmit light<br />\nStarts with letter "d"<br />\n<speak>so thin as to transmit light. Starts with letter "d"</speak>',
       hint: 'She leans down long enough to retrieve her __________ shawl and disappears, her arm raised so that the shawl trails behind her, a shimmering banner.\n--Water for Elephants by Sara Gruen\n',
       explanation: '',
@@ -121,7 +121,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'tending to vanish like vapor, ephemeral<br />\nStarts with letter "e"<br />\n<hiptts>tending to vanish like vapor, ephemeral. Starts with letter "e"</hiptts>',
       hint: 'At multiple depths, as far as I could see, there were _______ trails of phosphorescent green bub­bles, the wake of speeding fish.\n--Life of Pi by Yann Martel',
       explanation: '',
@@ -146,7 +146,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'devoid of intelligence<br />\nStarts with letter "f"<br />\n<hiptts>devoid of intelligence. Starts with letter "f"</hiptts>',
       hint: '“I am young, I am twenty years old; yet I know nothing of life but despair, death, fear, and ________ superficiality cast over an abyss of sorrow. I see how peoples are set against one another, and in silence, unknowingly, foolishly, obediently, innocently slay one another.”\n― Erich Maria Remarque, All Quiet on the Western Front',
       explanation: '',
@@ -171,7 +171,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'conspicuously and outrageously bad or reprehensible<br />\nStarts with letter "f"<br />\n<hiptts>conspicuously and outrageously bad or reprehensible. Starts with letter "f"</hiptts>',
       hint: '“We would be attending the conference under false pretenses and dealing, from the start, with a crowd that was convened for the stated purpose of putting people like us in jail. We were the Menace - not in disguise, but stone-obvious drug abusers, with a __________ (adverb) cranked-up act that we intended to push all the way to the limit...not to prove any final, sociological point, and not event as a conscious mockery: It was mainly a matter of life-style, a sense of obligation and even duty. If the Pigs were gathering in Vegas for a top-level Drug Conference, we felt the drug culture should be represented.”\n― Hunter S. Thompson, Fear and Loathing in Las Vegas',
       explanation: '',
@@ -196,7 +196,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to make obscure or unclear<br />\nStarts with letter "o"<br />\n<hiptts>make obscure or unclear. Starts with letter "o"</hiptts>',
       hint: '“And this is the evil that heresy inflicts on the Christian people, ________ (present participle) ideas and inciting all to become inquisitors to their personal benefit. For what I was to see at the abbey would make me think that it is often inquisitors who create heretics. And not only in the sense that they imagine heretics where these do not exist, but also that inquisitors repress the heretical putrefaction so vehemently that many are driven to share in it, in their hatred for the judges. Truly, a circle conceived by the Devil. God preserve us.”\n― Umberto Eco, The Name of the Rose',
       explanation: '',
@@ -221,7 +221,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'a sign of something about to happen<br />\nStarts with letter "p"<br />\n<hiptts>a sign of something about to happen. Starts with letter "p"</hiptts>',
       hint: '"In many countries it was a capital offense for anyone but the official astrologer to read the ________ in the skies: a good way to overthrow a regime was to predict its downfall."\n--Cosmos by Carl Sagan',
       explanation: '',
@@ -246,7 +246,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to indulge (one\'s appetite) to satiety (verb)<br />\nthe state of being more than full (noun)<br />\nStarts with letter "s"<br />\n<hiptts>indulge (one\'s appetite) to satiety. the state of being more than full. Starts with letter "s"</hiptts>',
       hint: '"In the advertising business, this _______ of information is called the “clutter” problem, and clutter has made it harder and harder to get any one message to stick."\n--The Tipping Point by Malcolm Gladwell\n',
       explanation: '',
@@ -271,7 +271,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to influence by slyness<br />\nStarts with letter "b"<br />\n<speak>to influence by slyness. Starts with letter "b"</speak>',
       hint: '"In a dull, flat voice—to show I was not ________ (past participle) by his good looks or his family photograph—I told Doctor Gordon about not sleeping and not eating and not reading."\n--The Bell Jar by Sylvia Plath',
       explanation: '',
@@ -296,7 +296,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'the quality of affording easy familiarity and sociability<br />\nStarts with letter "c"<br />\n<speak>the quality of affording easy familiarity and sociability. Starts with letter "c"</speak>',
       hint: "What we’re aiming for, says Aunt Lydia, is a spirit of _________ among women.\n--The Handmaid's Tale by Margaret Atwood\n",
       explanation: '',
@@ -321,7 +321,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'one of the individual parts making up a composite entity<br />\nStarts with letter "c"<br />\n<speak>one of the individual parts making up a composite entity. Starts with letter "c"</speak>',
       hint: '"If a politician found he had cannibals among his _______________, he would promise them missionaries for dinner."--HL Mencken',
       explanation: '',
@@ -352,7 +352,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'so thin as to transmit light<br />\nStarts with letter "d"<br />\n<speak>so thin as to transmit light. Starts with letter "d"</speak>',
       hint: 'She leans down long enough to retrieve her __________ shawl and disappears, her arm raised so that the shawl trails behind her, a shimmering banner.\n--Water for Elephants by Sara Gruen\n',
       explanation: '',
@@ -377,7 +377,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'tending to vanish like vapor, ephemeral<br />\nStarts with letter "e"<br />\n<hiptts>tending to vanish like vapor, ephemeral. Starts with letter "e"</hiptts>',
       hint: 'At multiple depths, as far as I could see, there were _______ trails of phosphorescent green bub­bles, the wake of speeding fish.\n--Life of Pi by Yann Martel',
       explanation: '',
@@ -402,7 +402,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'devoid of intelligence<br />\nStarts with letter "f"<br />\n<hiptts>devoid of intelligence. Starts with letter "f"</hiptts>',
       hint: '“I am young, I am twenty years old; yet I know nothing of life but despair, death, fear, and ________ superficiality cast over an abyss of sorrow. I see how peoples are set against one another, and in silence, unknowingly, foolishly, obediently, innocently slay one another.”\n― Erich Maria Remarque, All Quiet on the Western Front',
       explanation: '',
@@ -427,7 +427,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'conspicuously and outrageously bad or reprehensible<br />\nStarts with letter "f"<br />\n<hiptts>conspicuously and outrageously bad or reprehensible. Starts with letter "f"</hiptts>',
       hint: '“We would be attending the conference under false pretenses and dealing, from the start, with a crowd that was convened for the stated purpose of putting people like us in jail. We were the Menace - not in disguise, but stone-obvious drug abusers, with a __________ (adverb) cranked-up act that we intended to push all the way to the limit...not to prove any final, sociological point, and not event as a conscious mockery: It was mainly a matter of life-style, a sense of obligation and even duty. If the Pigs were gathering in Vegas for a top-level Drug Conference, we felt the drug culture should be represented.”\n― Hunter S. Thompson, Fear and Loathing in Las Vegas',
       explanation: '',
@@ -452,7 +452,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to make obscure or unclear<br />\nStarts with letter "o"<br />\n<hiptts>make obscure or unclear. Starts with letter "o"</hiptts>',
       hint: '“And this is the evil that heresy inflicts on the Christian people, ________ (present participle) ideas and inciting all to become inquisitors to their personal benefit. For what I was to see at the abbey would make me think that it is often inquisitors who create heretics. And not only in the sense that they imagine heretics where these do not exist, but also that inquisitors repress the heretical putrefaction so vehemently that many are driven to share in it, in their hatred for the judges. Truly, a circle conceived by the Devil. God preserve us.”\n― Umberto Eco, The Name of the Rose',
       explanation: '',
@@ -477,7 +477,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'a sign of something about to happen<br />\nStarts with letter "p"<br />\n<hiptts>a sign of something about to happen. Starts with letter "p"</hiptts>',
       hint: '"In many countries it was a capital offense for anyone but the official astrologer to read the ________ in the skies: a good way to overthrow a regime was to predict its downfall."\n--Cosmos by Carl Sagan',
       explanation: '',
@@ -502,7 +502,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to indulge (one\'s appetite) to satiety (verb)<br />\nthe state of being more than full (noun)<br />\nStarts with letter "s"<br />\n<hiptts>indulge (one\'s appetite) to satiety. the state of being more than full. Starts with letter "s"</hiptts>',
       hint: '"In the advertising business, this _______ of information is called the “clutter” problem, and clutter has made it harder and harder to get any one message to stick."\n--The Tipping Point by Malcolm Gladwell\n',
       explanation: '',
@@ -527,7 +527,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to influence by slyness<br />\nStarts with letter "b"<br />\n<speak>to influence by slyness. Starts with letter "b"</speak>',
       hint: '"In a dull, flat voice—to show I was not ________ (past participle) by his good looks or his family photograph—I told Doctor Gordon about not sleeping and not eating and not reading."\n--The Bell Jar by Sylvia Plath',
       explanation: '',
@@ -552,7 +552,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'the quality of affording easy familiarity and sociability<br />\nStarts with letter "c"<br />\n<speak>the quality of affording easy familiarity and sociability. Starts with letter "c"</speak>',
       hint: "What we’re aiming for, says Aunt Lydia, is a spirit of _________ among women.\n--The Handmaid's Tale by Margaret Atwood\n",
       explanation: '',
@@ -577,7 +577,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'one of the individual parts making up a composite entity<br />\nStarts with letter "c"<br />\n<speak>one of the individual parts making up a composite entity. Starts with letter "c"</speak>',
       hint: '"If a politician found he had cannibals among his _______________, he would promise them missionaries for dinner."--HL Mencken',
       explanation: '',
@@ -608,7 +608,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'so thin as to transmit light<br />\nStarts with letter "d"<br />\n<speak>so thin as to transmit light. Starts with letter "d"</speak>',
       hint: 'She leans down long enough to retrieve her __________ shawl and disappears, her arm raised so that the shawl trails behind her, a shimmering banner.\n--Water for Elephants by Sara Gruen\n',
       explanation: '',
@@ -633,7 +633,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'tending to vanish like vapor, ephemeral<br />\nStarts with letter "e"<br />\n<hiptts>tending to vanish like vapor, ephemeral. Starts with letter "e"</hiptts>',
       hint: 'At multiple depths, as far as I could see, there were _______ trails of phosphorescent green bub­bles, the wake of speeding fish.\n--Life of Pi by Yann Martel',
       explanation: '',
@@ -658,7 +658,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'devoid of intelligence<br />\nStarts with letter "f"<br />\n<hiptts>devoid of intelligence. Starts with letter "f"</hiptts>',
       hint: '“I am young, I am twenty years old; yet I know nothing of life but despair, death, fear, and ________ superficiality cast over an abyss of sorrow. I see how peoples are set against one another, and in silence, unknowingly, foolishly, obediently, innocently slay one another.”\n― Erich Maria Remarque, All Quiet on the Western Front',
       explanation: '',
@@ -683,7 +683,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'conspicuously and outrageously bad or reprehensible<br />\nStarts with letter "f"<br />\n<hiptts>conspicuously and outrageously bad or reprehensible. Starts with letter "f"</hiptts>',
       hint: '“We would be attending the conference under false pretenses and dealing, from the start, with a crowd that was convened for the stated purpose of putting people like us in jail. We were the Menace - not in disguise, but stone-obvious drug abusers, with a __________ (adverb) cranked-up act that we intended to push all the way to the limit...not to prove any final, sociological point, and not event as a conscious mockery: It was mainly a matter of life-style, a sense of obligation and even duty. If the Pigs were gathering in Vegas for a top-level Drug Conference, we felt the drug culture should be represented.”\n― Hunter S. Thompson, Fear and Loathing in Las Vegas',
       explanation: '',
@@ -708,7 +708,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to make obscure or unclear<br />\nStarts with letter "o"<br />\n<hiptts>make obscure or unclear. Starts with letter "o"</hiptts>',
       hint: '“And this is the evil that heresy inflicts on the Christian people, ________ (present participle) ideas and inciting all to become inquisitors to their personal benefit. For what I was to see at the abbey would make me think that it is often inquisitors who create heretics. And not only in the sense that they imagine heretics where these do not exist, but also that inquisitors repress the heretical putrefaction so vehemently that many are driven to share in it, in their hatred for the judges. Truly, a circle conceived by the Devil. God preserve us.”\n― Umberto Eco, The Name of the Rose',
       explanation: '',
@@ -733,7 +733,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'a sign of something about to happen<br />\nStarts with letter "p"<br />\n<hiptts>a sign of something about to happen. Starts with letter "p"</hiptts>',
       hint: '"In many countries it was a capital offense for anyone but the official astrologer to read the ________ in the skies: a good way to overthrow a regime was to predict its downfall."\n--Cosmos by Carl Sagan',
       explanation: '',
@@ -758,7 +758,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to indulge (one\'s appetite) to satiety (verb)<br />\nthe state of being more than full (noun)<br />\nStarts with letter "s"<br />\n<hiptts>indulge (one\'s appetite) to satiety. the state of being more than full. Starts with letter "s"</hiptts>',
       hint: '"In the advertising business, this _______ of information is called the “clutter” problem, and clutter has made it harder and harder to get any one message to stick."\n--The Tipping Point by Malcolm Gladwell\n',
       explanation: '',
@@ -783,7 +783,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to influence by slyness<br />\nStarts with letter "b"<br />\n<speak>to influence by slyness. Starts with letter "b"</speak>',
       hint: '"In a dull, flat voice—to show I was not ________ (past participle) by his good looks or his family photograph—I told Doctor Gordon about not sleeping and not eating and not reading."\n--The Bell Jar by Sylvia Plath',
       explanation: '',
@@ -808,7 +808,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'the quality of affording easy familiarity and sociability<br />\nStarts with letter "c"<br />\n<speak>the quality of affording easy familiarity and sociability. Starts with letter "c"</speak>',
       hint: "What we’re aiming for, says Aunt Lydia, is a spirit of _________ among women.\n--The Handmaid's Tale by Margaret Atwood\n",
       explanation: '',
@@ -833,7 +833,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'one of the individual parts making up a composite entity<br />\nStarts with letter "c"<br />\n<speak>one of the individual parts making up a composite entity. Starts with letter "c"</speak>',
       hint: '"If a politician found he had cannibals among his _______________, he would promise them missionaries for dinner."--HL Mencken',
       explanation: '',
@@ -864,7 +864,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'so thin as to transmit light<br />\nStarts with letter "d"<br />\n<speak>so thin as to transmit light. Starts with letter "d"</speak>',
       hint: 'She leans down long enough to retrieve her __________ shawl and disappears, her arm raised so that the shawl trails behind her, a shimmering banner.\n--Water for Elephants by Sara Gruen\n',
       explanation: '',
@@ -889,7 +889,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'tending to vanish like vapor, ephemeral<br />\nStarts with letter "e"<br />\n<hiptts>tending to vanish like vapor, ephemeral. Starts with letter "e"</hiptts>',
       hint: 'At multiple depths, as far as I could see, there were _______ trails of phosphorescent green bub­bles, the wake of speeding fish.\n--Life of Pi by Yann Martel',
       explanation: '',
@@ -914,7 +914,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'devoid of intelligence<br />\nStarts with letter "f"<br />\n<hiptts>devoid of intelligence. Starts with letter "f"</hiptts>',
       hint: '“I am young, I am twenty years old; yet I know nothing of life but despair, death, fear, and ________ superficiality cast over an abyss of sorrow. I see how peoples are set against one another, and in silence, unknowingly, foolishly, obediently, innocently slay one another.”\n― Erich Maria Remarque, All Quiet on the Western Front',
       explanation: '',
@@ -939,7 +939,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'conspicuously and outrageously bad or reprehensible<br />\nStarts with letter "f"<br />\n<hiptts>conspicuously and outrageously bad or reprehensible. Starts with letter "f"</hiptts>',
       hint: '“We would be attending the conference under false pretenses and dealing, from the start, with a crowd that was convened for the stated purpose of putting people like us in jail. We were the Menace - not in disguise, but stone-obvious drug abusers, with a __________ (adverb) cranked-up act that we intended to push all the way to the limit...not to prove any final, sociological point, and not event as a conscious mockery: It was mainly a matter of life-style, a sense of obligation and even duty. If the Pigs were gathering in Vegas for a top-level Drug Conference, we felt the drug culture should be represented.”\n― Hunter S. Thompson, Fear and Loathing in Las Vegas',
       explanation: '',
@@ -964,7 +964,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to make obscure or unclear<br />\nStarts with letter "o"<br />\n<hiptts>make obscure or unclear. Starts with letter "o"</hiptts>',
       hint: '“And this is the evil that heresy inflicts on the Christian people, ________ (present participle) ideas and inciting all to become inquisitors to their personal benefit. For what I was to see at the abbey would make me think that it is often inquisitors who create heretics. And not only in the sense that they imagine heretics where these do not exist, but also that inquisitors repress the heretical putrefaction so vehemently that many are driven to share in it, in their hatred for the judges. Truly, a circle conceived by the Devil. God preserve us.”\n― Umberto Eco, The Name of the Rose',
       explanation: '',
@@ -989,7 +989,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'a sign of something about to happen<br />\nStarts with letter "p"<br />\n<hiptts>a sign of something about to happen. Starts with letter "p"</hiptts>',
       hint: '"In many countries it was a capital offense for anyone but the official astrologer to read the ________ in the skies: a good way to overthrow a regime was to predict its downfall."\n--Cosmos by Carl Sagan',
       explanation: '',
@@ -1014,7 +1014,7 @@
     {
       type: 'card',
       algo: 7,
-      deck: 'English Vocab Tutorial git1',
+      deck: 'English Vocab Tutorial foo1',
       question: 'to indulge (one\'s appetite) to satiety (verb)<br />\nthe state of being more than full (noun)<br />\nStarts with letter "s"<br />\n<hiptts>indulge (one\'s appetite) to satiety. the state of being more than full. Starts with letter "s"</hiptts>',
       hint: '"In the advertising business, this _______ of information is called the “clutter” problem, and clutter has made it harder and harder to get any one message to stick."\n--The Tipping Point by Malcolm Gladwell\n',
       explanation: '',
