@@ -4,5 +4,5 @@ scripts/api/deleteDeck/*.sh
 *.log
 .idea
 logs
-scripts/api/data/*
 node_modules
+scripts/api/data/*
