@@ -5,4 +5,3 @@ scripts/api/deleteDeck/*.sh
 .idea
 logs
 node_modules
-scripts/api/data/*

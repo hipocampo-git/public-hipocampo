@@ -1,0 +1,196 @@
+{
+ objects: [
+  {
+   type: 'deck',
+   name: 'Synch Audio Video',
+   id: 46012,
+   description: '',
+   textToSpeech: 1,
+   preface: 1,
+   feedback: 0,
+   showDontKnow: 1,
+  },
+  {
+   type: 'asset',
+   fileName: 'spanishCount.mp3',
+   name: 'spanishCount.mp3',
+   fileType: 'audio/mpeg',
+   user_id: '&11847',
+   localFilePath: '',
+   id: 9348,
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'Media Types Deck1',
+   question: '<audio controls autoplay>      <source type="audio/mp3" src="/api/assets/9348" />      </audio> \
+   <hiptts>There is a house in new orleans, the call the rising sun. \
+    It\'s been the ruin of many a poor boy, and my god, I know I\'m one',
+   hint: null,
+   answers: [
+    {
+     id: 26775,
+     text: 'Answer for card2',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'natural',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69499,
+   deckId: '_46012',
+  },
+  {
+   type: 'asset',
+   fileName: 'sampleVideo.mp4',
+   name: 'sampleVideo.mp4',
+   fileType: 'video/mp4',
+   user_id: '&11847',
+   localFilePath: '',
+   id: 9349,
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'Media Types Deck1',
+   question: '<video width="320px" height="240px" controls autoplay>  \
+       <source type="video/mp4" src="/api/assets/9349" />      </video> \
+   <hiptts>There is a house in new orleans, the call the rising sun. \
+    It\'s been the ruin of many a poor boy, and my god, I know I\'m one',
+   hint: null,
+   answers: [
+    {
+     id: 26776,
+     text: 'Answer for card3',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'natural',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69500,
+   deckId: '_46012',
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'Media Types Deck1',
+   question: '<hipplayer type="youtube" \
+   src="https://www.youtube.com/watch?v=FMbZuEICHcY" /> \
+   <hiptts>There is a house in new orleans, the call the rising sun. \
+    It\'s been the ruin of many a poor boy, and my god, I know I\'m one',
+   hint: null,
+   answers: [
+    {
+     id: 26777,
+     text: 'Answer for card4',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'natural',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69501,
+   deckId: '_46012',
+  },
+  {
+   type: 'asset',
+   fileName: 'sampleVideo.mp4',
+   name: 'sampleVideo.mp4',
+   fileType: 'video/mp4',
+   user_id: '&11847',
+   localFilePath: '',
+   id: 9350,
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'Media Types Deck1',
+   question: '<hipplayer type="file" src="/api/assets/9350" />  \
+   <hiptts>There is a house in new orleans, the call the rising sun. \
+    It\'s been the ruin of many a poor boy, and my god, I know I\'m one',
+   hint: null,
+   answers: [
+    {
+     id: 26779,
+     text: 'Answer for card6',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'natural',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69503,
+   deckId: '_46012',
+  },
+  {
+   type: 'asset',
+   fileName: 'sampleVideo.mp4',
+   name: 'sampleVideo.mp4',
+   fileType: 'video/mp4',
+   user_id: '&11847',
+   localFilePath: '',
+   id: 9351,
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'Media Types Deck1',
+   question: '<hipplayer type="file" begin="2" end="4" src="/api/assets/9351" /> \
+   <hiptts>There is a house in new orleans, the call the rising sun. \
+    It\'s been the ruin of many a poor boy, and my god, I know I\'m one',
+   hint: null,
+   answers: [
+    {
+     id: 26780,
+     text: 'Answer for card7',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'natural',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69504,
+   deckId: '_46012',
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'Media Types Deck1',
+   question: '<img src="https://i.imgur.com/1nFt6cZ.jpeg" /> \
+   <hiptts>There is a house in new orleans, the call the rising sun. \
+   It\'s been the ruin of many a poor boy, and my god, I know I\'m one',
+   hint: null,
+   answers: [
+    {
+     id: 26782,
+     text: 'Answer for card9',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'natural',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69506,
+   deckId: '_46012',
+  },
+ ],
+}
