@@ -3114,7 +3114,7 @@
     },
     {
       type: 'share',
-      expiration: '2026-03-19T10:05:00.000Z',
+      expiration: '2026-03-19T17:05:00.000Z',
       defaultIsAdminMode: 1,
       defaultIsRandomMode: 0,
       defaultIsTextToSpeechMode: 1,
