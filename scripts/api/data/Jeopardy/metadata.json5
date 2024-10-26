@@ -1143,8 +1143,8 @@
   },
   {
    type: 'asset',
-   fileName: 'Ölüdeniz_on_the_Turquoise_Coast,_Turkey.jpg',
-   name: 'Ölüdeniz_on_the_Turquoise_Coast,_Turkey.jpg',
+   fileName: 'oludeniz_on_the_turquoise_coast.jpg',
+   name: 'oludeniz_on_the_turquoise_coast.jpg',
    fileType: 'image/jpeg',
    user_id: '&11847',
    localFilePath: '',
