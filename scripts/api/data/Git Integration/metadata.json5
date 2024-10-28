@@ -25,6 +25,7 @@
    deck: 'Flags Tutorial',
    question: '<img style="width:90%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/7972" />',
    hint: null,
+   number: 1,
    answers: [
     {
      id: 39475,
@@ -88,6 +89,7 @@
   {
    type: 'card',
    algo: 5,
+   number: 2,
    deck: 'Flags Tutorial',
    question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/7973" />',
    hint: null,
@@ -154,6 +156,7 @@
   {
    type: 'card',
    algo: 5,
+   number: 3,
    deck: 'Flags Tutorial',
    question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/7974" />',
    hint: null,
@@ -220,6 +223,7 @@
   {
    type: 'card',
    algo: 5,
+   number: 4,
    deck: 'Flags Tutorial',
    question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/7975" />',
    hint: null,
@@ -286,6 +290,7 @@
   {
    type: 'card',
    algo: 5,
+   number: 5,
    deck: 'Flags Tutorial',
    question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/7976" />',
    hint: null,
