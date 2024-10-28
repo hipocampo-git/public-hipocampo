@@ -25,6 +25,7 @@
    deck: 'Import Export Test',
    question: '<img style="width:90%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/7972" />',
    hint: null,
+   number: 1,
    answers: [
     {
      id: 39475,
@@ -90,6 +91,7 @@
    deck: 'Import Export Test',
    question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/7973" />',
    hint: null,
+   number: 2,
    answers: [
     {
      id: 39481,
@@ -155,6 +157,7 @@
    deck: 'Import Export Test',
    question: '<img style="width:85%;border-width:10px;border-color:#EFEFEF;border-style:solid;border-radius:4px" src="/api/assets/7974" />',
    hint: null,
+   number: 3,
    answers: [
     {
      id: 39487,
@@ -212,6 +215,7 @@
    deck: 'Import Export Test',
    question: 'Answer group card1',
    hint: null,
+   number: 4,
    answers: [
     {
      id: 33881,
