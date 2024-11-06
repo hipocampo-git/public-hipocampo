@@ -5,7 +5,7 @@
       name: 'Javascript',
       id: 1,
       description: '<span style="font-size:20px">Javascript interview questions</span>',
-      synopsis: 'Beginner / Intermediate Javascript interview questions',
+      synopsis: 'Javascript interview questions',
       notes: null,
       textToSpeech: 1,
       preface: 1,
@@ -43,7 +43,7 @@
       deck: 'Javascript',
       question: 'What is the expected output from the 2 console.log statements?\n<hiptts>What is the expected output from the 2 console.log statements? Check the code on the screen</hiptts>\n<br />\n<br />const array1 = [1, 2, 3];\n<br />const elem = array1.shift();\n<br />console.log(array1);\n<br />console.log(elem);\n',
       hint: null,
-      explanation: '',
+      explanation: 'Note that there is a difference between:\nconsole.log([1,2])\nand\nconsole.log([1,2].toString())\n\nthe first one will output\n[1,2]\nand the second one will output\n1,2\n\nFrom Gemini: console.log([1,2]) outputs the array as an array, while console.log([1,2].toString()) outputs the array as a string representation of the array.',
       notes: '',
       number: 2,
       answers: [
@@ -74,8 +74,8 @@
       deck: 'Javascript',
       question: 'BigInt is one of the 7 primitive data types, what are the other 6?',
       hint: null,
-      explanation: '',
-      notes: '',
+      explanation: null,
+      notes: null,
       number: 3,
       answers: [
         {
@@ -128,7 +128,7 @@
       deck: 'Javascript',
       question: 'There is only one non-primitive data type',
       hint: null,
-      explanation: '',
+      explanation: 'That data type is Object',
       notes: '',
       number: 4,
       answers: [
@@ -212,7 +212,7 @@
       deck: 'Javascript',
       question: 'What is the difference between call() and apply()?',
       hint: null,
-      explanation: '',
+      explanation: "Note that the first argument to call or array is what will be assigned to 'this' inside the function ",
       notes: '',
       number: 6,
       answers: [
@@ -249,7 +249,7 @@
       deck: 'Javascript',
       question: 'Is the following valid code?\n<speak>Is the following valid code? Check out the code on the screen</speak>\n\n (bar is guaranteed to be an array)\n<br />return bar ? bar[0] : throw Error("this is an error")\n',
       hint: null,
-      explanation: '',
+      explanation: "Can't throw an error directly in a ternary\n\nError is \"SyntaxError: unexpected token 'thow'\"",
       notes: '',
       number: 7,
       answers: [
@@ -278,8 +278,8 @@
       deck: 'Javascript',
       question: "Provide code snippets for how to iterate over an array foo.\n\n(use 'elem' for the array element, use 'index' for any indicies)",
       hint: null,
-      explanation: '',
-      notes: '',
+      explanation: "It's dangerous to iterate over arrays with for / in\nA) The order is indeterminate\nB) The array object may have inherited/been assigned other properties",
+      notes: '#coding',
       number: 8,
       answers: [
         {
@@ -302,7 +302,7 @@
         },
       ],
       algoSettings: {
-        pdType: 'natural',
+        pdType: 'fastFuzzy',
         threshold: 0.7,
         ignoreOrder: false,
         caseSensitive: false,
@@ -315,7 +315,7 @@
       deck: 'Javascript',
       question: 'What does the following return?\nconst a = [1,2,3];\nconsole.log(typeof a);',
       hint: null,
-      explanation: '',
+      explanation: 'Array.isArray(a) can be used to determine an array.\nOr of course a third party library like lodash.',
       notes: '',
       number: 9,
       answers: [
@@ -339,8 +339,8 @@
       algo: 7,
       deck: 'Javascript',
       question: 'what does the following return?\nconsole.log(typeof null);',
-      hint: null,
-      explanation: '',
+      hint: '',
+      explanation: 'In JavaScript, `typeof null` does indeed return `"object"`, which is a long-standing bug in JavaScript for historical reasons. When JavaScript was first created, JavaScript values were thought of as a type tag and a value, with the type tag for objects being 0, and `null` being represented as the NULL pointer (i.e., all zeros). As a result, `null` had 0 as a type tag, hence the reason `typeof null` returns `"object"`.\n\nDespite this being recognized as a mistake and acknowledged by JavaScript\'s creator Brendan Eich, it was never corrected in subsequent versions of JavaScript for backward compatibility reasons.',
       notes: '',
       number: 10,
       answers: [
@@ -366,7 +366,7 @@
       question: 'What is the trick with this problem?\n\nGiven an unsorted integer array nums. Return the smallest positive integer that is not present in nums.\nYou must implement an algorithm that runs in O(n) time and uses O(1) auxiliary space.\n',
       hint: null,
       explanation: '',
-      notes: '',
+      notes: 'Since negative numbers can be in the initial array, those have to first be converted to arrayLength + 1 (positive) prior to tagging the other elements using negatives',
       number: 11,
       answers: [
         {
@@ -399,12 +399,6 @@
           isCorrect: 0,
           groupIndex: 1,
         },
-        {
-          text: 'mark the visited numbers with a negative sign',
-          number: 6,
-          isCorrect: 0,
-          groupIndex: 1,
-        },
       ],
       algoSettings: {
         pdType: 'spacy',
@@ -420,9 +414,9 @@
       deck: 'Javascript',
       question: 'Two differences between Map and Object are the following:\n-Key Order: Map iterates in the order of insertion\n-Accidental Keys: a Map does not contain any keys by default. It only contains what is explicitly put into it.\n\nWhat are 6 other differences?',
       hint: null,
-      explanation: '',
-      notes: '',
-      number: 12,
+      explanation: 'Regarding this limitation: "Serialization and parsing: No native support for serialization or parsing."\nIt means that Maps by default don\'t have a toString() method and aren\'t support by JSON.stringify() or JSON.parse()',
+      notes: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map\n\nRegarding serialization and parsing of Maps:\n(But you can build your own serialization and parsing support for Map by using JSON.stringify() with its replacer argument, and by using JSON.parse() with its reviver argument. See the Stack Overflow question How do you JSON.stringify an ES6 Map?).',
+      number: 13,
       answers: [
         {
           text: 'Security: A Map is safe to use with user-provided keys and values',
@@ -473,16 +467,22 @@
           groupIndex: 1,
         },
         {
-          text: 'user defined values can be used with Map',
+          text: 'Map is safe with user defined values\n',
           number: 9,
           isCorrect: 0,
           groupIndex: 1,
         },
         {
-          text: 'map keys can be different data types',
+          text: 'With maps, any data type can be used for the key',
           number: 10,
           isCorrect: 0,
           groupIndex: 2,
+        },
+        {
+          text: 'With maps, can easily obtain size',
+          number: 11,
+          isCorrect: 0,
+          groupIndex: 3,
         },
       ],
       algoSettings: {
@@ -501,7 +501,7 @@
       hint: null,
       explanation: '',
       notes: '',
-      number: 13,
+      number: 14,
       answers: [
         {
           text: 'NaN',
@@ -524,9 +524,9 @@
       deck: 'Javascript',
       question: 'What is the output of the following?\nNaN === NaN',
       hint: null,
-      explanation: '',
+      explanation: 'The special value `NaN` stands for "Not a Number" and it is used to represent a value that does not represent a real number.\n\nAccording to the IEEE 754 floating-point standard, which JavaScript follows, `NaN` values are considered unique and therefore, `NaN` is not equal to anything, including itself. This is why `NaN !== NaN` returns `true`.\n\nThis behavior is a bit counter-intuitive, but it makes sense when you consider that `NaN` is used to represent the result of undefined or erroneous operations.\n\nIf you need to check if a value is `NaN`, you should use the `isNaN()` function:\n\n```javascript\nconsole.log(isNaN(NaN)); // true\n```\n\nOr, in modern JavaScript, you can use `Number.isNaN()` which is more reliable because it doesn\'t coerce the type:\n\n```javascript\nconsole.log(Number.isNaN(NaN)); // true',
       notes: '',
-      number: 14,
+      number: 15,
       answers: [
         {
           text: 'false',
@@ -549,9 +549,9 @@
       deck: 'Javascript',
       question: 'What is the output of the following?\n<br />console.log(Number.isNaN(BigInt(10)));\n<br />console.log(isNaN(BigInt(10)));\n<hiptts>What is the output of the following? (code is displayed below)</hiptts>',
       hint: null,
-      explanation: '',
+      explanation: 'isNaN() is more particular (and also the preferred method) as it treats BigInt as distinct from number.',
       notes: '',
-      number: 15,
+      number: 16,
       answers: [
         {
           text: 'false',
@@ -582,7 +582,7 @@
       hint: null,
       explanation: '',
       notes: '',
-      number: 16,
+      number: 17,
       answers: [
         {
           text: 'callbacks',
@@ -626,6 +626,18 @@
           isCorrect: 0,
           groupIndex: 3,
         },
+        {
+          text: 'Then handler',
+          number: 8,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'Async await',
+          number: 9,
+          isCorrect: 0,
+          groupIndex: 3,
+        },
       ],
       algoSettings: {
         pdType: 'natural',
@@ -641,9 +653,9 @@
       deck: 'Javascript',
       question: 'A Set is like a Map where the key and the value are the same.',
       hint: null,
-      explanation: '',
+      explanation: "A Set can be thought of as a special kind of Map where the key and value are the same, and only unique keys/values are allowed. This is why when you iterate over a Set, each value is presented as a pair [value, value] - it's to make the interface similar to the Map object.\n",
       notes: '',
-      number: 17,
+      number: 18,
       answers: [
         {
           text: 'true',
@@ -672,7 +684,7 @@
       hint: null,
       explanation: '',
       notes: '',
-      number: 18,
+      number: 19,
       answers: [
         {
           text: 'Capturing',
@@ -719,9 +731,9 @@
       deck: 'Javascript',
       question: 'Does array indexing work on strings?\nE.g. \nlet foo = "value";\nconsole.log(foo[0]);',
       hint: null,
-      explanation: '',
+      explanation: "Array indexing works but to use other array functions like shift() the string needs to be converted to an array.\n\nThe difference between charAt() and indexing is how they handle an index that is out of range. CharAt returns an empty string ('') whereas indexing returns undefined.",
       notes: '',
-      number: 19,
+      number: 20,
       answers: [
         {
           text: 'Yes',
@@ -749,8 +761,8 @@
       question: 'What are some methods for converting a string to an array?\n(use stringVal for the string variable in code examples)',
       hint: null,
       explanation: '',
-      notes: '',
-      number: 20,
+      notes: 'https://www.geeksforgeeks.org/string-to-array-in-javascript/#array-from-method',
+      number: 21,
       answers: [
         {
           text: "stringVal.split('')",
@@ -815,8 +827,8 @@
       ],
       algoSettings: {
         pdType: 'natural',
-        threshold: 0.6,
-        ignoreOrder: true,
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -829,7 +841,7 @@
       hint: null,
       explanation: '',
       notes: '',
-      number: 21,
+      number: 22,
       answers: [
         {
           text: '**',
@@ -852,9 +864,9 @@
       deck: 'Javascript',
       question: 'Is this syntax valid?\nconst low = -1 * BigInt(2**31);',
       hint: null,
-      explanation: '',
+      explanation: '-1 is treated as a number and BigInt cannot be mixed with other data types\nThe code will generate a TypeError exception\n\nThis works:\nconst low = BigInt(-1) * BigInt(2**31);',
       notes: '',
-      number: 22,
+      number: 23,
       answers: [
         {
           text: 'Yes',
@@ -883,7 +895,7 @@
       hint: null,
       explanation: '',
       notes: '',
-      number: 23,
+      number: 24,
       answers: [
         {
           text: 'bitwise and',
@@ -914,7 +926,7 @@
       hint: null,
       explanation: '',
       notes: '',
-      number: 24,
+      number: 25,
       answers: [
         {
           text: 'Execute a macrotask',
@@ -952,6 +964,30 @@
           isCorrect: 0,
           groupIndex: 1,
         },
+        {
+          text: 'Run a macrotask',
+          number: 7,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'Run all the micro tasks',
+          number: 8,
+          isCorrect: 0,
+          groupIndex: 2,
+        },
+        {
+          text: 'Update the screen',
+          number: 9,
+          isCorrect: 0,
+          groupIndex: 3,
+        },
+        {
+          text: 'Run a macrotask ',
+          number: 10,
+          isCorrect: 0,
+          groupIndex: 4,
+        },
       ],
       algoSettings: {
         pdType: 'natural',
@@ -969,7 +1005,7 @@
       hint: null,
       explanation: '',
       notes: '',
-      number: 25,
+      number: 26,
       answers: [
         {
           text: 'MacroTask',
@@ -998,7 +1034,7 @@
       hint: null,
       explanation: '',
       notes: '',
-      number: 26,
+      number: 27,
       answers: [
         {
           text: 'MacroTask queue',
@@ -1031,9 +1067,9 @@
       deck: 'Javascript',
       question: 'What is the difference between Promise.resolve().then() and process.nextTick?',
       hint: null,
-      explanation: '',
+      explanation: 'Using Promise.resolve().then has no advantages over nextTick. It runs on the same queue, but has slightly higher priority, that is, promise handler can prevent next tick callback from ever running, the opposite is not possible. This behaviour is an implementation detail and should not be relied on.',
       notes: '',
-      number: 27,
+      number: 28,
       answers: [
         {
           text: 'On node, they are essentially the same but there is a minor difference',
@@ -1055,7 +1091,7 @@
         },
       ],
       algoSettings: {
-        randomize: false,
+        randomize: true,
         confirmResponse: false,
       },
       deckId: '_1',
@@ -1065,19 +1101,19 @@
       fileName: 'Screenshot on 2024-09-05 at 10-59-37.png',
       name: 'Screenshot on 2024-09-05 at 10-59-37.png',
       fileType: 'image/png',
-      user_id: '&93387',
+      user_id: '&27',
       localFilePath: '',
-      id: 25614,
+      id: 8173,
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Javascript',
-      question: '<hipimg width="400%" src="/api/assets/25614" />\n<br />\n<a target="_blank" href="https://youtu.be/flzlEmyxMs8?si=2zdgZd7NFwp1SXVM&amp;t=153">Link to youtube video</a>',
+      question: '<hipimg width="400%" src="/api/assets/8173" />\n<br />\n<a target="_blank" href="https://youtu.be/flzlEmyxMs8?si=2zdgZd7NFwp1SXVM&amp;t=153">Link to youtube video</a>',
       hint: null,
-      explanation: '',
-      notes: '',
-      number: 28,
+      explanation: '4,5 and 6 are executed immediately\n1 and 2 are put on the microtask queue\n3 is put on the macrotask queue\n\n<a href="https://www.youtube.com/watch?v=flzlEmyxMs8&amp;t=200">Link to YouTube video</a>\n',
+      notes: 'Issues on ipad for this card:\n-need textarea resize buttons (even with keyboard/extended desktop attached)\n-in edit card the group tab display is hosed (need to confirm this on dekstop)\n-the hipplayer is not autoplaying \n#debug\n\n<hipplayer type="youtube" src="https://www.youtube.com/watch?v=flzlEmyxMs8" begin="150" end="200" />\n\n#debug',
+      number: 29,
       answers: [
         {
           text: '4',
@@ -1130,9 +1166,9 @@
       deck: 'Javascript',
       question: 'What is the preferable way to access the prototype of an object?\n<speak>What is the preferable way to access the prototype of an object?</speak>\n<br />\n<br />A: dog1.__prototype__\n<br />B: Object.getPrototypeOf(dog1);\n\n',
       hint: null,
-      explanation: '',
+      explanation: 'Technically both still work but dog1.__prototype__ is deprecated',
       notes: '',
-      number: 29,
+      number: 30,
       answers: [
         {
           text: 'A',
@@ -1157,11 +1193,11 @@
       type: 'card',
       algo: 5,
       deck: 'Javascript',
-      question: 'Specify T/F for each one\n\n<hipplayer type="youtube" src="https://www.youtube.com/watch?v=flzlEmyxMs8" begin="860" end="865" />\n\n',
+      question: '<hipimg width="270" src="https://d.pr/i/R10mr5+" />\n\n\n',
       hint: null,
-      explanation: '',
-      notes: '#update',
-      number: 30,
+      explanation: '<a href="https://www.youtube.com/watch?v=flzlEmyxMs8&amp;t=900">Link to YouTube vide</a>',
+      notes: '<hipplayer type="youtube" src="https://www.youtube.com/watch?v=flzlEmyxMs8" begin="900" end="930" />\n\n',
+      number: 31,
       answers: [
         {
           text: 'A',
@@ -1206,9 +1242,9 @@
       deck: 'Javascript',
       question: 'for of should be used with iterables (arrays)\nfor in should be used with objects',
       hint: null,
-      explanation: '',
+      explanation: "Couple of mnemonics:\n'o'f -&gt; NOT 'o'bjects, 'i'n -&gt; NOT 'i'terables\n\n\nfor..in..keys === foreign keys === use for...in for keys! As such, use for...of for values.",
       notes: '',
-      number: 31,
+      number: 32,
       answers: [
         {
           text: 'True',
@@ -1234,10 +1270,10 @@
       algo: 7,
       deck: 'Javascript',
       question: '<hipplayer src="https://www.youtube.com/watch?v=flzlEmyxMs8" type="youtube" begin="1430" end="1431" auto-start="true" />',
-      hint: null,
-      explanation: '',
-      notes: '#fix',
-      number: 32,
+      hint: '',
+      explanation: 'function* is a generator function\n\n<hipplayer type="youtube" src="https://www.youtube.com/watch?v=flzlEmyxMs8" begin="1450" end="1460" auto-start="false" />',
+      notes: '#debug <hipplayer type="youtube" src="https://www.youtube.com/watch?v=flzlEmyxMs8" begin="1450" end="1460" />\n#autoplay',
+      number: 33,
       answers: [
         {
           text: 'E',
@@ -1261,8 +1297,8 @@
       question: 'How to create a generator function called foo?',
       hint: null,
       explanation: '',
-      notes: '',
-      number: 33,
+      notes: 'Use the * character after the name to create a generator function',
+      number: 34,
       answers: [
         {
           text: 'function* foo() {',
@@ -1284,19 +1320,19 @@
       fileName: 'Screenshot on 2024-09-15 at 12-41-29.png',
       name: 'Screenshot on 2024-09-15 at 12-41-29.png',
       fileType: 'image/png',
-      user_id: '&93387',
+      user_id: '&27',
       localFilePath: '',
-      id: 25615,
+      id: 8179,
     },
     {
       type: 'card',
       algo: 5,
       deck: 'Javascript',
-      question: '<hipimg width="400%" src="/api/assets/25615" /> <br /> <a target="_blank" href="https://www.youtube.com/watch?v=SPaeA8shXFg&amp;t=305">Link to youtube video</a>',
+      question: '<hipimg width="270" src="/api/assets/8179" /> <br /> <a target="_blank" href="https://www.youtube.com/watch?v=SPaeA8shXFg&amp;t=305">Link to youtube video</a>',
       hint: null,
-      explanation: '',
-      notes: '',
-      number: 34,
+      explanation: '018 and 015 are in octal representation, however...8 is not valid in octal (only digits 0-7) so 018 is treated as decimal, hence we have 18-13 = 5',
+      notes: '<hipplayer type="youtube" src="https://www.youtube.com/watch?v=SPaeA8shXFg" begin="80" end="90" />',
+      number: 35,
       answers: [
         {
           text: 'NaN',
@@ -1324,7 +1360,7 @@
         },
       ],
       algoSettings: {
-        randomize: false,
+        randomize: true,
         confirmResponse: false,
       },
       deckId: '_1',
@@ -1335,9 +1371,9 @@
       deck: 'Javascript',
       question: '<hipplayer src="https://www.youtube.com/watch?v=SPaeA8shXFg" type="youtube" begin="194" end="196" />',
       hint: null,
-      explanation: '',
-      notes: '',
-      number: 35,
+      explanation: 'It\'s nested typeof calls and the first typeof call returns a string ("number")',
+      notes: '<hipplayer src="https://www.youtube.com/watch?v=SPaeA8shXFg" type="youtube" begin="196" end="210" />',
+      number: 36,
       answers: [
         {
           text: 'string',
@@ -1376,9 +1412,9 @@
       deck: 'Javascript',
       question: '<hipplayer type="youtube" src="https://www.youtube.com/watch?v=SPaeA8shXFg" begin="225" end="226" />',
       hint: null,
-      explanation: '',
-      notes: '#update',
-      number: 36,
+      explanation: 'Array.sort() coerces to string by default\nto sort numbers, add an explicit sort method\nArray.sort((a,b) =&gt; {\nreturn a &lt; b;\n}',
+      notes: 'Covers array.sort\n<hipplayer type="youtube" src="https://www.youtube.com/watch?v=SPaeA8shXFg" begin="230" end="250" />',
+      number: 37,
       answers: [
         {
           text: '33',
@@ -1411,9 +1447,9 @@
       deck: 'Javascript',
       question: 'what is the output of:\nconsole.log(0.1 + 0.2 == 0.3);',
       hint: null,
-      explanation: '',
+      explanation: 'It is because floating point arithmetic is imprecise (not just for javascript). \n0.1 + 0.2 = something like 0.300000000001\n\nThis effect occurs with other languages as well\n\nHere is a suggested way to compare floating point numbers:\nAs of ES2015, JavaScript provides a built-in constant `Number.EPSILON` that can be used as the "epsilon" value:\n\n```javascript\nfunction areEqual(num1, num2) {\nreturn Math.abs(num1 - num2) &lt; Number.EPSILON;\n}\n\nconsole.log(areEqual(0.1 + 0.2, 0.3)); // Outputs: true',
       notes: '',
-      number: 37,
+      number: 41,
       answers: [
         {
           text: 'True',
@@ -1440,9 +1476,9 @@
       deck: 'Javascript',
       question: 'What is the output of:\nconsole.log(1 + "2" + "2");',
       hint: null,
-      explanation: '',
-      notes: '',
-      number: 38,
+      explanation: 'Numbers are always converted to strings when concatenating between strings and numbers.',
+      notes: '<hipplayer src="https://www.youtube.com/watch?v=SPaeA8shXFg" type="youtube" begin="1000" end="1040" />',
+      number: 43,
       answers: [
         {
           text: '122',
@@ -1470,7 +1506,7 @@
         },
       ],
       algoSettings: {
-        randomize: false,
+        randomize: true,
         confirmResponse: false,
       },
       deckId: '_1',
@@ -1481,9 +1517,9 @@
       deck: 'Javascript',
       question: "What is the output of:\n<hiptts>What is the output of. Check the screen to see the code</hiptts>\n<br />const foo = 'Twitter';\n<br />console.log(String.raw`Hello${foo}\\nWorld`);\n\n<br />A: HelloTwitter\\nWorld\n<br />B: HelloTwitter\n<br />World\n<br />C: HelloTwitter World\n<br />D: Hello Twitter World\n<br />E: Hello${foo}\\nWorld\n<br />F: Hello${foo}\n<br />World",
       hint: null,
-      explanation: '',
+      explanation: 'String.raw`` will perform placeholder replacements but does not process escape sequences (it leaves them as is).',
       notes: '',
-      number: 39,
+      number: 44,
       answers: [
         {
           text: '<span style="margin:0 10px">A</span>',
@@ -1534,9 +1570,9 @@
       deck: 'Javascript',
       question: 'What is the output of the following:\nconsole.log("This is a string" instanceof String);',
       hint: null,
-      explanation: '',
-      notes: '',
-      number: 40,
+      explanation: '"this is a string" is a primitive and instanceof is checking up the prototype chain to see if the String constructor is in the prototype chain\n\nThis would return true:\nnew String("this is a string") instanceof String \n\nIn fact, instanceof will return false when checking against any primitive datatype',
+      notes: '<hipplayer type="youtube" src="https://www.youtube.com/watch?v=SPaeA8shXFg" begin="1447" end="1450" />',
+      number: 45,
       answers: [
         {
           text: 'True',
@@ -1558,11 +1594,143 @@
       deckId: '_1',
     },
     {
+      type: 'card',
+      algo: 5,
+      deck: 'Javascript',
+      question: 'Pick the ones that are valid syntax:\n\nA) for (let elem of myArray) {\nB) for (const elem of myArray) {\nC) for (let i=0; i &lt; myArray.length; i++) {\nD) for (const i=0; i &lt; myArray.length; i++) {',
+      hint: null,
+      explanation: '',
+      notes: '',
+      number: 46,
+      answers: [
+        {
+          text: 'A',
+          number: 1,
+          isCorrect: 1,
+          groupIndex: 1,
+        },
+        {
+          text: 'B',
+          number: 2,
+          isCorrect: 1,
+          groupIndex: 1,
+        },
+        {
+          text: 'C',
+          number: 3,
+          isCorrect: 1,
+          groupIndex: 1,
+        },
+        {
+          text: 'D',
+          number: 4,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+      ],
+      algoSettings: {
+        randomize: false,
+        confirmResponse: true,
+      },
+      deckId: '_1',
+    },
+    {
+      type: 'card',
+      algo: 5,
+      deck: 'Javascript',
+      question: '<hipimg width="270" src="https://d.pr/i/1owDvo+" /> \n\nWill both functions return the same thing?',
+      hint: null,
+      explanation: 'For the second function, the interpreter will add a semicolor after the return statement, so it will return undefined.\n\n<a href="https://www.youtube.com/watch?v=zBaLx8g5qNw&amp;t=95" target="blank">Link to video</a>',
+      notes: '',
+      number: 47,
+      answers: [
+        {
+          text: 'Yes',
+          number: 1,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'No',
+          number: 2,
+          isCorrect: 1,
+          groupIndex: 1,
+        },
+      ],
+      algoSettings: {
+        randomize: false,
+        confirmResponse: false,
+      },
+      deckId: '_1',
+    },
+    {
+      type: 'card',
+      algo: 7,
+      deck: 'Javascript',
+      question: 'What is the output of the following? \n<hipimg width="270" src="https://d.pr/i/83ATNS+" />',
+      hint: null,
+      explanation: 'var declarations get hoisted, but not the initialization\n\n<a href="https://www.youtube.com/watch?v=zBaLx8g5qNw&amp;t=120" target="blank">Link to YouTube video</a>',
+      notes: 'Move this question out to an "obsolete" deck (along with the double equal comparison questions)',
+      number: 48,
+      answers: [
+        {
+          text: 'undefined',
+          number: 1,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+      ],
+      algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
+        caseSensitive: false,
+      },
+      deckId: '_1',
+    },
+    {
+      type: 'card',
+      algo: 7,
+      deck: 'Javascript',
+      question: 'What is the output of the following?\n\n<hipimg width="270" src="https://d.pr/i/om402W+" />',
+      hint: null,
+      explanation: '<a href="https://www.youtube.com/watch?v=zBaLx8g5qNw&amp;t=160" target="blank">Link to YouTube video</a>\n\nTo output the sequence 0-4, change the var (which is function scope) to let (which is block scope)',
+      notes: '',
+      number: 49,
+      answers: [
+        {
+          text: '5,5,5,5,5',
+          number: 1,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: '5 5s',
+          number: 2,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'Five 5s',
+          number: 3,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+      ],
+      algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
+        caseSensitive: false,
+      },
+      deckId: '_1',
+    },
+    {
       type: 'share',
-      expiration: '2027-10-09T00:04:03.000Z',
+      expiration: '2027-08-13T07:00:02.000Z',
       defaultIsAdminMode: 1,
       defaultIsRandomMode: 1,
-      defaultIsTextToSpeechMode: 0,
+      defaultIsTextToSpeechMode: 1,
       defaultIsSaveResponsesMode: 0,
       defaultIsPoolMultipleChoiceOptionsMode: 0,
       default_layout_id: 1,
