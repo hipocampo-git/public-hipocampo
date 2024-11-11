@@ -5,7 +5,7 @@
    name: "Shakespeare's Plays",
    id: 47700,
    description: '<span style="font-size:20px">Given a plot summary and the principal characters, identify the Shakespearean play</span>',
-   synopsis: 'Given a plot summary, the main characters and a well-known quote, identify the play from Shakespeare',,
+   synopsis: 'Given a plot summary, the main characters and a well-known quote, identify the play from Shakespeare',
    textToSpeech: 1,
    preface: 1,
    feedback: 0,
