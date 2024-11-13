@@ -1,0 +1,221 @@
+{
+ objects: [
+  {
+   type: 'deck',
+   name: 'Test Hiptts Tags',
+   id: 46324,
+   description: '',
+   textToSpeech: 1,
+   preface: 1,
+   feedback: 0,
+   showDontKnow: 1,
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'Test Hiptts Tags',
+   question: '<span>This text should be displayed but not heard</span>',
+   hint: null,
+   answers: [
+    {
+     id: 30504,
+     text: 'Lorem Ipsum',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 72396,
+   deckId: '_46324',
+  },
+  {
+   type: 'asset',
+   fileName: 'Ölüdeniz_on_the_Turquoise_Coast,_Turkey.jpg',
+   name: 'Ölüdeniz_on_the_Turquoise_Coast,_Turkey.jpg',
+   fileType: 'image/jpeg',
+   user_id: '&11847',
+   localFilePath: '',
+   id: 8397,
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'Test Hiptts Tags',
+   question: '<hipimg src="/api/assets/8397" /><span>This text should be displayed but not heard</span>',
+   hint: null,
+   answers: [
+    {
+     id: 30505,
+     text: 'Lorem Ipsum',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 72397,
+   deckId: '_46324',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'Test Hiptts Tags',
+   question: '<hipplayer type="youtube" src="https://www.youtube.com/watch?v=FMbZuEICHcY" /><span>This text should be displayed but not heard</span>',
+   hint: null,
+   answers: [
+    {
+     id: 30506,
+     text: 'Lorem Ipsum',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 72398,
+   deckId: '_46324',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'Test Hiptts Tags',
+   question: 'This text should be heard and displayed',
+   hint: null,
+   answers: [
+    {
+     id: 30507,
+     text: 'Lorem Ipsum',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 72399,
+   deckId: '_46324',
+  },
+  {
+   type: 'asset',
+   fileName: 'Ölüdeniz_on_the_Turquoise_Coast,_Turkey.jpg',
+   name: 'Ölüdeniz_on_the_Turquoise_Coast,_Turkey.jpg',
+   fileType: 'image/jpeg',
+   user_id: '&11847',
+   localFilePath: '',
+   id: 8397,
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'Test Hiptts Tags',
+   question: '<hipimg src="/api/assets/8397" />This text should be displayed but not heard.',
+   hint: null,
+   answers: [
+    {
+     id: 30508,
+     text: 'Lorem Ipsum',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 72400,
+   deckId: '_46324',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'Test Hiptts Tags',
+   question: '<hipplayer type="youtube" src="https://www.youtube.com/watch?v=FMbZuEICHcY" />This text should be displayed but not heard.',
+   hint: null,
+   answers: [
+    {
+     id: 30509,
+     text: 'Lorem Ipsum',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 72401,
+   deckId: '_46324',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'Test Hiptts Tags',
+   question: '<span>This text should be displayed but not heard</span><hiptts>This text should be heard but not displayed.</hiptts>',
+   hint: null,
+   answers: [
+    {
+     id: 30510,
+     text: 'Lorem Ipsum',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 72402,
+   deckId: '_46324',
+  },
+  {
+   type: 'asset',
+   fileName: 'Ölüdeniz_on_the_Turquoise_Coast,_Turkey.jpg',
+   name: 'Ölüdeniz_on_the_Turquoise_Coast,_Turkey.jpg',
+   fileType: 'image/jpeg',
+   user_id: '&11847',
+   localFilePath: '',
+   id: 8397,
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'Test Hiptts Tags',
+   question: '<hipimg src="/api/assets/8397" /><span>This text should be displayed but not heard</span><hiptts>This text should be heard but not displayed.</hiptts>',
+   hint: null,
+   answers: [
+    {
+     id: 30511,
+     text: 'Lorem Ipsum',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 72403,
+   deckId: '_46324',
+  },
+  {
+   type: 'card',
+   algo: 1,
+   deck: 'Test Hiptts Tags',
+   question: '<hipplayer type="youtube" src="https://www.youtube.com/watch?v=FMbZuEICHcY" /><span>This text should be displayed but not heard</span><hiptts>This text should be heard but not displayed.</hiptts>',
+   hint: null,
+   answers: [
+    {
+     id: 30512,
+     text: 'Lorem Ipsum',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    caseSensitive: false,
+   },
+   id: 72404,
+   deckId: '_46324',
+  },
+ ],
+}
