@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Static example",
+    "value": "Provide 10 flashcards about the French Revolution in table \
+     markdown format"
+  },
+  {
+    "name": "Static example (JSON)",
+    "value": "Provide 10 flashcards about the French Revolution in JSON format.\
+    The question key should be 'question' and the answer key should be 'answer'."
+  },
+  {
+    "name": "Dynamic example with defaults",
+    "value": "Provide [count:10] flashcards about [topic:Fall of the Roman Empire] in [format: csv format]"
+  },
+  {
+    "name": "Dynamic example without defaults",
+    "value": "Provide [count] flashcards about the [topic] in [format] format"
+  },
+  {
+    "name": "Multiple choice with AI text",
+    "value": "Template: | Question | Option A | Option B | Option C | Option D |\n| --- | --- | --- | --- | --- |\n| 1. What does the author suggest is driving the scientific community's approach to research? | The desire for knowledge | The need for funding | The pursuit of fame | The interest in teaching |\n| 2. What does the author believe is a major issue in science communication? | The emphasis on failures rather than successes | The lack of interest in science | The complexity of scientific language | The lack of funding for science communication\nUsing the above table markdown content as an example of the formatting, create [questions:10] multiple choice questions of the salient points from the below content:"
+  },
+  {
+    "name": "Multiple choice with AI #2",
+    "value": "Summarize the following text into 10 key points: "
+  },
+  {
+    "name": "Create flashcards",
+    "value": "Create question/answer flashcards from the previous response in table markdown format"
+  },
+  {
+    "name": "Convert to JSON",
+    "value": "Convert the previous response to JSON format"
+  },
+  {
+    "name": "Placeholder3",
+    "value": "Summarize the following text into 10 key points: "
+  }
+]
