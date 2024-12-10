@@ -139,6 +139,10 @@
       },
       deckId: '_1',
       explanation: 'Gibraltar\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -339,6 +343,10 @@
       },
       deckId: '_1',
       explanation: 'Macau\r\nChina',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -368,6 +376,10 @@
       },
       deckId: '_1',
       explanation: 'Sint Maarten\r\nNetherlands',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -502,6 +514,10 @@
       },
       deckId: '_1',
       explanation: 'Bouvet Island\r\nNorway',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -572,7 +588,8 @@
       explanation: 'Bermuda\r\nUnited Kingdom',
       placeholders: {
         '1': 'Territory name',
-      },
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -608,6 +625,10 @@
       },
       deckId: '_1',
       explanation: 'British Indian Ocean Territory\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -643,7 +664,10 @@
       },
       deckId: '_1',
       explanation: 'Guernsey\r\nUnited Kingdom',
-      notes: "Link directly to droplr image (by adding a plus '+')",
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -679,6 +703,10 @@
       },
       deckId: '_1',
       explanation: 'Aguilla \r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -713,7 +741,11 @@
         caseSensitive: false,
       },
       deckId: '_1',
-      explanation: 'Montserrat\r\nUnited Kingdeom',
+      explanation: 'Montserrat\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -749,6 +781,10 @@
       },
       deckId: '_1',
       explanation: 'Jersey\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -778,6 +814,10 @@
       },
       deckId: '_1',
       explanation: 'Christmas Island\r\nAustralia',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -807,6 +847,10 @@
       },
       deckId: '_1',
       explanation: 'Wallis and Futuna\r\nFrance',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -842,6 +886,10 @@
       },
       deckId: '_1',
       explanation: 'British Virgin Islands\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -871,6 +919,10 @@
       },
       deckId: '_1',
       explanation: 'Easter Island\r\nChile',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -900,6 +952,10 @@
       },
       deckId: '_1',
       explanation: 'Aruba\r\nNetherlands',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -936,6 +992,10 @@
       deckId: '_1',
       hint: 'Initials: AS',
       explanation: 'American Samoa\r\nUnited States',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -966,6 +1026,10 @@
       deckId: '_1',
       hint: 'Initials: CI',
       explanation: 'Cook Islands\r\nNew Zealand',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -996,6 +1060,10 @@
       deckId: '_1',
       hint: 'Initials: SP & M',
       explanation: 'Saint Pierre and Miquelon\r\nFrance',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1032,6 +1100,10 @@
       deckId: '_1',
       hint: 'Initials: A & D',
       explanation: 'Akrotiri and Dhekelia\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1062,6 +1134,10 @@
       deckId: '_1',
       hint: 'Initials: N',
       explanation: 'Niue\r\nNew Zealand',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1098,6 +1174,10 @@
       deckId: '_1',
       hint: 'Initials: CI',
       explanation: 'Cayman Islands\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1128,6 +1208,10 @@
       deckId: '_1',
       hint: 'Initials: B',
       explanation: 'Bonaire\r\nNetherlands',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1164,6 +1248,10 @@
       deckId: '_1',
       hint: 'Initials: USVI',
       explanation: 'US Virgin Islands\r\nUnited States',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1193,6 +1281,10 @@
       },
       deckId: '_1',
       explanation: 'Jan Mayen\r\nNorway',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1229,6 +1321,10 @@
       deckId: '_1',
       hint: 'Initials: SH,A & TdC',
       explanation: 'Saint Helena, Ascension and Tristan de Cunha\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1259,6 +1355,10 @@
       deckId: '_1',
       hint: 'Initials: HI & MI',
       explanation: 'Heard Island and McDonald Islands\r\nAustralia',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1288,6 +1388,10 @@
       },
       deckId: '_1',
       explanation: 'Curacao\r\nNetherlands',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1329,6 +1433,10 @@
       },
       deckId: '_1',
       explanation: 'Northern Mariana Islands\r\nUnited States',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1364,6 +1472,10 @@
       },
       deckId: '_1',
       explanation: 'Guam\r\nUnited States',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1399,6 +1511,10 @@
       },
       deckId: '_1',
       explanation: 'Isle of Man\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1435,6 +1551,10 @@
       deckId: '_1',
       hint: 'Initials: T & C',
       explanation: 'Turks and Caicos Islands\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1464,6 +1584,10 @@
       },
       deckId: '_1',
       explanation: 'Hong Kong\r\nChina',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1493,6 +1617,10 @@
       },
       deckId: '_1',
       explanation: 'Faroe Islands\r\nDenmark',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1529,6 +1657,10 @@
       deckId: '_1',
       hint: 'Initials: A',
       explanation: 'Aland\nFinland',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1558,6 +1690,10 @@
       },
       deckId: '_1',
       explanation: 'Bir Tawil\r\nUnclaimed',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1594,6 +1730,10 @@
       deckId: '_1',
       hint: 'Initials: SG & SS I',
       explanation: 'South Georgia and the South Sandwich Islands\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1624,6 +1764,10 @@
       deckId: '_1',
       hint: 'Initials: FP',
       explanation: 'French Polynesia \r\nFrance',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1653,6 +1797,10 @@
       },
       deckId: '_1',
       explanation: 'French Southern and Antarctic Lands\r\nFrance',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
     {
       type: 'card',
@@ -1826,6 +1974,10 @@
       },
       deckId: '_1',
       explanation: 'Greenland\r\nDenmark',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      }
     },
   ],
 }
