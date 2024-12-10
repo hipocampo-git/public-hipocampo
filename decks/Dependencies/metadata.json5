@@ -17,14 +17,7 @@
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/6/67/Coral_Sea_Islands_Territory_in_its_region.svg" />',
-      hint: null,
-      explanation: 'Coral Sea Islands\r\nAustralia',
-      notes: '',
       number: 2,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Coral Sea Islands',
@@ -46,20 +39,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Coral Sea Islands\r\nAustralia',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="450" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Australia_in_its_region_%28Ashmore_and_Cartier_Islands_special%29.svg" />',
-      hint: null,
-      explanation: 'Ashmore and Cartier Islands\r\nAustralia',
-      notes: '',
       number: 3,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Ashmore and Cartier Islands',
@@ -81,20 +72,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Ashmore and Cartier Islands\r\nAustralia',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="400px" src="https://upload.wikimedia.org/wikipedia/commons/3/32/Clipperton_Island_in_its_region.svg" />',
-      hint: null,
-      explanation: 'Clipperton Island\r\nFrance',
-      notes: '',
       number: 4,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Clipperton Island',
@@ -116,17 +105,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Clipperton Island\r\nFrance',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/5/55/Gibraltar_location_in_Europe.svg" />',
-      hint: null,
-      explanation: 'Gibraltar\r\nUnited Kingdom',
-      notes: '',
       number: 5,
-      placeholders: null,
       answers: [
         {
           text: 'Gibraltar',
@@ -148,20 +138,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Gibraltar\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="400px" src="https://upload.wikimedia.org/wikipedia/commons/0/0c/New_Zealand_on_the_globe_%28Tokelau_special%29_%28small_islands_magnified%29_%28Polynesia_centered%29.svg" />',
-      hint: null,
-      explanation: 'Tokelau\r\nNew Zealand',
-      notes: '',
       number: 6,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Tokelau',
@@ -183,20 +167,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Tokelau\r\nNew Zealand',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="400px" src="https://upload.wikimedia.org/wikipedia/commons/2/26/Saba_in_its_region.svg" />',
-      hint: null,
-      explanation: 'Saba\r\nNetherlands',
-      notes: '',
       number: 7,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Saba',
@@ -218,20 +200,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Saba\r\nNetherlands',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="400px" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Australia_on_the_globe_%28Cocos_%28Keeling%29_Islands_special%29_%28Southeast_Asia_centered%29.svg" />',
-      hint: null,
-      explanation: 'Cocos Islands/Keeling Islands\nAustralia',
-      notes: '',
       number: 8,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Cocos Islands',
@@ -259,20 +239,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Cocos Islands/Keeling Islands\nAustralia',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="400px" credit="wikipedia" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Sint_Eustatius_in_its_region.svg" />',
-      hint: null,
-      explanation: 'Sint Eustatius\r\nNetherlands',
-      notes: '',
       number: 9,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Sint Eustatius',
@@ -294,20 +272,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Sint Eustatius\r\nNetherlands',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="400px" credit="wikipedia" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Saint_Barthelemy_on_the_globe_%28Americas_centered%29.svg" />',
-      hint: null,
-      explanation: 'Saint Barthelemy\r\nFrance',
-      notes: '',
       number: 10,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Saint Barthelemy',
@@ -329,17 +305,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Saint Barthelemy\r\nFrance',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/3/39/Macau_locator_map.svg" />',
-      hint: null,
-      explanation: 'Macau\r\nChina',
-      notes: '',
       number: 11,
-      placeholders: null,
       answers: [
         {
           text: 'Macau',
@@ -361,17 +338,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Macau\r\nChina',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Sint_Maarten_on_the_globe_%28Americas_centered%29.svg" />',
-      hint: null,
-      explanation: 'Sint Maarten\r\nNetherlands',
-      notes: '',
       number: 12,
-      placeholders: null,
       answers: [
         {
           text: 'Sint Maarten',
@@ -393,20 +367,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Sint Maarten\r\nNetherlands',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="280px" credit="wikipedia" src="https://upload.wikimedia.org/wikipedia/commons/7/72/United_States_Minor_Outlying_Islands.png" />',
-      hint: null,
-      explanation: 'US Minor Outlying Islands\r\nUnited States',
-      notes: '',
       number: 13,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state ',
-      },
       answers: [
         {
           text: 'US Minor Outlying Islands',
@@ -434,20 +402,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'US Minor Outlying Islands\r\nUnited States',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state ',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg credit="Wikipedia" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Australia_on_the_globe_%28Norfolk_Island_special%29_%28small_islands_magnified%29_%28Polynesia_centered%29.svg" />',
-      hint: null,
-      explanation: 'Norfolk Island\r\nAustralia',
-      notes: '',
       number: 14,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state ',
-      },
       answers: [
         {
           text: 'Norfolk Island',
@@ -469,20 +435,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Norfolk Island\r\nAustralia',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state ',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg credit="Wikipedia" src="https://upload.wikimedia.org/wikipedia/commons/4/41/Pitcairn_Islands_in_United_Kingdom.svg" />',
-      hint: null,
-      explanation: 'Pitcairn Islands\r\nUnited Kingdom',
-      notes: '',
       number: 15,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state ',
-      },
       answers: [
         {
           text: 'Pitcairn Islands',
@@ -504,17 +468,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Pitcairn Islands\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state ',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/7/73/Bouvet_Island_on_the_globe_%28Antarctica_centered%29.svg" />',
-      hint: null,
-      explanation: 'Bouvet Island\r\nNorway',
-      notes: '',
       number: 16,
-      placeholders: null,
       answers: [
         {
           text: 'Bouvet Island',
@@ -536,20 +501,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Bouvet Island\r\nNorway',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="300px" credit="Wikipedia" src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Saint_Martin_in_its_region.svg" />',
-      hint: null,
-      explanation: 'Saint Martin\r\nFrance',
-      notes: '',
       number: 17,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Art associated sovereign state',
-      },
       answers: [
         {
           text: 'Saint Martin',
@@ -571,19 +530,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Saint Martin\r\nFrance',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Art associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg credit="Wikipedia" width="250px" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/United_Kingdom_on_the_globe_%28Bermuda_special%29_%28Americas_centered%29.svg" />',
-      hint: null,
-      explanation: 'Bermuda\r\nUnited Kingdom',
-      notes: '',
       number: 18,
-      placeholders: {
-        '1': 'Territory name',
-      },
       answers: [
         {
           text: 'Bermuda',
@@ -611,17 +569,17 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Bermuda\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="260px" src="https://upload.wikimedia.org/wikipedia/commons/9/96/British_Indian_Ocean_Territory_in_United_Kingdom.svg" />',
-      hint: null,
-      explanation: 'British Indian Ocean Territory\r\nUnited Kingdom',
-      notes: '',
       number: 19,
-      placeholders: null,
       answers: [
         {
           text: 'British Indian Ocean Territory',
@@ -649,17 +607,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'British Indian Ocean Territory\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://d.pr/i/juYFtr+" width="250px" />',
-      hint: null,
-      explanation: 'Guernsey\r\nUnited Kingdom',
-      notes: "Link directly to droplr image (by adding a plus '+')",
       number: 20,
-      placeholders: null,
       answers: [
         {
           text: 'Guernsey',
@@ -687,17 +642,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Guernsey\r\nUnited Kingdom',
+      notes: "Link directly to droplr image (by adding a plus '+')",
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="260px" src="https://upload.wikimedia.org/wikipedia/commons/d/df/Anguilla_in_United_Kingdom.svg" />',
-      hint: null,
-      explanation: 'Aguilla \r\nUnited Kingdom',
-      notes: '',
       number: 21,
-      placeholders: null,
       answers: [
         {
           text: 'Aguilla ',
@@ -725,17 +678,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Aguilla \r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="260" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Montserrat_in_United_Kingdom.svg" />',
-      hint: null,
-      explanation: 'Montserrat\r\nUnited Kingdeom',
-      notes: '',
       number: 22,
-      placeholders: null,
       answers: [
         {
           text: 'Montserrat',
@@ -763,17 +713,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Montserrat\r\nUnited Kingdeom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="250px" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Europe-Jersey.svg" />',
-      hint: null,
-      explanation: 'Jersey\r\nUnited Kingdom',
-      notes: '',
       number: 23,
-      placeholders: null,
       answers: [
         {
           text: 'Jersey',
@@ -801,17 +748,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Jersey\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Australia_on_the_globe_%28Christmas_Island_special%29_%28Southeast_Asia_centered%29.svg" />',
-      hint: null,
-      explanation: 'Christmas Island\r\nAustralia',
-      notes: '',
       number: 24,
-      placeholders: null,
       answers: [
         {
           text: 'Christmas Island',
@@ -833,17 +777,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Christmas Island\r\nAustralia',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="250px" src="https://upload.wikimedia.org/wikipedia/commons/2/23/Wallis_and_Futuna_on_the_globe_%28Polynesia_centered%29.svg" />',
-      hint: null,
-      explanation: 'Wallis and Futuna\r\nFrance',
-      notes: '',
       number: 25,
-      placeholders: null,
       answers: [
         {
           text: 'Wallis and Futuna',
@@ -865,17 +806,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Wallis and Futuna\r\nFrance',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/5/58/British_Virgin_Islands_on_the_globe_%28Americas_centered%29.svg" />',
-      hint: null,
-      explanation: 'British Virgin Islands\r\nUnited Kingdom',
-      notes: '',
       number: 26,
-      placeholders: null,
       answers: [
         {
           text: 'British Virgin Islands',
@@ -903,17 +841,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'British Virgin Islands\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://d.pr/i/U3UgFK+" />',
-      hint: null,
-      explanation: 'Easter Island\r\nChile',
-      notes: '',
       number: 27,
-      placeholders: null,
       answers: [
         {
           text: 'Easter Island',
@@ -935,17 +870,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Easter Island\r\nChile',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/1/16/Aruba_in_its_region_%28zoom%29.svg" />',
-      hint: null,
-      explanation: 'Aruba\r\nNetherlands',
-      notes: '',
       number: 28,
-      placeholders: null,
       answers: [
         {
           text: 'Aruba',
@@ -967,17 +899,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Aruba\r\nNetherlands',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/9/99/American_Samoa_on_the_globe_%28Polynesia_centered%29.svg" />',
-      hint: 'Initials: AS',
-      explanation: 'American Samoa\r\nUnited States',
-      notes: '',
       number: 29,
-      placeholders: null,
       answers: [
         {
           text: 'American Samoa',
@@ -1005,17 +934,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: AS',
+      explanation: 'American Samoa\r\nUnited States',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/5/54/Cook_Islands_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg" />',
-      hint: 'Initials: CI',
-      explanation: 'Cook Islands\r\nNew Zealand',
-      notes: '',
       number: 30,
-      placeholders: null,
       answers: [
         {
           text: 'Cook Islands',
@@ -1037,17 +964,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: CI',
+      explanation: 'Cook Islands\r\nNew Zealand',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/4/49/Saint_Pierre_and_Miquelon_in_France.svg" />',
-      hint: 'Initials: SP & M',
-      explanation: 'Saint Pierre and Miquelon\r\nFrance',
-      notes: '',
       number: 31,
-      placeholders: null,
       answers: [
         {
           text: 'Saint Pierre and Miquelon',
@@ -1069,17 +994,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: SP & M',
+      explanation: 'Saint Pierre and Miquelon\r\nFrance',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Akrotiri_and_Dhekelia_in_United_Kingdom.svg" />',
-      hint: 'Initials: A & D',
-      explanation: 'Akrotiri and Dhekelia\r\nUnited Kingdom',
-      notes: '',
       number: 32,
-      placeholders: null,
       answers: [
         {
           text: 'Akrotiri and Dhekelia',
@@ -1107,17 +1030,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: A & D',
+      explanation: 'Akrotiri and Dhekelia\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/a/af/Niue_on_the_globe_%28Polynesia_centered%29.svg" />',
-      hint: 'Initials: N',
-      explanation: 'Niue\r\nNew Zealand',
-      notes: '',
       number: 33,
-      placeholders: null,
       answers: [
         {
           text: 'Niue',
@@ -1139,17 +1060,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: N',
+      explanation: 'Niue\r\nNew Zealand',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Cayman_Islands_in_United_Kingdom.svg" />',
-      hint: 'Initials: CI',
-      explanation: 'Cayman Islands\r\nUnited Kingdom',
-      notes: '',
       number: 34,
-      placeholders: null,
       answers: [
         {
           text: 'Cayman Islands',
@@ -1177,17 +1096,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: CI',
+      explanation: 'Cayman Islands\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/2/25/Bonaire_in_its_region.svg" />',
-      hint: 'Initials: B',
-      explanation: 'Bonaire\r\nNetherlands',
-      notes: '',
       number: 35,
-      placeholders: null,
       answers: [
         {
           text: 'Bonaire',
@@ -1209,17 +1126,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: B',
+      explanation: 'Bonaire\r\nNetherlands',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/f/f3/United_States_Virgin_Islands_on_the_globe_%28Americas_centered%29.svg" />',
-      hint: 'Initials: USVI',
-      explanation: 'US Virgin Islands\r\nUnited States',
-      notes: '',
       number: 36,
-      placeholders: null,
       answers: [
         {
           text: 'US Virgin Islands',
@@ -1247,17 +1162,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: USVI',
+      explanation: 'US Virgin Islands\r\nUnited States',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Jan_Mayen_in_Norway.png" />',
-      hint: null,
-      explanation: 'Jan Mayen\r\nNorway',
-      notes: '',
       number: 37,
-      placeholders: null,
       answers: [
         {
           text: 'Jan Mayen',
@@ -1279,17 +1192,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Jan Mayen\r\nNorway',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/2/24/Saint_Helena%2C_Ascension_and_Tristan_da_Cunha_in_United_Kingdom.svg" />',
-      hint: 'Initials: SH,A & TdC',
-      explanation: 'Saint Helena, Ascension and Tristan de Cunha\r\nUnited Kingdom',
-      notes: '',
       number: 38,
-      placeholders: null,
       answers: [
         {
           text: 'Saint Helena, Ascension and Tristan de Cunha',
@@ -1317,17 +1227,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: SH,A & TdC',
+      explanation: 'Saint Helena, Ascension and Tristan de Cunha\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Australia_in_its_region_%28Heard_Island_and_McDonald_Islands_special%29.svg" />',
-      hint: 'Initials: HI & MI',
-      explanation: 'Heard Island and McDonald Islands\r\nAustralia',
-      notes: '',
       number: 39,
-      placeholders: null,
       answers: [
         {
           text: 'Heard Island and McDonald Islands',
@@ -1349,17 +1257,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: HI & MI',
+      explanation: 'Heard Island and McDonald Islands\r\nAustralia',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Curacao_in_its_region.svg" />',
-      hint: null,
-      explanation: 'Curacao\r\nNetherlands',
-      notes: '',
       number: 40,
-      placeholders: null,
       answers: [
         {
           text: 'Curacao',
@@ -1381,17 +1287,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Curacao\r\nNetherlands',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Northern_Mariana_Islands_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg" />',
-      hint: null,
-      explanation: 'Northern Mariana Islands\r\nUnited States',
-      notes: '',
       number: 41,
-      placeholders: null,
       answers: [
         {
           text: 'Northern Mariana Islands',
@@ -1425,17 +1328,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Northern Mariana Islands\r\nUnited States',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Guam_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg" />',
-      hint: null,
-      explanation: 'Guam\r\nUnited States',
-      notes: '',
       number: 42,
-      placeholders: null,
       answers: [
         {
           text: 'Guam',
@@ -1463,17 +1363,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Guam\r\nUnited States',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Europe-Isle_of_Man.svg" />',
-      hint: null,
-      explanation: 'Isle of Man\r\nUnited Kingdom',
-      notes: '',
       number: 43,
-      placeholders: null,
       answers: [
         {
           text: 'Isle of Man',
@@ -1501,17 +1398,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Isle of Man\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg width="300" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Turks_and_Caicos_Islands_in_United_Kingdom_%28special_marker%29.svg" />',
-      hint: 'Initials: T & C',
-      explanation: 'Turks and Caicos Islands\r\nUnited Kingdom',
-      notes: '',
       number: 44,
-      placeholders: null,
       answers: [
         {
           text: 'Turks and Caicos Islands',
@@ -1539,17 +1433,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: T & C',
+      explanation: 'Turks and Caicos Islands\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/4/44/Hong_Kong_in_China_%28zoomed%29_%28%2Ball_claims_hatched%29.svg" />',
-      hint: null,
-      explanation: 'Hong Kong\r\nChina',
-      notes: '',
       number: 45,
-      placeholders: null,
       answers: [
         {
           text: 'Hong Kong',
@@ -1571,17 +1463,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Hong Kong\r\nChina',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Europe-Faroe_Islands.svg" />',
-      hint: null,
-      explanation: 'Faroe Islands\r\nDenmark',
-      notes: '',
       number: 46,
-      placeholders: null,
       answers: [
         {
           text: 'Faroe Islands',
@@ -1603,17 +1492,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Faroe Islands\r\nDenmark',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/8/86/Ahvenanmaa_in_Finland.svg" />',
-      hint: 'Initials: A',
-      explanation: 'Aland\nFinland',
-      notes: '',
       number: 47,
-      placeholders: null,
       answers: [
         {
           text: 'Aland',
@@ -1641,17 +1527,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: A',
+      explanation: 'Aland\nFinland',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://d.pr/i/Y9rfbR+" />',
-      hint: null,
-      explanation: 'Bir Tawil\r\nUnclaimed',
-      notes: '',
       number: 48,
-      placeholders: null,
       answers: [
         {
           text: 'Bir Tawil',
@@ -1673,17 +1557,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Bir Tawil\r\nUnclaimed',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/c/c5/South_Georgia_and_the_South_Sandwich_Islands_in_United_Kingdom.svg" />',
-      hint: 'Initials: SG & SS I',
-      explanation: 'South Georgia and the South Sandwich Islands\r\nUnited Kingdom',
-      notes: '',
       number: 49,
-      placeholders: null,
       answers: [
         {
           text: 'South Georgia and the South Sandwich Islands',
@@ -1711,17 +1592,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: SG & SS I',
+      explanation: 'South Georgia and the South Sandwich Islands\r\nUnited Kingdom',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/b/b9/French_Polynesia_on_the_globe_%28French_Polynesia_centered%29.svg" />',
-      hint: 'Initials: FP',
-      explanation: 'French Polynesia \r\nFrance',
-      notes: '',
       number: 50,
-      placeholders: null,
       answers: [
         {
           text: 'French Polynesia ',
@@ -1743,17 +1622,15 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      hint: 'Initials: FP',
+      explanation: 'French Polynesia \r\nFrance',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/3/34/France_on_the_globe_%28French_Southern_and_Antarctic_Lands_special%29_%28Madagascar_centered%29.svg" />',
-      hint: null,
-      explanation: 'French Southern and Antarctic Lands\r\nFrance',
-      notes: '',
       number: 51,
-      placeholders: null,
       answers: [
         {
           text: 'French Southern and Antarctic Lands',
@@ -1775,20 +1652,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'French Southern and Antarctic Lands\r\nFrance',
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Puerto_Rico_%28orthographic_projection%29.svg" width="350" />',
-      hint: null,
-      explanation: 'Puerto Rico\r\nUnited States',
-      notes: '',
       number: 52,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Puerto Rico',
@@ -1816,20 +1687,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Puerto Rico\r\nUnited States',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Location_map_of_the_Falklands_%E2%80%93_Alternative_version_4.svg" />',
-      hint: null,
-      explanation: 'Falkland Islands\r\nUnited Kingdom',
-      notes: '',
       number: 53,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Falkland Islands',
@@ -1857,20 +1726,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Falkland Islands\r\nUnited Kingdom',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/0/0e/New_Caledonia_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg" />',
-      hint: null,
-      explanation: 'New Caledonia\r\nFrance',
-      notes: '',
       number: 54,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'New Caledonia',
@@ -1892,20 +1759,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'New Caledonia\r\nFrance',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Norway-Svalbard.svg" />',
-      hint: null,
-      explanation: 'Svalbard\r\nNorway',
-      notes: '',
       number: 55,
-      placeholders: {
-        '1': 'Territory name',
-        '2': 'Associated sovereign state',
-      },
       answers: [
         {
           text: 'Svalbard',
@@ -1927,17 +1792,18 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Svalbard\r\nNorway',
+      placeholders: {
+        '1': 'Territory name',
+        '2': 'Associated sovereign state',
+      },
     },
     {
       type: 'card',
       algo: 7,
       deck: 'Dependencies',
       question: '<hipimg src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Greenland_%28orthographic_projection%29.svg" />',
-      hint: null,
-      explanation: 'Greenland\r\nDenmark',
-      notes: '',
       number: 56,
-      placeholders: null,
       answers: [
         {
           text: 'Greenland',
@@ -1959,6 +1825,7 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      explanation: 'Greenland\r\nDenmark',
     },
   ],
 }
