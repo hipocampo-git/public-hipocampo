@@ -26,9 +26,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7630" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 1,
       answers: [
         {
@@ -57,9 +54,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:square(100% at 64% 65%);transform:scale(3.0) translate(-15px,-40px)" src="/api/assets/7841" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 2,
       answers: [
         {
@@ -88,9 +82,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(80% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7632" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 3,
       answers: [
         {
@@ -119,9 +110,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0 36%, 75% 36%, 75% 100%, 0% 100%);transform:scale(2.0) translate(30px,-30px)" src="/api/assets/7633" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 4,
       answers: [
         {
@@ -150,9 +138,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7634" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 5,
       answers: [
         {
@@ -181,9 +166,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(30% 37%, 100% 37%, 100% 100%, 30% 100%);transform:scale(2.0) translate(-40px,-40px)" src="/api/assets/7635" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 6,
       answers: [
         {
@@ -212,9 +194,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.5) translate(0,0)" src="/api/assets/7636" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 7,
       answers: [
         {
@@ -243,9 +222,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0 0, 71% 0, 71% 64%, 0 64%);transform:scale(2.0) translate(40px,35px)" src="/api/assets/7637" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 8,
       answers: [
         {
@@ -274,9 +250,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100%);transform:scale(1.3) translate(0,0)" src="/api/assets/7638" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 9,
       answers: [
         {
@@ -305,9 +278,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(4.0) translate(2px,0)" src="/api/assets/7639" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 10,
       answers: [
         {
@@ -336,9 +306,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(28% 5%, 100% 5%, 100% 64%, 27% 62%);transform:scale(2.0) translate(-30px,30px)" src="/api/assets/7640" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 11,
       answers: [
         {
@@ -367,9 +334,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.2) translate(0,10px)" src="/api/assets/7641" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 12,
       answers: [
         {
@@ -398,9 +362,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg height="auto" width="400px" style="clip-path:polygon(100%);transform:scale(1.2) translate(0px,0)" src="/api/assets/7642" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 13,
       answers: [
         {
@@ -429,9 +390,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(60% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7643" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 14,
       answers: [
         {
@@ -460,9 +418,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0% 30%, 100% 30%, 100% 100%, 0% 99%);transform:scale(2.0) translate(-10px,-40px)" src="/api/assets/7644" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 15,
       answers: [
         {
@@ -491,9 +446,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(40% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7645" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 16,
       answers: [
         {
@@ -522,9 +474,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.5) translate(0,0)" src="/api/assets/7646" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 17,
       answers: [
         {
@@ -553,9 +502,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0% 30%, 100% 30%, 100% 100%, 0% 99%);transform:scale(1.5) translate(0px,-35px)" src="/api/assets/7647" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 18,
       answers: [
         {
@@ -584,9 +530,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);transform:scale(1.5) translate(30px,-10px)" src="/api/assets/7648" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 19,
       answers: [
         {
@@ -615,9 +558,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(50% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7649" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 20,
       answers: [
         {
@@ -646,9 +586,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7650" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 21,
       answers: [
         {
@@ -677,9 +614,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(100%);transform:scale(3.0) translate(0,-30px)" src="/api/assets/7651" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 22,
       answers: [
         {
@@ -720,9 +654,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(50% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7652" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 23,
       answers: [
         {
@@ -751,9 +682,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.5) translate(0,0)" src="/api/assets/7653" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 24,
       answers: [
         {
@@ -788,9 +716,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(70% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7654" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 25,
       answers: [
         {
@@ -819,9 +744,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0% 35%, 100% 35%, 100% 100%, 0% 100%);transform:scale(2.0) translate(0px,-30px)" src="/api/assets/7655" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 26,
       answers: [
         {
@@ -850,9 +772,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 48% 42%);transform:scale(2.0) translate(0,20px)" src="/api/assets/7656" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 27,
       answers: [
         {
@@ -881,9 +800,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(35.8% at 60% 57%);transform:scale(3.0) translate(-20px,0px)" src="/api/assets/7657" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 28,
       answers: [
         {
@@ -912,9 +828,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7658" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 29,
       answers: [
         {
@@ -943,9 +856,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7659" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 30,
       answers: [
         {
@@ -974,9 +884,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(70% at 49% 49%);transform:scale(1.5) translate(0,0)" src="/api/assets/7660" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 31,
       answers: [
         {
@@ -1005,9 +912,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(50% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7661" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 32,
       answers: [
         {
@@ -1036,9 +940,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(50% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7662" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 33,
       answers: [
         {
@@ -1067,9 +968,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(50% at 49% 49%);transform:scale(2.0) translate(0,20px)" src="/api/assets/7663" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 34,
       answers: [
         {
@@ -1098,9 +996,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(70% at 49% 49%);transform:scale(1.7) translate(0,0)" src="/api/assets/7664" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 35,
       answers: [
         {
@@ -1129,9 +1024,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,0)" src="/api/assets/7665" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 36,
       answers: [
         {
@@ -1160,9 +1052,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7666" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 37,
       answers: [
         {
@@ -1197,9 +1086,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7667" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 38,
       answers: [
         {
@@ -1228,9 +1114,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7668" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 39,
       answers: [
         {
@@ -1259,9 +1142,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7669" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 40,
       answers: [
         {
@@ -1296,9 +1176,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7670" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 41,
       answers: [
         {
@@ -1327,9 +1204,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.9) translate(0,0)" src="/api/assets/7671" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 42,
       answers: [
         {
@@ -1358,9 +1232,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7672" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 43,
       answers: [
         {
@@ -1389,14 +1260,17 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,20px)" src="/api/assets/7673" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 44,
       answers: [
         {
           text: 'Cyprus',
           number: 1,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'Cypress',
+          number: 2,
           isCorrect: 0,
           groupIndex: 1,
         },
@@ -1420,14 +1294,17 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(50% at 55% 57%);transform:scale(2.0) translate(0,-15px)" src="/api/assets/7674" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 45,
       answers: [
         {
           text: ' Czech Republic ',
           number: 1,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'czechia',
+          number: 2,
           isCorrect: 0,
           groupIndex: 1,
         },
@@ -1451,9 +1328,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(4.0) translate(0,0)" src="/api/assets/7675" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 46,
       answers: [
         {
@@ -1482,9 +1356,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(-40px,10px)" src="/api/assets/7676" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 47,
       answers: [
         {
@@ -1513,9 +1384,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0);height:200px;width:auto" src="/api/assets/7677" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 48,
       answers: [
         {
@@ -1544,9 +1412,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,30px)" src="/api/assets/7678" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 49,
       answers: [
         {
@@ -1575,9 +1440,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,30px)" src="/api/assets/7679" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 50,
       answers: [
         {
@@ -1606,9 +1468,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.8) translate(0,0)" src="/api/assets/7680" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 51,
       answers: [
         {
@@ -1637,9 +1496,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7681" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 52,
       answers: [
         {
@@ -1668,9 +1524,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.5) translate(0,0)" src="/api/assets/7682" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 53,
       answers: [
         {
@@ -1699,9 +1552,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0% 18%, 100% 17%, 100% 100%, 0% 100%);transform:scale(1.5) translate(0,-30px)" src="/api/assets/7683" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 54,
       answers: [
         {
@@ -1730,9 +1580,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.8) translate(-20px,20px)" src="/api/assets/7684" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 55,
       answers: [
         {
@@ -1761,9 +1608,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7685" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 56,
       answers: [
         {
@@ -1792,9 +1636,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7686" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 57,
       answers: [
         {
@@ -1823,9 +1664,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7687" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 58,
       answers: [
         {
@@ -1854,9 +1692,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg height="200px" style="clip-path:circle(100%);transform:scale(1.5) translate(0,-20px)" src="/api/assets/7688" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 59,
       answers: [
         {
@@ -1885,9 +1720,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.7) translate(0,20px)" src="/api/assets/7689" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 60,
       answers: [
         {
@@ -1916,9 +1748,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7690" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 61,
       answers: [
         {
@@ -1947,9 +1776,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7691" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 62,
       answers: [
         {
@@ -1978,14 +1804,17 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,-25px)" src="/api/assets/7692" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 63,
       answers: [
         {
           text: 'Gambia',
           number: 1,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'The Gambia',
+          number: 2,
           isCorrect: 0,
           groupIndex: 1,
         },
@@ -2009,9 +1838,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,30px)" src="/api/assets/7693" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 64,
       answers: [
         {
@@ -2040,9 +1866,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7694" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 65,
       answers: [
         {
@@ -2071,9 +1894,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(10px,10px)" src="/api/assets/7695" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 66,
       answers: [
         {
@@ -2102,9 +1922,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(-25px,-20px)" src="/api/assets/7696" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 67,
       answers: [
         {
@@ -2133,9 +1950,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0);height:200px;width:auto" src="/api/assets/7697" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 68,
       answers: [
         {
@@ -2164,9 +1978,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7698" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 69,
       answers: [
         {
@@ -2195,9 +2006,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,30px)" src="/api/assets/7844" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 70,
       answers: [
         {
@@ -2226,9 +2034,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,40px)" src="/api/assets/7845" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 71,
       answers: [
         {
@@ -2263,9 +2068,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,30px)" src="/api/assets/7846" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 72,
       answers: [
         {
@@ -2294,9 +2096,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.2) translate(0,0)" src="/api/assets/7702" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 73,
       answers: [
         {
@@ -2325,9 +2124,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.7) translate(0,0)" src="/api/assets/7703" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 74,
       answers: [
         {
@@ -2356,9 +2152,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(-20px,-30px)" src="/api/assets/7704" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 75,
       answers: [
         {
@@ -2387,9 +2180,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7705" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 76,
       answers: [
         {
@@ -2418,9 +2208,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7847" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 77,
       answers: [
         {
@@ -2449,9 +2236,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,0)" src="/api/assets/7707" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 78,
       answers: [
         {
@@ -2480,9 +2264,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7708" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 79,
       answers: [
         {
@@ -2511,9 +2292,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7709" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 80,
       answers: [
         {
@@ -2542,9 +2320,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,0)" src="/api/assets/7710" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 81,
       answers: [
         {
@@ -2573,9 +2348,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.9) translate(0px,-35px)" src="/api/assets/7711" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 82,
       answers: [
         {
@@ -2604,9 +2376,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7712" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 83,
       answers: [
         {
@@ -2635,9 +2404,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(30px,0)" src="/api/assets/7713" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 84,
       answers: [
         {
@@ -2672,9 +2438,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,10px)" src="/api/assets/7714" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 85,
       answers: [
         {
@@ -2703,9 +2466,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.4) translate(0,0)" src="/api/assets/7715" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 86,
       answers: [
         {
@@ -2734,9 +2494,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7716" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 87,
       answers: [
         {
@@ -2765,9 +2522,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7717" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 88,
       answers: [
         {
@@ -2796,9 +2550,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7718" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 89,
       answers: [
         {
@@ -2827,9 +2578,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);transform:scale(1.5) translate(0,-10px);height:200px;width:auto" src="/api/assets/7719" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 90,
       answers: [
         {
@@ -2858,9 +2606,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7720" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 91,
       answers: [
         {
@@ -2889,9 +2634,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7721" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 92,
       answers: [
         {
@@ -2920,9 +2662,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.7) translate(0,-50px)" src="/api/assets/7722" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 93,
       answers: [
         {
@@ -2951,9 +2690,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.7) translate(0,-30px)" src="/api/assets/7723" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 94,
       answers: [
         {
@@ -2982,9 +2718,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7724" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 95,
       answers: [
         {
@@ -3013,9 +2746,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.7) translate(0,0)" src="/api/assets/7827" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 96,
       answers: [
         {
@@ -3044,9 +2774,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7726" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 97,
       answers: [
         {
@@ -3075,9 +2802,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7727" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 98,
       answers: [
         {
@@ -3106,9 +2830,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.7) translate(0,-30px)" src="/api/assets/7728" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 99,
       answers: [
         {
@@ -3137,9 +2858,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(20px,20px)" src="/api/assets/7729" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 100,
       answers: [
         {
@@ -3168,9 +2886,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7730" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 101,
       answers: [
         {
@@ -3199,9 +2914,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7840" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 102,
       answers: [
         {
@@ -3230,9 +2942,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,-20px)" src="/api/assets/7732" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 103,
       answers: [
         {
@@ -3261,9 +2970,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,-30px)" src="/api/assets/7733" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 104,
       answers: [
         {
@@ -3292,14 +2998,23 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,-50px)" src="/api/assets/7734" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 105,
       answers: [
         {
           text: 'Macedonia',
           number: 1,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'north macedonia',
+          number: 2,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'north macedonia',
+          number: 3,
           isCorrect: 0,
           groupIndex: 1,
         },
@@ -3323,9 +3038,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7735" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 106,
       answers: [
         {
@@ -3354,9 +3066,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.6) translate(0,-10px)" src="/api/assets/7736" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 107,
       answers: [
         {
@@ -3385,9 +3094,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.4) translate(0,0)" src="/api/assets/7737" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 108,
       answers: [
         {
@@ -3416,9 +3122,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,20px)" src="/api/assets/7738" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 109,
       answers: [
         {
@@ -3447,9 +3150,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7739" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 110,
       answers: [
         {
@@ -3478,9 +3178,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,-30px)" src="/api/assets/7740" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 111,
       answers: [
         {
@@ -3509,9 +3206,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(10px,10px)" src="/api/assets/7741" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 112,
       answers: [
         {
@@ -3540,9 +3234,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(30px,20px)" src="/api/assets/7742" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 113,
       answers: [
         {
@@ -3571,9 +3262,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,30px)" src="/api/assets/7743" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 114,
       answers: [
         {
@@ -3602,9 +3290,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7744" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 115,
       answers: [
         {
@@ -3633,9 +3318,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0 0, 90% 0, 90% 89%, 0 88%);transform:scale(2.0) translate(50px,0px)" src="/api/assets/7745" />\n\n',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 116,
       answers: [
         {
@@ -3664,9 +3346,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.3) translate(-40px,-30px)" src="/api/assets/7746" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 117,
       answers: [
         {
@@ -3695,9 +3374,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.5) translate(0,10px)" src="/api/assets/7747" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 118,
       answers: [
         {
@@ -3726,9 +3402,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7748" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 119,
       answers: [
         {
@@ -3757,9 +3430,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.9) translate(0,-40px)" src="/api/assets/7749" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 120,
       answers: [
         {
@@ -3788,9 +3458,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7750" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 121,
       answers: [
         {
@@ -3819,9 +3486,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(-20px,-20px)" src="/api/assets/7751" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 122,
       answers: [
         {
@@ -3850,9 +3514,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7752" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 123,
       answers: [
         {
@@ -3881,9 +3542,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,-20px)" src="/api/assets/7753" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 124,
       answers: [
         {
@@ -3912,9 +3570,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,-35px)" src="/api/assets/7754" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 125,
       answers: [
         {
@@ -3943,9 +3598,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7755" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 126,
       answers: [
         {
@@ -3974,9 +3626,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(10px,-30px)" src="/api/assets/7756" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 127,
       answers: [
         {
@@ -4005,9 +3654,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,-10px)" src="/api/assets/7757" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 128,
       answers: [
         {
@@ -4036,9 +3682,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7758" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 129,
       answers: [
         {
@@ -4067,9 +3710,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,20px)" src="/api/assets/7759" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 130,
       answers: [
         {
@@ -4098,9 +3738,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7760" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 131,
       answers: [
         {
@@ -4129,9 +3766,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,10px)" src="/api/assets/7761" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 132,
       answers: [
         {
@@ -4160,9 +3794,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,-20px)" src="/api/assets/7762" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 133,
       answers: [
         {
@@ -4191,9 +3822,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7763" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 134,
       answers: [
         {
@@ -4222,9 +3850,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7764" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 135,
       answers: [
         {
@@ -4253,9 +3878,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.5) translate(0,0)" src="/api/assets/7765" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 136,
       answers: [
         {
@@ -4284,9 +3906,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,20px)" src="/api/assets/7766" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 137,
       answers: [
         {
@@ -4315,9 +3934,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7767" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 138,
       answers: [
         {
@@ -4346,9 +3962,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7768" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 139,
       answers: [
         {
@@ -4377,9 +3990,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.4) translate(0,0)" src="/api/assets/7769" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 140,
       answers: [
         {
@@ -4408,9 +4018,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7770" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 141,
       answers: [
         {
@@ -4439,9 +4046,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.6) translate(0,0)" src="/api/assets/7771" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 142,
       answers: [
         {
@@ -4470,9 +4074,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,-35px)" src="/api/assets/7772" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 143,
       answers: [
         {
@@ -4501,9 +4102,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7773" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 144,
       answers: [
         {
@@ -4532,9 +4130,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.5) translate(0,0)" src="/api/assets/7774" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 145,
       answers: [
         {
@@ -4563,9 +4158,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.2) translate(0,0)" src="/api/assets/7852" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 146,
       answers: [
         {
@@ -4594,9 +4186,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,-35px)" src="/api/assets/7776" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 147,
       answers: [
         {
@@ -4631,9 +4220,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(4.0) translate(0,0)" src="/api/assets/7777" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 148,
       answers: [
         {
@@ -4668,9 +4254,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,-32px)" src="/api/assets/7778" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 149,
       answers: [
         {
@@ -4705,9 +4288,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7779" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 150,
       answers: [
         {
@@ -4736,9 +4316,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,-30px)" src="/api/assets/7780" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 151,
       answers: [
         {
@@ -4767,9 +4344,6 @@
       algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.9) translate(0,10px)" src="/api/assets/7848" />',
-      hint: '',
-      explanation: '',
-      notes: '',
       number: 152,
       answers: [
         {
@@ -4801,9 +4375,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7782" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 153,
       answers: [
         {
@@ -4832,9 +4403,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,10px)" src="/api/assets/7783" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 154,
       answers: [
         {
@@ -4863,9 +4431,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.4) translate(0,0)" src="/api/assets/7784" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 155,
       answers: [
         {
@@ -4894,9 +4459,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0% 0, 100% 0, 100% 100%, 0% 100%);transform:scale(1.5) translate(-25px,0)" src="/api/assets/7853" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 156,
       answers: [
         {
@@ -4925,9 +4487,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.8) translate(0,0)" src="/api/assets/7786" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 157,
       answers: [
         {
@@ -4956,9 +4515,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7787" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 158,
       answers: [
         {
@@ -4987,9 +4543,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,-30px)" src="/api/assets/7788" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 159,
       answers: [
         {
@@ -5018,9 +4571,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.5) translate(0,-30px)" src="/api/assets/7789" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 160,
       answers: [
         {
@@ -5049,9 +4599,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(-20px,0)" src="/api/assets/7790" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 161,
       answers: [
         {
@@ -5080,9 +4627,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7791" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 162,
       answers: [
         {
@@ -5111,9 +4655,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7792" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 163,
       answers: [
         {
@@ -5142,9 +4683,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7793" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 164,
       answers: [
         {
@@ -5173,9 +4711,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7794" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 165,
       answers: [
         {
@@ -5204,9 +4739,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(40.2% at 49% 49%);transform:scale(2.8) translate(0,0)" src="/api/assets/7795" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 166,
       answers: [
         {
@@ -5235,9 +4767,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,20px)" src="/api/assets/7796" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 167,
       answers: [
         {
@@ -5266,9 +4795,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:square(28.2% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7797" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 168,
       answers: [
         {
@@ -5297,9 +4823,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.8) translate(0,10px)" src="/api/assets/7798" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 169,
       answers: [
         {
@@ -5328,9 +4851,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.4) translate(0,-30px)" src="/api/assets/7799" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 170,
       answers: [
         {
@@ -5359,9 +4879,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7800" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 171,
       answers: [
         {
@@ -5390,9 +4907,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.5) translate(0,20px)" src="/api/assets/7849" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 172,
       answers: [
         {
@@ -5421,9 +4935,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7802" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 173,
       answers: [
         {
@@ -5452,9 +4963,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7803" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 174,
       answers: [
         {
@@ -5483,9 +4991,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7804" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 175,
       answers: [
         {
@@ -5514,9 +5019,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.8) translate(0,40px)" src="/api/assets/7855" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 176,
       answers: [
         {
@@ -5545,9 +5047,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.4) translate(0,0)" src="/api/assets/7806" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 177,
       answers: [
         {
@@ -5576,9 +5075,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.2) translate(0,0)" src="/api/assets/7807" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 178,
       answers: [
         {
@@ -5607,9 +5103,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0 0, 100% 1%, 100% 100%, 1% 100%);transform:scale(1.4) translate(0,-10px)" src="/api/assets/7808" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 179,
       answers: [
         {
@@ -5638,14 +5131,17 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7809" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 180,
       answers: [
         {
           text: 'Turkey',
           number: 1,
+          isCorrect: 0,
+          groupIndex: 1,
+        },
+        {
+          text: 'turkiye',
+          number: 2,
           isCorrect: 0,
           groupIndex: 1,
         },
@@ -5669,9 +5165,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,20px)" src="/api/assets/7810" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 181,
       answers: [
         {
@@ -5700,9 +5193,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.2) translate(0,0)" src="/api/assets/7811" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 182,
       answers: [
         {
@@ -5731,9 +5221,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.5) translate(0,0)" src="/api/assets/7856" />',
-      hint: '',
-      explanation: null,
-      notes: null,
       number: 183,
       answers: [
         {
@@ -5762,9 +5249,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7813" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 184,
       answers: [
         {
@@ -5793,9 +5277,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.8) translate(0,10px)" src="/api/assets/7814" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 185,
       answers: [
         {
@@ -5830,9 +5311,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7815" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 186,
       answers: [
         {
@@ -5867,9 +5345,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7816" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 187,
       answers: [
         {
@@ -5904,9 +5379,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7817" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 188,
       answers: [
         {
@@ -5935,9 +5407,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7818" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 189,
       answers: [
         {
@@ -5966,9 +5435,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(30px,0)" src="/api/assets/7819" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 190,
       answers: [
         {
@@ -5997,9 +5463,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.3) translate(0,-5px)" src="/api/assets/7820" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 191,
       answers: [
         {
@@ -6028,9 +5491,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7821" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 192,
       answers: [
         {
@@ -6059,9 +5519,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.5) translate(0,0)" src="/api/assets/7822" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 193,
       answers: [
         {
@@ -6090,9 +5547,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(3.0) translate(0,0)" src="/api/assets/7823" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 194,
       answers: [
         {
@@ -6121,9 +5575,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,-40px)" src="/api/assets/7824" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 195,
       answers: [
         {
@@ -6152,9 +5603,6 @@
       algo: 1,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,-10px)" src="/api/assets/7825" />',
-      hint: null,
-      explanation: null,
-      notes: null,
       number: 196,
       answers: [
         {
@@ -6183,9 +5631,6 @@
       algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,-10px)" src="/api/assets/7826" />',
-      hint: null,
-      explanation: '',
-      notes: 'style="circle(50%);transform:scale(2.0)"\n#debug1',
       number: 197,
       answers: [
         {
@@ -6202,12 +5647,14 @@
         caseSensitive: false,
       },
       deckId: '_1',
+      notes: 'style="circle(50%);transform:scale(2.0)"\n#debug1',
     },
     {
       type: 'share',
       expiration: '2026-08-15T00:05:06.000Z',
       defaultIsAdminMode: 1,
       defaultIsRandomMode: 1,
+      defaultIsManualScoringMode: 0,
       defaultIsTextToSpeechMode: 0,
       defaultIsSaveResponsesMode: 0,
       defaultIsPoolMultipleChoiceOptionsMode: 0,
