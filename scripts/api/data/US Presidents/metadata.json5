@@ -1,0 +1,16 @@
+{
+  objects: [
+    {
+      type: 'deck',
+      name: '1 card',
+      id: 1,
+      description: null,
+      synopsis: null,
+      notes: null,
+      textToSpeech: 0,
+      preface: 1,
+      feedback: 0,
+      showDontKnow: 0,
+    },
+  ],
+}

@@ -1,0 +1,124 @@
+{
+ objects: [
+  {
+   type: 'deck',
+   name: 'English to Spanish',
+   id: 45993,
+   description: '',
+   textToSpeech: 0,
+   preface: 0,
+   feedback: 0,
+   showDontKnow: 0,
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'English to Spanish',
+   question: '5768:I will find a way to see you, no matter what my mother says.',
+   hint: null,
+   answers: [
+    {
+     id: 25758,
+     text: 'Encontraré una manera de verte, diga lo que diga mi madre.',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'damerauLev',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69172,
+   deckId: '_45993',
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'English to Spanish',
+   question: "5767:No matter what my husband does, for my parents it's never enough.",
+   hint: null,
+   answers: [
+    {
+     id: 25759,
+     text: 'Haga lo que haga mi marido, para mis padres nunca es suficiente.',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'damerauLev',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69173,
+   deckId: '_45993',
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'English to Spanish',
+   question: '5766:She pretends to be alseep but she is afraid that her breath will betray her.',
+   hint: null,
+   answers: [
+    {
+     id: 25760,
+     text: 'Ella finge estar dormida, pero teme que su respiración la delate.',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'damerauLev',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69174,
+   deckId: '_45993',
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'English to Spanish',
+   question: '5765:His grave is in a corner of the cemetery, neglected and covered with grass.',
+   hint: null,
+   answers: [
+    {
+     id: 25761,
+     text: 'Su tumba está en un rincón del cementerio, descuidada y cubierta de hierba.',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'damerauLev',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69175,
+   deckId: '_45993',
+  },
+  {
+   type: 'card',
+   algo: 2,
+   deck: 'English to Spanish',
+   question: '5764:If we neglect health, health will neglect us.',
+   hint: null,
+   answers: [
+    {
+     id: 25762,
+     text: 'Si descuidamos la salud, la salud nos descuidará.',
+     number: 1,
+     isCorrect: 0,
+    },
+   ],
+   algoSettings: {
+    pdType: 'damerauLev',
+    threshold: 0.7,
+    caseSensitive: false,
+   },
+   id: 69176,
+   deckId: '_45993',
+  },
+ ],
+}
