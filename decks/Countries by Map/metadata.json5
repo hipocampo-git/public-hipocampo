@@ -23,10 +23,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7630" />',
-      number: 1,
+      number: 198,
       answers: [
         {
           text: 'Afghanistan',
@@ -36,6 +36,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -51,10 +54,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:square(100% at 64% 65%);transform:scale(3.0) translate(-15px,-40px)" src="/api/assets/7841" />',
-      number: 2,
+      number: 199,
       answers: [
         {
           text: 'Albania',
@@ -64,6 +67,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -79,10 +85,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(80% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7632" />',
-      number: 3,
+      number: 200,
       answers: [
         {
           text: 'Algeria',
@@ -92,6 +98,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -107,10 +116,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0 36%, 75% 36%, 75% 100%, 0% 100%);transform:scale(2.0) translate(30px,-30px)" src="/api/assets/7633" />',
-      number: 4,
+      number: 201,
       answers: [
         {
           text: 'Andorra',
@@ -120,6 +129,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -135,10 +147,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(2.0) translate(0,0)" src="/api/assets/7634" />',
-      number: 5,
+      number: 202,
       answers: [
         {
           text: 'Angola',
@@ -148,6 +160,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -163,10 +178,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(30% 37%, 100% 37%, 100% 100%, 30% 100%);transform:scale(2.0) translate(-40px,-40px)" src="/api/assets/7635" />',
-      number: 6,
+      number: 203,
       answers: [
         {
           text: 'Antigua and Barbuda ',
@@ -176,6 +191,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -191,10 +209,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(1.5) translate(0,0)" src="/api/assets/7636" />',
-      number: 7,
+      number: 204,
       answers: [
         {
           text: 'Argentina',
@@ -204,6 +222,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -219,10 +240,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:polygon(0 0, 71% 0, 71% 64%, 0 64%);transform:scale(2.0) translate(40px,35px)" src="/api/assets/7637" />',
-      number: 8,
+      number: 205,
       answers: [
         {
           text: 'Armenia',
@@ -232,6 +253,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -247,10 +271,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100%);transform:scale(1.3) translate(0,0)" src="/api/assets/7638" />',
-      number: 9,
+      number: 206,
       answers: [
         {
           text: 'Australia',
@@ -260,6 +284,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -275,10 +302,10 @@
     },
     {
       type: 'card',
-      algo: 1,
+      algo: 7,
       deck: 'Countries by Map',
       question: '<hipimg style="clip-path:circle(100% at 49% 49%);transform:scale(4.0) translate(2px,0)" src="/api/assets/7639" />',
-      number: 10,
+      number: 207,
       answers: [
         {
           text: 'Austria',
@@ -288,6 +315,9 @@
         },
       ],
       algoSettings: {
+        pdType: 'stringMatch',
+        threshold: 0.7,
+        ignoreOrder: false,
         caseSensitive: false,
       },
       deckId: '_1',
@@ -5651,7 +5681,7 @@
     },
     {
       type: 'share',
-      expiration: '2026-08-15T00:05:06.000Z',
+      expiration: '2026-08-15T07:05:06.000Z',
       defaultIsAdminMode: 1,
       defaultIsRandomMode: 1,
       defaultIsManualScoringMode: 0,
