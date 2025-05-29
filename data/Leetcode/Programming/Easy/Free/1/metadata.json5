@@ -1,0 +1,1341 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode - database (easy)",
+      "id": 1,
+      "description": null,
+      "synopsis": null,
+      "notes": null,
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/combine-two-tables/description/\" target=\"_blank\">175. Combine Two Tables</a>",
+      "number": 1,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse LEFT JOIN to include all persons regardless of whether they have an address",
+      "answers": [
+        {
+          "id": 131997,
+          "text": "LEFT JOIN to preserve all persons",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160562",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/employees-earning-more-than-their-managers/description/\" target=\"_blank\">181. Employees Earning More Than Their Managers</a>",
+      "number": 2,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse self join to compare employee salary with their manager's salary",
+      "answers": [
+        {
+          "id": 131998,
+          "text": "Self join with salary comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160563",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/duplicate-emails/description/\" target=\"_blank\">182. Duplicate Emails</a>",
+      "number": 3,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP BY with HAVING to find emails that appear more than once",
+      "answers": [
+        {
+          "id": 131999,
+          "text": "GROUP BY with HAVING count &gt; 1",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160564",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/customers-who-never-order/description/\" target=\"_blank\">183. Customers Who Never Order</a>",
+      "number": 4,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nFind customers with no matching orders using LEFT JOIN or subquery",
+      "answers": [
+        {
+          "id": 132000,
+          "text": "LEFT JOIN with NULL check or NOT EXISTS",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160565",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/delete-duplicate-emails/description/\" target=\"_blank\">196. Delete Duplicate Emails</a>",
+      "number": 5,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(1)\n\nUse self join or window functions to identify and delete duplicate emails while keeping the smallest id",
+      "answers": [
+        {
+          "id": 132001,
+          "text": "DELETE with self join or ROW_NUMBER()",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160566",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/rising-temperature/description/\" target=\"_blank\">197. Rising Temperature</a>",
+      "number": 6,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions or self join with date arithmetic to compare consecutive days",
+      "answers": [
+        {
+          "id": 132002,
+          "text": "LAG() or self join with DATEDIFF()",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160567",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/game-play-analysis-i/description/\" target=\"_blank\">511. Game Play Analysis I</a>",
+      "number": 7,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP BY or window functions to find earliest event date per player",
+      "answers": [
+        {
+          "id": 132003,
+          "text": "MIN() with GROUP BY or FIRST_VALUE()",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160568",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/employee-bonus/description/\" target=\"_blank\">577. Employee Bonus</a>",
+      "number": 8,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse LEFT JOIN to include all employees and filter bonus amount",
+      "answers": [
+        {
+          "id": 132004,
+          "text": "LEFT JOIN with bonus filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160569",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/find-customer-referee/description/\" target=\"_blank\">584. Find Customer Referee</a>",
+      "number": 9,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nFilter customers not referred by referee_id 2, including NULL values",
+      "answers": [
+        {
+          "id": 132005,
+          "text": "WHERE with NULL handling",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160570",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/description/\" target=\"_blank\">586. Customer Placing the Largest Number of Orders</a>",
+      "number": 10,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP BY to count orders and ORDER BY with LIMIT to find customer with most orders",
+      "answers": [
+        {
+          "id": 132006,
+          "text": "GROUP BY with ORDER BY and LIMIT",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160571",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/big-countries/description/\" target=\"_blank\">595. Big Countries</a>",
+      "number": 11,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse simple WHERE clause with OR conditions to filter countries",
+      "answers": [
+        {
+          "id": 132007,
+          "text": "Basic WHERE with multiple conditions",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160572",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/classes-more-than-5-students/description/\" target=\"_blank\">596. Classes More Than 5 Students</a>",
+      "number": 12,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP BY with HAVING to find classes with sufficient students",
+      "answers": [
+        {
+          "id": 132008,
+          "text": "GROUP BY with HAVING count",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160573",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/sales-person/description/\" target=\"_blank\">607. Sales Person</a>",
+      "number": 13,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse subquery or multiple joins to find salespeople not associated with specific company",
+      "answers": [
+        {
+          "id": 132009,
+          "text": "NOT IN subquery or LEFT JOIN with filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160574",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/triangle-judgement/description/\" target=\"_blank\">610. Triangle Judgement</a>",
+      "number": 14,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse CASE statement to check triangle inequality theorem",
+      "answers": [
+        {
+          "id": 132010,
+          "text": "CASE with triangle inequality conditions",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160575",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/biggest-single-number/description/\" target=\"_blank\">619. Biggest Single Number</a>",
+      "number": 15,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse subquery to find numbers appearing once and get maximum",
+      "answers": [
+        {
+          "id": 132011,
+          "text": "Subquery with GROUP BY and MAX",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160576",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/not-boring-movies/description/\" target=\"_blank\">620. Not Boring Movies</a>",
+      "number": 16,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFilter odd-numbered IDs and non-boring descriptions with ordering",
+      "answers": [
+        {
+          "id": 132012,
+          "text": "WHERE with MOD and ORDER BY",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160577",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/swap-salary/description/\" target=\"_blank\">627. Swap Salary</a>",
+      "number": 17,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)",
+      "answers": [
+        {
+          "id": 132013,
+          "text": "UPDATE with CASE for gender swap",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160578",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/\" target=\"_blank\">1050. Actors and Directors Who Cooperated at Least Three Times</a>",
+      "number": 18,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by actor and director pairs and count collaborations",
+      "answers": [
+        {
+          "id": 132014,
+          "text": "GROUP BY with HAVING ",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160579",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/product-sales-analysis-i/description/\" target=\"_blank\">1068. Product Sales Analysis I</a>",
+      "number": 19,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nSimple join between Sales and Product tables",
+      "answers": [
+        {
+          "id": 132015,
+          "text": "Basic JOIN operation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160580",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/project-employees-i/description/\" target=\"_blank\">1075. Project Employees I</a>",
+      "number": 20,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin tables and calculate average experience years per project",
+      "answers": [
+        {
+          "id": 132016,
+          "text": "JOIN with GROUP BY and AVG",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160581",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/sales-analysis-iii/description/\" target=\"_blank\">1084. Sales Analysis III</a>",
+      "number": 21,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind products sold only within a specific date range",
+      "answers": [
+        {
+          "id": 132017,
+          "text": "JOIN with date range filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160582",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/user-activity-for-the-past-30-days-i/description/\" target=\"_blank\">1141. User Activity for the Past 30 Days I</a>",
+      "number": 22,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nCount daily active users within date range",
+      "answers": [
+        {
+          "id": 132018,
+          "text": "GROUP BY with date filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160583",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/article-views-i/description/\" target=\"_blank\">1148. Article Views I</a>",
+      "number": 23,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind authors who viewed their own articles",
+      "answers": [
+        {
+          "id": 132019,
+          "text": "Self-matching with DISTINCT",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160584",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/reformat-department-table/description/\" target=\"_blank\">1179. Reformat Department Table</a>",
+      "number": 24,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nTransform rows into columns using conditional aggregation",
+      "answers": [
+        {
+          "id": 132020,
+          "text": "CASE with MAX for pivoting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160585",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/queries-quality-and-percentage/description/\" target=\"_blank\">1211. Queries Quality and Percentage</a>",
+      "number": 25,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate quality metrics and poor query percentage",
+      "answers": [
+        {
+          "id": 132021,
+          "text": "GROUP BY with multiple calculations",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160586",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/average-selling-price/description/\" target=\"_blank\">1251. Average Selling Price</a>",
+      "number": 26,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate weighted average price within date ranges",
+      "answers": [
+        {
+          "id": 132022,
+          "text": "JOIN with weighted average calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160587",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/students-and-examinations/description/\" target=\"_blank\">1280. Students and Examinations</a>",
+      "number": 27,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCount student attendance for each subject using cross join",
+      "answers": [
+        {
+          "id": 132081,
+          "text": "CROSS JOIN with LEFT JOIN counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160646",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/list-the-products-ordered-in-a-period/description/\" target=\"_blank\">1327. List the Products Ordered in a Period</a>",
+      "number": 28,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin orders with products and filter by month/year",
+      "answers": [
+        {
+          "id": 132082,
+          "text": "JOIN with date filtering and GROUP BY",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160647",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/\" target=\"_blank\">1378. Replace Employee ID with The Unique Identifier</a>",
+      "number": 29,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse LEFT JOIN to keep all employees even without EmployeeUNI",
+      "answers": [
+        {
+          "id": 132083,
+          "text": "LEFT JOIN with NULL handling",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160648",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/top-travellers/description/\" target=\"_blank\">1407. Top Travellers</a>",
+      "number": 30,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nLEFT JOIN rides and handle NULL distances with IFNULL/COALESCE",
+      "answers": [
+        {
+          "id": 132084,
+          "text": "LEFT JOIN with IFNULL and ORDER BY",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160649",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/group-sold-products-by-the-date/description/\" target=\"_blank\">1484. Group Sold Products By The Date</a>",
+      "number": 31,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP_CONCAT or STRING_AGG to combine product names",
+      "answers": [
+        {
+          "id": 132085,
+          "text": "GROUP BY with string aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160650",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/find-users-with-valid-e-mails/description/\" target=\"_blank\">1517. Find Users With Valid E-Mails</a>",
+      "number": 32,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse REGEXP to validate email format",
+      "answers": [
+        {
+          "id": 132086,
+          "text": "REGEXP pattern matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160651",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/patients-with-a-condition/description/\" target=\"_blank\">1527. Patients With a Condition</a>",
+      "number": 33,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse LIKE or REGEXP to match DIAB1 conditions",
+      "answers": [
+        {
+          "id": 132087,
+          "text": "Pattern matching with word boundaries",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160652",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/\" target=\"_blank\">1581. Customer Who Visited but Did Not Make Any Transactions</a>",
+      "number": 34,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse LEFT JOIN and filter where transaction_id is NULL",
+      "answers": [
+        {
+          "id": 132088,
+          "text": "LEFT JOIN with NULL filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160653",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/bank-account-summary-ii/description/\" target=\"_blank\">1587. Bank Account Summary II</a>",
+      "number": 35,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin users and transactions, sum amounts and filter by total",
+      "answers": [
+        {
+          "id": 132089,
+          "text": "JOIN with GROUP BY and HAVING",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160654",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/\" target=\"_blank\">1633. Percentage of Users Attended a Contest</a>",
+      "number": 36,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCount participants per contest and divide by total users",
+      "answers": [
+        {
+          "id": 132090,
+          "text": "Percentage calculation with ROUND",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160655",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/average-time-of-process-per-machine/description/\" target=\"_blank\">1661. Average Time of Process per Machine</a>",
+      "number": 37,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin start and end timestamps to calculate processing time",
+      "answers": [
+        {
+          "id": 132091,
+          "text": "Self join with timestamp subtraction",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160656",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/fix-names-in-a-table/description/\" target=\"_blank\">1667. Fix Names in a Table</a>",
+      "number": 38,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse string functions to capitalize first letter and lowercase rest",
+      "answers": [
+        {
+          "id": 132092,
+          "text": "CONCAT with string case functions",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160657",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/invalid-tweets/description/\" target=\"_blank\">1683. Invalid Tweets</a>",
+      "number": 39,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nFilter tweets where content length exceeds limit",
+      "answers": [
+        {
+          "id": 132093,
+          "text": "LENGTH or CHAR_LENGTH function",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160658",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/daily-leads-and-partners/description/\" target=\"_blank\">1693. Daily Leads and Partners</a>",
+      "number": 40,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by date and make_name, count distinct leads and partners",
+      "answers": [
+        {
+          "id": 132094,
+          "text": "GROUP BY with COUNT DISTINCT",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160659",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/find-followers-count/description/\" target=\"_blank\">1729. Find Followers Count</a>",
+      "number": 41,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by user and count followers",
+      "answers": [
+        {
+          "id": 132095,
+          "text": "GROUP BY with COUNT",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160660",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/\" target=\"_blank\">1731. The Number of Employees Which Report to Each Employee</a>",
+      "number": 42,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin employees table with itself to count reports",
+      "answers": [
+        {
+          "id": 132096,
+          "text": "Self join with GROUP BY",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160661",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/find-total-time-spent-by-each-employee/description/\" target=\"_blank\">1741. Find Total Time Spent by Each Employee</a>",
+      "number": 43,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by date and emp_id, sum time differences",
+      "answers": [
+        {
+          "id": 132097,
+          "text": "GROUP BY with time calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160662",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/recyclable-and-low-fat-products/description/\" target=\"_blank\">1757. Recyclable and Low Fat Products</a>",
+      "number": 44,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nFilter products that are both low fat and recyclable",
+      "answers": [
+        {
+          "id": 132098,
+          "text": "WHERE with multiple conditions",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160663",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/primary-department-for-each-employee/description/\" target=\"_blank\">1789. Primary Department for Each Employee</a>",
+      "number": 45,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse UNION to combine primary and single department employees",
+      "answers": [
+        {
+          "id": 132099,
+          "text": "UNION with subqueries",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160664",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/rearrange-products-table/description/\" target=\"_blank\">1795. Rearrange Products Table</a>",
+      "number": 46,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse UNION ALL to transform columns to rows",
+      "answers": [
+        {
+          "id": 132100,
+          "text": "UNION ALL for unpivoting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160665",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/calculate-special-bonus/description/\" target=\"_blank\">1873. Calculate Special Bonus</a>",
+      "number": 47,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse CASE to determine bonus based on conditions",
+      "answers": [
+        {
+          "id": 132101,
+          "text": "CASE expression with string check",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160666",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/the-latest-login-in-2020/description/\" target=\"_blank\">1890. The Latest Login in 2020</a>",
+      "number": 48,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFilter logins in 2020 and find max time per user",
+      "answers": [
+        {
+          "id": 132102,
+          "text": "YEAR function with MAX aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160667",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/employees-with-missing-information/description/\" target=\"_blank\">1965. Employees With Missing Information</a>",
+      "number": 49,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse UNION to find employees missing either salary or name",
+      "answers": [
+        {
+          "id": 132103,
+          "text": "UNION with LEFT JOINs",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160668",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/employees-whose-manager-left-the-company/description/\" target=\"_blank\">1978. Employees Whose Manager Left the Company</a>",
+      "number": 50,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind employees whose manager is not in company",
+      "answers": [
+        {
+          "id": 132104,
+          "text": "LEFT JOIN with salary threshold",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160669",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/\" target=\"_blank\">2356. Number of Unique Subjects Taught by Each Teacher</a>",
+      "number": 51,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by teacher and count distinct subjects",
+      "answers": [
+        {
+          "id": 132105,
+          "text": "GROUP BY with COUNT DISTINCT",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160670",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/find-valid-emails/description/\" target=\"_blank\">3436. Find Valid Emails</a>",
+      "number": 52,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse REGEXP to validate email format",
+      "answers": [
+        {
+          "id": 132106,
+          "text": "REGEXP pattern matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160671",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (easy)",
+      "question": "<a href=\"https://leetcode.com/problems/find-products-with-valid-serial-numbers/description/\" target=\"_blank\">3465. Find Products with Valid Serial Numbers</a>",
+      "number": 53,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse REGEXP to validate serial number format",
+      "answers": [
+        {
+          "id": 132107,
+          "text": "REGEXP pattern matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160672",
+      "deckId": "_1"
+    }
+  ]
+}
