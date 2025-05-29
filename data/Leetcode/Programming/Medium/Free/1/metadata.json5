@@ -1,0 +1,766 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode - database (medium)",
+      "id": 1,
+      "description": null,
+      "synopsis": null,
+      "notes": null,
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/exchange-seats/\" target=\"_blank\">626. Exchange Seats</a>",
+      "number": 2,
+      "hint": "Handle odd/even cases separately",
+      "notes": "Time complexity: O(n), Space complexity: O(n)",
+      "explanation": "",
+      "answers": [
+        {
+          "id": 131954,
+          "text": "Case-based swapping with ID manipulation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160519",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/\" target=\"_blank\">1285. Find the Start and End Number of Continuous Ranges</a>",
+      "number": 1,
+      "hint": "Track continuous ranges while iterating through sorted logs",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\n\nWindow functions perform calculations across rows that are related to the current row, without collapsing the result set (unlike GROUP BY).\nCommon ones include:\nROW_NUMBER()\nRANK()\nDENSE_RANK()\nLEAD(), LAG()\nSUM(), AVG(), MAX(), etc. with OVER (...)",
+      "answers": [
+        {
+          "id": 131958,
+          "text": "SQL window functions or self-join",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160523",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/find-product-recommendation-pairs/description/\" target=\"_blank\">Find Product Recommendation Pairs</a>",
+      "number": 3,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n²), Space complexity: O(n)\nSelf-join on the same table with conditions to avoid duplicate pairs and ensure proper ordering",
+      "answers": [
+        {
+          "id": 131969,
+          "text": "Self-join with filtering conditions",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160534",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/analyze-subscription-conversion/description/\" target=\"_blank\">3497. Analyze Subscription Conversion</a>",
+      "number": 4,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)",
+      "answers": [
+        {
+          "id": 131970,
+          "text": "LAG/LEAD window functions with state comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160535",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/dna-pattern-recognition/description/\" target=\"_blank\">3475. DNA Pattern Recognition</a>",
+      "number": 5,
+      "hint": "Use string functions and pattern matching",
+      "notes": "Time complexity: O(n), Space complexity: O(1)",
+      "explanation": "Utilize string manipulation functions to identify patterns in DNA sequences",
+      "answers": [
+        {
+          "id": 131971,
+          "text": "String pattern matching with LIKE/REGEXP",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160536",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/find-students-who-improved/description/\" target=\"_blank\">3421. Find Students Who Improved</a>",
+      "number": 6,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\nJoin and compare scores from different time periods to track improvement",
+      "answers": [
+        {
+          "id": 131972,
+          "text": "Self-join with comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160537",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/second-highest-salary-ii/description/\" target=\"_blank\">3338. Second Highest Salary II</a>",
+      "number": 7,
+      "hint": "Handle NULL cases and duplicates",
+      "notes": "Time complexity: O(n log n), Space complexity: O(1)",
+      "explanation": "Use window functions or subqueries to handle edge cases with NULL values",
+      "answers": [
+        {
+          "id": 131973,
+          "text": "DENSE_RANK or subquery with LIMIT/OFFSET",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160538",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/find-cities-in-each-state-ii/description/\" target=\"_blank\">3328. Find Cities in Each State II</a>",
+      "number": 8,
+      "hint": "Group and aggregate with conditions",
+      "notes": "Time complexity: O(n log n), Space complexity: O(n)",
+      "explanation": "Use GROUP BY with HAVING clause to filter aggregated results",
+      "answers": [
+        {
+          "id": 131974,
+          "text": "GROUP BY with conditional aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160539",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/nth-highest-salary/description/\" target=\"_blank\">177. Nth Highest Salary</a>",
+      "number": 9,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(1)\n\nUse variables in stored procedures and handle edge cases with IFNULL/COALESCE. Window functions like DENSE_RANK() can simplify the solution.",
+      "answers": [
+        {
+          "id": 131975,
+          "text": "Window functions or LIMIT with OFFSET",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160540",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/rank-scores/description/\" target=\"_blank\">178. Rank Scores</a>",
+      "number": 10,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nDifference between RANK(), DENSE_RANK(), and ROW_NUMBER() window functions for handling ties and gaps in ranking.",
+      "answers": [
+        {
+          "id": 131976,
+          "text": "DENSE_RANK() window function",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160541",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/consecutive-numbers/description/\" target=\"_blank\">180. Consecutive Numbers</a>",
+      "number": 11,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\n\nUse LAG/LEAD window functions or self-joins to compare consecutive rows. Window functions provide a cleaner solution.",
+      "answers": [
+        {
+          "id": 131977,
+          "text": "Window functions or triple self-join",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160542",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/department-highest-salary/description/\" target=\"_blank\">184. Department Highest Salary</a>",
+      "number": 12,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin tables and use window functions or subqueries to find maximum salary per department. Handle NULL values appropriately.",
+      "answers": [
+        {
+          "id": 131978,
+          "text": "JOIN with window functions or correlated subquery",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160543",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/game-play-analysis-iii/description/\" target=\"_blank\">534. Game Play Analysis III</a>",
+      "number": 13,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions with PARTITION BY and ORDER BY to calculate running totals per player.",
+      "answers": [
+        {
+          "id": 131979,
+          "text": "SUM() OVER (PARTITION BY ... ORDER BY ...)",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160544",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/game-play-analysis-iv/description/\" target=\"_blank\">550. Game Play Analysis IV</a>",
+      "number": 14,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions to identify first login dates and subsequent logins. Calculate fraction with proper rounding.",
+      "answers": [
+        {
+          "id": 131980,
+          "text": "Window functions with date comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160545",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/\" target=\"_blank\">570. Managers with at Least 5 Direct Reports</a>",
+      "number": 15,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse GROUP BY with HAVING clause or window functions to count direct reports per manager.",
+      "answers": [
+        {
+          "id": 131981,
+          "text": "GROUP BY with HAVING or window aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160546",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/winning-candidate/description/\" target=\"_blank\">574. Winning Candidate</a>",
+      "number": 16,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin tables and use aggregation to count votes. Handle ties appropriately with ORDER BY and LIMIT.",
+      "answers": [
+        {
+          "id": 131982,
+          "text": "JOIN with GROUP BY and vote counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160547",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/get-highest-answer-rate-question/description/\" target=\"_blank\">578. Get Highest Answer Rate Question</a>",
+      "number": 17,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate answer rate using conditional counting and handle division by zero cases.",
+      "answers": [
+        {
+          "id": 131983,
+          "text": "Conditional aggregation with rate calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160548",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/investments-in-2016/description/\" target=\"_blank\">585. Investments in 2016</a>",
+      "number": 18,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions or self-joins to find policies with same TIV_2015 but different locations.",
+      "answers": [
+        {
+          "id": 131984,
+          "text": "Window functions for duplicate detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160549",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/description/\" target=\"_blank\">602. Friend Requests II: Who Has the Most Friends</a>",
+      "number": 19,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse UNION ALL to combine requester and accepter columns, then GROUP BY to count total friends.",
+      "answers": [
+        {
+          "id": 131985,
+          "text": "UNION ALL with GROUP BY counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160550",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-times-a-driver-was-a-passenger/description/\" target=\"_blank\">3052. Number of Times a Driver Was a Passenger</a>",
+      "number": 20,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse LEFT JOIN to include all drivers and COUNT with COALESCE/IFNULL to handle drivers who were never passengers.",
+      "answers": [
+        {
+          "id": 131986,
+          "text": "LEFT JOIN with conditional counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160551",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/products-with-three-or-more-orders-in-two-consecutive-years/description/\" target=\"_blank\">3045. Products With Three or More Orders in Two Consecutive Years</a>",
+      "number": 21,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions to count orders per year and LAG/LEAD to compare consecutive years.",
+      "answers": [
+        {
+          "id": 131987,
+          "text": "Window functions with year-over-year comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160552",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/tasks-count-in-the-weekend/description/\" target=\"_blank\">3043. Tasks Count in the Weekend</a>",
+      "number": 22,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\n\nUse date functions (DAYOFWEEK, WEEKDAY) to identify weekends and conditional counting.",
+      "answers": [
+        {
+          "id": 131988,
+          "text": "Date functions with conditional aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160553",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/arrange-table-by-gender/description/\" target=\"_blank\">3051. Arrange Table by Gender</a>",
+      "number": 23,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse ROW_NUMBER() with custom ordering for gender and user_id to achieve specific arrangement.",
+      "answers": [
+        {
+          "id": 131989,
+          "text": "Window functions with custom ordering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160554",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/the-first-day-of-the-maximum-recorded-degree-in-each-city/description/\" target=\"_blank\">3061. The First Day of the Maximum Recorded Degree in Each City</a>",
+      "number": 24,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions to find max temperature per city and first occurrence of that temperature.",
+      "answers": [
+        {
+          "id": 131990,
+          "text": "Window functions with first value selection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160555",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/product-sales-analysis-iv/description/\" target=\"_blank\">2324. Product Sales Analysis IV</a>",
+      "number": 25,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions to rank products by total spent per user and filter for top products.",
+      "answers": [
+        {
+          "id": 131991,
+          "text": "Window functions with spending aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160556",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/compute-the-rank-as-a-percentage/description/\" target=\"_blank\">2346. Compute the Rank as a Percentage</a>",
+      "number": 26,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions for ranking and calculate percentage with proper rounding and total count.",
+      "answers": [
+        {
+          "id": 131992,
+          "text": "Window functions with percentage calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160557",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/description/\" target=\"_blank\">2372. Calculate the Influence of Each Salesperson</a>",
+      "number": 27,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse multiple JOINs to connect sales through customers and handle NULL values with COALESCE/IFNULL.",
+      "answers": [
+        {
+          "id": 131993,
+          "text": "Multiple JOINs with NULL handling",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160558",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value/description/\" target=\"_blank\">2388. Change Null Values in a Table to the Previous Value</a>",
+      "number": 28,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse window functions like LAST_VALUE to fill NULL values with most recent non-NULL value.",
+      "answers": [
+        {
+          "id": 131994,
+          "text": "Window functions for NULL value filling",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160559",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/employees-with-deductions/description/\" target=\"_blank\">2394. Employees With Deductions</a>",
+      "number": 29,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse time functions to calculate work duration and compare with expected hours.",
+      "answers": [
+        {
+          "id": 131995,
+          "text": "Time calculations with JOIN comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160560",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (medium)",
+      "question": "<a href=\"https://leetcode.com/problems/immediate-food-delivery-iii/description/\" target=\"_blank\">2686. Immediate Food Delivery III</a>",
+      "number": 30,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions to calculate running percentages of immediate deliveries by order date.",
+      "answers": [
+        {
+          "id": 131996,
+          "text": "Window functions with running percentages",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160561",
+      "deckId": "_1"
+    }
+  ]
+}
