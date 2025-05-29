@@ -1,0 +1,1391 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode database hard premium",
+      "id": 1,
+      "description": "Leetcode premium questions with a database topic and difficulty hard",
+      "synopsis": "Leetcode premium questions with a database topic and difficulty hard",
+      "notes": null,
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/median-employee-salary\" target=\"_blank\">569. Median Employee Salary</a>",
+      "number": 1,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind median salary using window functions and position calculation",
+      "answers": [
+        {
+          "id": 132166,
+          "text": "ROW_NUMBER with median position filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160731",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/find-median-given-frequency-of-numbers\" target=\"_blank\">571. Find Median Given Frequency of Numbers</a>",
+      "number": 2,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate median using running sum of frequencies",
+      "answers": [
+        {
+          "id": 132167,
+          "text": "Window functions with frequency accumulation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160732",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/find-cumulative-salary-of-an-employee\" target=\"_blank\">579. Find Cumulative Salary of an Employee</a>",
+      "number": 3,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate 3-month rolling sum excluding most recent month",
+      "answers": [
+        {
+          "id": 132168,
+          "text": "Window functions with rolling sum and exclusion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160733",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/average-salary-departments-vs-company\" target=\"_blank\">615. Average Salary: Departments VS Company</a>",
+      "number": 4,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCompare department averages with company average by month",
+      "answers": [
+        {
+          "id": 132169,
+          "text": "Window functions with multiple level averages",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160734",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/students-report-by-geography\" target=\"_blank\">618. Students Report By Geography</a>",
+      "number": 5,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCreate pivot table using row numbers for alignment",
+      "answers": [
+        {
+          "id": 132170,
+          "text": "ROW_NUMBER with conditional aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160735",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/game-play-analysis-v\" target=\"_blank\">1097. Game Play Analysis V</a>",
+      "number": 6,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate retention rate for players' first day",
+      "answers": [
+        {
+          "id": 132171,
+          "text": "First value and retention calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160736",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/user-purchase-platform\" target=\"_blank\">1127. User Purchase Platform</a>",
+      "number": 7,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nAnalyze user purchases across different platform combinations",
+      "answers": [
+        {
+          "id": 132172,
+          "text": "Cross join with platform grouping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160737",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/market-analysis-ii\" target=\"_blank\">1159. Market Analysis II</a>",
+      "number": 8,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind sellers whose second item matches their favorite brand",
+      "answers": [
+        {
+          "id": 132173,
+          "text": "ROW_NUMBER with category matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160738",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/tournament-winners\" target=\"_blank\">1194. Tournament Winners</a>",
+      "number": 9,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate group winners considering scoring rules and ties",
+      "answers": [
+        {
+          "id": 132174,
+          "text": "Window functions with score aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160739",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/report-contiguous-dates\" target=\"_blank\">1225. Report Contiguous Dates</a>",
+      "number": 10,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind continuous date ranges for different states",
+      "answers": [
+        {
+          "id": 132175,
+          "text": "Window functions for state change detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160740",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-transactions-per-visit\" target=\"_blank\">1336. Number of Transactions per Visit</a>",
+      "number": 11,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCount visits grouped by number of transactions",
+      "answers": [
+        {
+          "id": 132176,
+          "text": "Recursive CTE with transaction counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160741",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/get-the-second-most-recent-activity\" target=\"_blank\">1369. Get the Second Most Recent Activity</a>",
+      "number": 12,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind second most recent activity or most recent if only one exists",
+      "answers": [
+        {
+          "id": 132177,
+          "text": "ROW_NUMBER with UNION for single activity",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160742",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/total-sales-amount-by-year\" target=\"_blank\">1384. Total Sales Amount by Year</a>",
+      "number": 13,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate sales amounts split across multiple years",
+      "answers": [
+        {
+          "id": 132178,
+          "text": "Recursive CTE with date range splitting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160743",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/find-the-quiet-students-in-all-exams\" target=\"_blank\">1412. Find the Quiet Students in All Exams</a>",
+      "number": 14,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind students who were never highest or lowest in any exam",
+      "answers": [
+        {
+          "id": 132179,
+          "text": "Window functions with rank filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160744",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/sales-by-day-of-the-week\" target=\"_blank\">1479. Sales by Day of the Week</a>",
+      "number": 15,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCreate pivot table of sales by category and weekday",
+      "answers": [
+        {
+          "id": 132180,
+          "text": "CASE expressions with weekday grouping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160745",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/hopper-company-queries-i\" target=\"_blank\">1635. Hopper Company Queries I</a>",
+      "number": 16,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGenerate monthly report with recursive month series",
+      "answers": [
+        {
+          "id": 132181,
+          "text": "Recursive CTE with monthly aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160746",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/hopper-company-queries-ii\" target=\"_blank\">1645. Hopper Company Queries II</a>",
+      "number": 17,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate percentage of working drivers by month",
+      "answers": [
+        {
+          "id": 132182,
+          "text": "Recursive CTE with percentage calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160747",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/hopper-company-queries-iii\" target=\"_blank\">1651. Hopper Company Queries III</a>",
+      "number": 18,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate 3-month moving average of ride distance",
+      "answers": [
+        {
+          "id": 132183,
+          "text": "Window functions with moving average",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160748",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/find-the-subtasks-that-did-not-execute\" target=\"_blank\">1767. Find the Subtasks That Did Not Execute</a>",
+      "number": 19,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGenerate all subtasks and identify unexecuted ones",
+      "answers": [
+        {
+          "id": 132184,
+          "text": "Recursive CTE with anti join",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160749",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/page-recommendations-ii\" target=\"_blank\">1892. Page Recommendations II</a>",
+      "number": 20,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n²), Space complexity: O(n)\n\nFind pages liked by friends but not by user",
+      "answers": [
+        {
+          "id": 132185,
+          "text": "Multiple joins with friend filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160750",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/leetcodify-friends-recommendations\" target=\"_blank\">1917. Leetcodify Friends Recommendations</a>",
+      "number": 21,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n²), Space complexity: O(n)\n\nRecommend users based on shared listening patterns",
+      "answers": [
+        {
+          "id": 132186,
+          "text": "Self join with listening pattern analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160751",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/leetcodify-similar-friends\" target=\"_blank\">1919. Leetcodify Similar Friends</a>",
+      "number": 22,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n²), Space complexity: O(n)\n\nFind friend pairs who listened to same songs on same day",
+      "answers": [
+        {
+          "id": 132187,
+          "text": "Self join with multiple condition matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160752",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/first-and-last-call-on-the-same-day\" target=\"_blank\">1972. First and Last Call On the Same Day</a>",
+      "number": 23,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nIdentify users with matching first and last calls per day",
+      "answers": [
+        {
+          "id": 132188,
+          "text": "Window functions with first/last value",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160753",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company\" target=\"_blank\">2004. The Number of Seniors and Juniors to Join the Company</a>",
+      "number": 24,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nMaximize hiring within budget with senior priority",
+      "answers": [
+        {
+          "id": 132189,
+          "text": "Running sum with priority-based selection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160754",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company-ii\" target=\"_blank\">2010. The Number of Seniors and Juniors to Join the Company II</a>",
+      "number": 25,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind optimal hiring combination within budget",
+      "answers": [
+        {
+          "id": 132190,
+          "text": "Running sum with combination optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160755",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/build-the-equation\" target=\"_blank\">2118. Build the Equation</a>",
+      "number": 26,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nConstruct polynomial equation from terms",
+      "answers": [
+        {
+          "id": 132191,
+          "text": "String aggregation with term ordering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160756",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/the-number-of-passengers-in-each-bus-ii\" target=\"_blank\">2153. The Number of Passengers in Each Bus II</a>",
+      "number": 27,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nAllocate passengers to buses with capacity limits",
+      "answers": [
+        {
+          "id": 132192,
+          "text": "Window functions with capacity allocation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160757",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/longest-winning-streak\" target=\"_blank\">2173. Longest Winning Streak</a>",
+      "number": 28,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind longest streak of consecutive wins by player",
+      "answers": [
+        {
+          "id": 132193,
+          "text": "Window functions with streak calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160758",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/finding-the-topic-of-each-post\" target=\"_blank\">2199. Finding the Topic of Each Post</a>",
+      "number": 29,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nMatch posts with topics based on keywords",
+      "answers": [
+        {
+          "id": 132194,
+          "text": "String matching with topic aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160759",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/dynamic-pivoting-of-a-table\" target=\"_blank\">2252. Dynamic Pivoting of a Table</a>",
+      "number": 30,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCreate dynamic pivot table from row data",
+      "answers": [
+        {
+          "id": 132195,
+          "text": "Dynamic SQL with pivot operation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160760",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/dynamic-unpivoting-of-a-table\" target=\"_blank\">2253. Dynamic Unpivoting of a Table</a>",
+      "number": 31,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nConvert pivot table back to row format",
+      "answers": [
+        {
+          "id": 132196,
+          "text": "Dynamic SQL with unpivot operation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160761",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/generate-the-invoice\" target=\"_blank\">2362. Generate the Invoice</a>",
+      "number": 32,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGenerate invoice based on specific rules",
+      "answers": [
+        {
+          "id": 132197,
+          "text": "Multiple joins with rule application",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160762",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/customers-with-strictly-increasing-purchases\" target=\"_blank\">2474. Customers with Strictly Increasing Purchases</a>",
+      "number": 33,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind customers with strictly increasing yearly purchases",
+      "answers": [
+        {
+          "id": 132198,
+          "text": "Window functions with year-over-year comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160763",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/merge-overlapping-events-in-the-same-hall\" target=\"_blank\">2494. Merge Overlapping Events in the Same Hall</a>",
+      "number": 34,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nMerge overlapping events in same hall",
+      "answers": [
+        {
+          "id": 132199,
+          "text": "Window functions with interval merging",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160764",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/consecutive-transactions-with-increasing-amounts\" target=\"_blank\">2701. Consecutive Transactions with Increasing Amounts</a>",
+      "number": 35,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind consecutive transactions with increasing amounts",
+      "answers": [
+        {
+          "id": 132200,
+          "text": "Window functions with consecutive comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160765",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/popularity-percentage\" target=\"_blank\">2720. Popularity Percentage</a>",
+      "number": 36,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate percentage of total friends for each user",
+      "answers": [
+        {
+          "id": 132201,
+          "text": "Cross join with percentage calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160766",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/customers-with-maximum-number-of-transactions-on-consecutive-days\" target=\"_blank\">2752. Customers with Maximum Number of Transactions on Consecutive Days</a>",
+      "number": 37,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind customers with most consecutive transaction days",
+      "answers": [
+        {
+          "id": 132202,
+          "text": "Window functions with consecutive day counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160767",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/status-of-flight-tickets\" target=\"_blank\">2793. Status of Flight Tickets</a>",
+      "number": 38,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nDetermine ticket status based on capacity",
+      "answers": [
+        {
+          "id": 132203,
+          "text": "Window functions with capacity tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160768",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/top-three-wineries\" target=\"_blank\">2991. Top Three Wineries</a>",
+      "number": 39,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind top three wineries by total points",
+      "answers": [
+        {
+          "id": 132204,
+          "text": "Window functions with ranking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160769",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/friday-purchases-ii\" target=\"_blank\">2994. Friday Purchases II</a>",
+      "number": 40,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nAnalyze purchases made on Fridays",
+      "answers": [
+        {
+          "id": 132205,
+          "text": "Date filtering with aggregation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160770",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/viewers-turned-streamers\" target=\"_blank\">2995. Viewers Turned Streamers</a>",
+      "number": 41,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind viewers who became streamers",
+      "answers": [
+        {
+          "id": 132206,
+          "text": "Window functions with role change detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160771",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/maximize-items\" target=\"_blank\">3052. Maximize Items</a>",
+      "number": 42,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nMaximize number of items within budget",
+      "answers": [
+        {
+          "id": 132207,
+          "text": "Running sum with optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160772",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/employees-project-allocation\" target=\"_blank\">3057. Employees Project Allocation</a>",
+      "number": 43,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nAnalyze employee project allocations",
+      "answers": [
+        {
+          "id": 132208,
+          "text": "Window functions with allocation tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160773",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/user-activities-within-time-bounds\" target=\"_blank\">3060. User Activities Within Time Bounds</a>",
+      "number": 44,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nAnalyze user activities within time constraints",
+      "answers": [
+        {
+          "id": 132209,
+          "text": "Window functions with time filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160774",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/calculate-trapping-rain-water\" target=\"_blank\">3061. Calculate Trapping Rain Water</a>",
+      "number": 45,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate trapped water between elevations",
+      "answers": [
+        {
+          "id": 132210,
+          "text": "Window functions with water volume calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160775",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/find-trending-hashtags-ii\" target=\"_blank\">3103. Find Trending Hashtags II</a>",
+      "number": 46,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nIdentify trending hashtags based on usage",
+      "answers": [
+        {
+          "id": 132211,
+          "text": "Window functions with trend detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160776",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/employee-task-duration-and-concurrent-tasks\" target=\"_blank\">3156. Employee Task Duration and Concurrent Tasks</a>",
+      "number": 47,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nAnalyze task durations and concurrency",
+      "answers": [
+        {
+          "id": 132212,
+          "text": "Window functions with concurrency tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160777",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/find-top-scoring-students-ii\" target=\"_blank\">3188. Find Top Scoring Students II</a>",
+      "number": 48,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nIdentify top scoring students with criteria",
+      "answers": [
+        {
+          "id": 132213,
+          "text": "Window functions with score ranking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160778",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/year-on-year-growth-rate\" target=\"_blank\">3214. Year-on-Year Growth Rate</a>",
+      "number": 49,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate year-over-year growth rates",
+      "answers": [
+        {
+          "id": 132214,
+          "text": "Window functions with growth rate calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160779",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/ceo-subordinate-hierarchy\" target=\"_blank\">3236. CEO Subordinate Hierarchy</a>",
+      "number": 50,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nAnalyze organizational hierarchy from CEO down",
+      "answers": [
+        {
+          "id": 132215,
+          "text": "Recursive CTE with hierarchy traversal",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160780",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/find-overlapping-shifts-ii\" target=\"_blank\">3268. Find Overlapping Shifts II</a>",
+      "number": 51,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind overlapping shifts with multiple conditions",
+      "answers": [
+        {
+          "id": 132216,
+          "text": "Window functions with overlap detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160781",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/first-letter-capitalization\" target=\"_blank\">3368. First Letter Capitalization</a>",
+      "number": 52,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nApply specific capitalization rules to strings",
+      "answers": [
+        {
+          "id": 132217,
+          "text": "String manipulation with case rules",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160782",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/team-dominance-by-pass-success\" target=\"_blank\">3384. Team Dominance by Pass Success</a>",
+      "number": 53,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nAnalyze team dominance through pass success",
+      "answers": [
+        {
+          "id": 132218,
+          "text": "Window functions with success rate analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160783",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/longest-team-pass-streak\" target=\"_blank\">3390. Longest Team Pass Streak</a>",
+      "number": 54,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind longest streak of successful passes",
+      "answers": [
+        {
+          "id": 132219,
+          "text": "Window functions with streak tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160784",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode database hard premium",
+      "question": "<a href=\"https://leetcode.com/problems/find-circular-gift-exchange-chains\" target=\"_blank\">3401. Find Circular Gift Exchange Chains</a>",
+      "number": 55,
+      "hint": null,
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind circular chains in gift exchanges",
+      "answers": [
+        {
+          "id": 132220,
+          "text": "Recursive CTE with cycle detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160785",
+      "deckId": "_1"
+    }
+  ]
+}
