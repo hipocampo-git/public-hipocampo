@@ -1,0 +1,191 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode - database (hard)",
+      "id": 1,
+      "description": null,
+      "synopsis": null,
+      "notes": null,
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (hard)",
+      "question": "<a href=\"https://leetcode.com/problems/department-top-three-salaries\" target=\"_blank\">185. Department Top Three Salaries</a>",
+      "number": 1,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions to find top 3 salaries per department",
+      "answers": [
+        {
+          "id": 132023,
+          "text": "DENSE_RANK with department partitioning",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160588",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (hard)",
+      "question": "<a href=\"https://leetcode.com/problems/trips-and-users\" target=\"_blank\">262. Trips and Users</a>",
+      "number": 2,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate daily cancellation rates with proper rounding",
+      "answers": [
+        {
+          "id": 132024,
+          "text": "JOIN with conditional counting and division",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160589",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (hard)",
+      "question": "<a href=\"https://leetcode.com/problems/human-traffic-of-stadium\" target=\"_blank\">601. Human Traffic of Stadium</a>",
+      "number": 3,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind consecutive days with visitors above threshold",
+      "answers": [
+        {
+          "id": 132025,
+          "text": "Window functions or self joins for consecutive days",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160590",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (hard)",
+      "question": "<a href=\"https://leetcode.com/problems/first-letter-capitalization-ii\" target=\"_blank\">3374. First Letter Capitalization II</a>",
+      "number": 4,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nHandle string capitalization with complex conditions and word boundaries",
+      "answers": [
+        {
+          "id": 132026,
+          "text": "String functions with conditional capitalization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160591",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (hard)",
+      "question": "<a href=\"https://leetcode.com/problems/find-invalid-ip-addresses\" target=\"_blank\">3451. Find Invalid IP Addresses</a>",
+      "number": 5,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nParse and validate IP address components using string functions",
+      "answers": [
+        {
+          "id": 132027,
+          "text": "String parsing with multiple validation conditions",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160592",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (hard)",
+      "question": "<a href=\"https://leetcode.com/problems/analyze-organization-hierarchy\" target=\"_blank\">3482. Analyze Organization Hierarchy</a>",
+      "number": 6,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nImplement recursive CTE to traverse organization hierarchy and calculate levels",
+      "answers": [
+        {
+          "id": 132028,
+          "text": "Recursive CTE with level calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160593",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode - database (hard)",
+      "question": "<a href=\"https://leetcode.com/problems/find-category-recommendation-pairs\" target=\"_blank\">3554. Find Category Recommendation Pairs</a>",
+      "number": 7,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n²), Space complexity: O(n)\n\nUse self join with multiple conditions to find category pairs with shared interests",
+      "answers": [
+        {
+          "id": 132029,
+          "text": "Self join with interest overlap calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160594",
+      "deckId": "_1"
+    }
+  ]
+}
