@@ -5,3 +5,5 @@ scripts/api/deleteDeck/*.sh
 .idea
 logs
 node_modules
+.DS_Store
+

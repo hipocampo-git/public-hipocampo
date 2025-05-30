@@ -1,0 +1,1266 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode program easy free 4",
+      "id": 1,
+      "description": "Leetcode free programming questions, difficulty easy, part 4",
+      "synopsis": "Leetcode free programming questions, difficulty easy, part 4",
+      "notes": "Created with claude-3.7-sonnet",
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/shortest-completing-word\" target=\"_blank\">748. Shortest Completing Word</a>",
+      "number": 1,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count character frequencies in the license plate (ignoring digits and spaces), then check each word to see if it contains all required characters with at least the required frequencies.\nTime complexity: O(n*m), Space complexity: O(1)\nAlgorithms: Character counting, String matching\nData Structures: Hash map/Array\nKey concepts: Character frequency, Case insensitivity, Substring property",
+      "answers": [
+        {
+          "id": 132603,
+          "text": "Character frequency matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161167",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation\" target=\"_blank\">762. Prime Number of Set Bits in Binary Representation</a>",
+      "number": 2,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the number of set bits in the binary representation of each number in the range, then check if that count is a prime number.\nTime complexity: O((right-left) * log n), Space complexity: O(1)\nAlgorithms: Bit counting, Primality testing\nData Structures: Integer\nKey concepts: Binary representation, Prime numbers, Hamming weight",
+      "answers": [
+        {
+          "id": 132604,
+          "text": "Binary property verification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161168",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/toeplitz-matrix\" target=\"_blank\">766. Toeplitz Matrix</a>",
+      "number": 3,
+      "hint": null,
+      "notes": "",
+      "explanation": "Check if each element is equal to the one diagonally top-left to it, ensuring all elements along each diagonal are the same.\nTime complexity: O(m*n), Space complexity: O(1)\nAlgorithms: Matrix traversal, Diagonal checking\nData Structures: 2D array\nKey concepts: Diagonals, Matrix properties, Coordinate calculation",
+      "answers": [
+        {
+          "id": 132605,
+          "text": "Diagonal consistency checking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161169",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/jewels-and-stones\" target=\"_blank\">771. Jewels and Stones</a>",
+      "number": 4,
+      "hint": null,
+      "notes": "",
+      "explanation": "Create a set of jewel characters for O(1) lookups, then count how many characters in the stones string are present in the jewels set.\nTime complexity: O(J+S), Space complexity: O(J)\nAlgorithms: Set operations, Counting\nData Structures: Hash set\nKey concepts: Character matching, Set membership, Frequency counting",
+      "answers": [
+        {
+          "id": 132606,
+          "text": "Element presence verification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161170",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/minimum-distance-between-bst-nodes\" target=\"_blank\">783. Minimum Distance Between BST Nodes</a>",
+      "number": 5,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform an inorder traversal of the BST to get node values in ascending order, then find the minimum difference between consecutive values.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Inorder traversal, Linear scan\nData Structures: Binary search tree\nKey concepts: BST properties, Ordered traversal, Minimum difference",
+      "answers": [
+        {
+          "id": 132607,
+          "text": "Sorted value analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161171",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/rotate-string\" target=\"_blank\">796. Rotate String</a>",
+      "number": 6,
+      "hint": null,
+      "notes": "",
+      "explanation": "Check if the lengths match and if string B is a substring of string A concatenated with itself, which indicates A can become B through rotations.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: String manipulation, Pattern matching\nData Structures: String\nKey concepts: String rotation, Concatenation technique, Substring checking",
+      "answers": [
+        {
+          "id": 132608,
+          "text": "Circular pattern matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161172",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/unique-morse-code-words\" target=\"_blank\">804. Unique Morse Code Words</a>",
+      "number": 7,
+      "hint": null,
+      "notes": "",
+      "explanation": "Convert each word to its Morse code representation using a mapping array, then count the number of unique encoded strings using a set.\nTime complexity: O(n*k), Space complexity: O(n*k)\nAlgorithms: String transformation, Set operations\nData Structures: Hash set, String\nKey concepts: Character mapping, Unique counting, String transformation",
+      "answers": [
+        {
+          "id": 132609,
+          "text": "Transformed string uniqueness",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161173",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-lines-to-write-string\" target=\"_blank\">806. Number of Lines To Write String</a>",
+      "number": 8,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the width of each character according to the widths array, tracking line count and current line width, moving to a new line when exceeding 100 units.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Line wrapping, Linear scan\nData Structures: Array\nKey concepts: Character width, Line breaking, Accumulating width",
+      "answers": [
+        {
+          "id": 132610,
+          "text": "Text layout calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161174",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/largest-triangle-area\" target=\"_blank\">812. Largest Triangle Area</a>",
+      "number": 9,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the area of all possible triangles formed by any three points using Shoelace formula or Heron's formula, then return the maximum area found.\nTime complexity: O(n³), Space complexity: O(1)\nAlgorithms: Geometric calculation, Brute force\nData Structures: Array\nKey concepts: Triangle area, Coordinate geometry, Shoelace formula",
+      "answers": [
+        {
+          "id": 132611,
+          "text": "Geometric maximum calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161175",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/most-common-word\" target=\"_blank\">819. Most Common Word</a>",
+      "number": 10,
+      "hint": null,
+      "notes": "",
+      "explanation": "Normalize the paragraph by converting to lowercase and replacing punctuation with spaces, then count word frequencies excluding banned words.\nTime complexity: O(n+m), Space complexity: O(n+m)\nAlgorithms: String parsing, Frequency counting\nData Structures: Hash map, Hash set\nKey concepts: Text normalization, Word tokenization, Frequency analysis",
+      "answers": [
+        {
+          "id": 132612,
+          "text": "Filtered frequency counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161176",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/shortest-distance-to-a-character\" target=\"_blank\">821. Shortest Distance to a Character</a>",
+      "number": 11,
+      "hint": null,
+      "notes": "",
+      "explanation": "Make two passes through the string, first left to right and then right to left, to find the minimum distance from each position to the nearest occurrence of the target character.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Two-pass scan, Distance calculation\nData Structures: Array\nKey concepts: Distance minimization, Multi-directional scanning, Character matching",
+      "answers": [
+        {
+          "id": 132613,
+          "text": "Bidirectional distance calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161177",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/goat-latin\" target=\"_blank\">824. Goat Latin</a>",
+      "number": 12,
+      "hint": null,
+      "notes": "",
+      "explanation": "Split the sentence into words and transform each word according to the rules: vowel-starting words add 'ma', consonant-starting words move first letter to end and add 'ma', then add 'a's based on word position.\nTime complexity: O(n²), Space complexity: O(n²)\nAlgorithms: String manipulation, Word transformation\nData Structures: String, Array\nKey concepts: Vowel detection, String concatenation, Position-based transformation",
+      "answers": [
+        {
+          "id": 132614,
+          "text": "Rule-based word transformation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161178",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/positions-of-large-groups\" target=\"_blank\">830. Positions of Large Groups</a>",
+      "number": 13,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the string keeping track of the start of each group of identical characters, and record those groups that have length 3 or more.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Two-pointer technique, Linear scan\nData Structures: Array\nKey concepts: Group detection, Consecutive characters, Interval recording",
+      "answers": [
+        {
+          "id": 132615,
+          "text": "Consecutive element grouping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161179",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/flipping-an-image\" target=\"_blank\">832. Flipping an Image</a>",
+      "number": 14,
+      "hint": null,
+      "notes": "",
+      "explanation": "Reverse each row of the image matrix, then invert the values (0 becomes 1, 1 becomes 0) in a single pass through each row.\nTime complexity: O(n*m), Space complexity: O(1)\nAlgorithms: Array manipulation, In-place modification\nData Structures: 2D array\nKey concepts: Horizontal flipping, Bit inversion, Matrix transformation",
+      "answers": [
+        {
+          "id": 132616,
+          "text": "Matrix transformation sequence",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161180",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/rectangle-overlap\" target=\"_blank\">836. Rectangle Overlap</a>",
+      "number": 15,
+      "hint": null,
+      "notes": "",
+      "explanation": "Check if the rectangles overlap by verifying that one rectangle is not to the left, right, top, or bottom of the other rectangle.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Geometric calculation, Overlap detection\nData Structures: Integer variables\nKey concepts: Rectangle properties, Coordinate comparison, Overlap conditions",
+      "answers": [
+        {
+          "id": 132617,
+          "text": "Geometric intersection testing",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161181",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/backspace-string-compare\" target=\"_blank\">844. Backspace String Compare</a>",
+      "number": 16,
+      "hint": null,
+      "notes": "",
+      "explanation": "Process both strings by simulating the backspace operation, either by building the final strings or by comparing characters from right to left.\nTime complexity: O(n+m), Space complexity: O(n+m) or O(1) with two-pointer approach\nAlgorithms: Stack simulation, Two-pointer technique\nData Structures: String, Stack\nKey concepts: Backspace processing, Character deletion, String comparison",
+      "answers": [
+        {
+          "id": 132618,
+          "text": "Editing operation simulation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161182",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/buddy-strings\" target=\"_blank\">859. Buddy Strings</a>",
+      "number": 17,
+      "hint": null,
+      "notes": "",
+      "explanation": "Check if strings are equal with repeated characters (can swap same chars) or if they differ in exactly two positions where swapping would make them equal.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Character matching, Difference counting\nData Structures: String, Set\nKey concepts: String comparison, Character swapping, Duplicate detection",
+      "answers": [
+        {
+          "id": 132619,
+          "text": "Character swap possibility checking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161183",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/lemonade-change\" target=\"_blank\">860. Lemonade Change</a>",
+      "number": 18,
+      "hint": null,
+      "notes": "",
+      "explanation": "Simulate the transaction process by keeping track of available bills of each denomination, ensuring you can give correct change for each customer.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Greedy approach, Simulation\nData Structures: Integer counters\nKey concepts: Change making, Bill counting, Transaction processing",
+      "answers": [
+        {
+          "id": 132620,
+          "text": "Transaction sequence simulation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161184",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/transpose-matrix\" target=\"_blank\">867. Transpose Matrix</a>",
+      "number": 19,
+      "hint": null,
+      "notes": "",
+      "explanation": "Create a new matrix with dimensions swapped and copy elements from original[i][j] to transposed[j][i] for all positions.\nTime complexity: O(m*n), Space complexity: O(m*n)\nAlgorithms: Matrix traversal, Transpose operation\nData Structures: 2D array\nKey concepts: Matrix transformation, Dimension swapping, Element relocation",
+      "answers": [
+        {
+          "id": 132621,
+          "text": "Matrix dimension interchange",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161185",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/binary-gap\" target=\"_blank\">868. Binary Gap</a>",
+      "number": 20,
+      "hint": null,
+      "notes": "",
+      "explanation": "Convert the number to binary and find the maximum distance between any two consecutive 1 bits in its binary representation.\nTime complexity: O(log n), Space complexity: O(log n)\nAlgorithms: Bit manipulation, Distance calculation\nData Structures: Binary representation\nKey concepts: Binary gaps, Set bit positions, Maximum distance",
+      "answers": [
+        {
+          "id": 132622,
+          "text": "Binary representation analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161186",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/leaf-similar-trees\" target=\"_blank\">872. Leaf-Similar Trees</a>",
+      "number": 21,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform depth-first traversal on both trees to collect their leaf value sequences, then compare if the sequences are identical.\nTime complexity: O(n+m), Space complexity: O(n+m)\nAlgorithms: Depth-first search, Tree traversal\nData Structures: Binary tree, Array\nKey concepts: Leaf nodes, Sequence generation, Tree comparison",
+      "answers": [
+        {
+          "id": 132623,
+          "text": "Tree structure sequence comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161187",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/middle-of-the-linked-list\" target=\"_blank\">876. Middle of the Linked List</a>",
+      "number": 22,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use the fast and slow pointer technique where the fast pointer moves twice as fast as the slow pointer, when the fast pointer reaches the end, the slow pointer will be at the middle.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, Fast and slow pointers\nData Structures: Linked list\nKey concepts: Middle finding, Dual-speed traversal, Single-pass algorithm",
+      "answers": [
+        {
+          "id": 132624,
+          "text": "Two-speed pointer approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161188",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/projection-area-of-3d-shapes\" target=\"_blank\">883. Projection Area of 3D Shapes</a>",
+      "number": 23,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the three projections separately: top view (count non-zero cells), front view (maximum in each column), and side view (maximum in each row).\nTime complexity: O(n²), Space complexity: O(1)\nAlgorithms: Matrix traversal, Maximum finding\nData Structures: 2D array\nKey concepts: 3D projection, Area calculation, Orthogonal views",
+      "answers": [
+        {
+          "id": 132625,
+          "text": "Multi-dimensional projection calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161189",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/uncommon-words-from-two-sentences\" target=\"_blank\">884. Uncommon Words from Two Sentences</a>",
+      "number": 24,
+      "hint": null,
+      "notes": "",
+      "explanation": "Combine both sentences, count the frequency of each word, and return words that appear exactly once as these are the uncommon words.\nTime complexity: O(n+m), Space complexity: O(n+m)\nAlgorithms: String splitting, Frequency counting\nData Structures: Hash map\nKey concepts: Word frequency, Sentence combination, Unique word detection",
+      "answers": [
+        {
+          "id": 132626,
+          "text": "Frequency-based word filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161190",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/fair-candy-swap\" target=\"_blank\">888. Fair Candy Swap</a>",
+      "number": 25,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the sum difference between the two arrays, then find a pair of elements whose difference is half the sum difference, which would balance the arrays when swapped.\nTime complexity: O(n+m), Space complexity: O(n)\nAlgorithms: Hash set lookup, Mathematical equation\nData Structures: Hash set\nKey concepts: Array balancing, Pair finding, Sum difference",
+      "answers": [
+        {
+          "id": 132627,
+          "text": "Balanced exchange identification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161191",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/surface-area-of-3d-shapes\" target=\"_blank\">892. Surface Area of 3D Shapes</a>",
+      "number": 26,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the surface area by considering the contribution of each cell (top, bottom, and visible sides) while accounting for adjacent cells that may hide some faces.\nTime complexity: O(n²), Space complexity: O(1)\nAlgorithms: Grid traversal, Area calculation\nData Structures: 2D array\nKey concepts: Surface area, Adjacent faces, Visible faces",
+      "answers": [
+        {
+          "id": 132628,
+          "text": "Visible face counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161192",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/monotonic-array\" target=\"_blank\">896. Monotonic Array</a>",
+      "number": 27,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the array once to check if it's entirely non-increasing or entirely non-decreasing by comparing adjacent elements.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linear scan, Trend analysis\nData Structures: Array\nKey concepts: Monotonicity, Trend detection, Array properties",
+      "answers": [
+        {
+          "id": 132629,
+          "text": "Directional consistency checking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161193",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/increasing-order-search-tree\" target=\"_blank\">897. Increasing Order Search Tree</a>",
+      "number": 28,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform an inorder traversal of the BST while reconstructing the tree so that each node's left is null and right points to the next node in the inorder sequence.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Inorder traversal, Tree restructuring\nData Structures: Binary search tree\nKey concepts: Tree flattening, Inorder sequence, Right-skewed tree",
+      "answers": [
+        {
+          "id": 132630,
+          "text": "Tree structure linearization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161194",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/sort-array-by-parity\" target=\"_blank\">905. Sort Array By Parity</a>",
+      "number": 29,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use two pointers to rearrange the array in-place so that all even numbers come before odd numbers, by swapping elements when necessary.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, In-place partitioning\nData Structures: Array\nKey concepts: Parity separation, In-place rearrangement, Relative ordering",
+      "answers": [
+        {
+          "id": 132631,
+          "text": "Property-based array partitioning",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161195",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/smallest-range-i\" target=\"_blank\">908. Smallest Range I</a>",
+      "number": 30,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find the minimum and maximum values in the array. If their difference is less than or equal to 2*K, the result is 0; otherwise, the result is the difference minus 2*K.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Min-max finding, Mathematical calculation\nData Structures: Array\nKey concepts: Range manipulation, Extreme values, Gap minimization",
+      "answers": [
+        {
+          "id": 132632,
+          "text": "Value range adjustment",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161196",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards\" target=\"_blank\">914. X of a Kind in a Deck of Cards</a>",
+      "number": 31,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the frequency of each card value, then find the greatest common divisor (GCD) of all frequencies. If the GCD is at least 2, the deck can be divided as required.\nTime complexity: O(n + m log m), Space complexity: O(m)\nAlgorithms: Frequency counting, GCD calculation\nData Structures: Hash map\nKey concepts: Greatest common divisor, Frequency analysis, Group division",
+      "answers": [
+        {
+          "id": 132633,
+          "text": "Common divisibility analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161197",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/reverse-only-letters\" target=\"_blank\">917. Reverse Only Letters</a>",
+      "number": 32,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use two pointers from both ends of the string, swapping only alphabetic characters while skipping non-alphabetic ones until the pointers meet.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Two-pointer technique, Character swapping\nData Structures: String, Character array\nKey concepts: Letter identification, Selective reversal, Pointer manipulation",
+      "answers": [
+        {
+          "id": 132634,
+          "text": "Selective character reversal",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161198",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/sort-array-by-parity-ii\" target=\"_blank\">922. Sort Array By Parity II</a>",
+      "number": 33,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use two pointers to track positions for even and odd numbers, then place each number at the appropriate position based on its parity.\nTime complexity: O(n), Space complexity: O(n) or O(1) with in-place approach\nAlgorithms: Two-pointer technique, Parity checking\nData Structures: Array\nKey concepts: Even-odd alternation, Index manipulation, Parity sorting",
+      "answers": [
+        {
+          "id": 132635,
+          "text": "Position-based value arrangement",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161199",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/long-pressed-name\" target=\"_blank\">925. Long Pressed Name</a>",
+      "number": 34,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use two pointers to compare characters in both strings, allowing repeated characters in the typed string as long as they correspond to the same character in the name.\nTime complexity: O(n+m), Space complexity: O(1)\nAlgorithms: Two-pointer technique, String comparison\nData Structures: String\nKey concepts: Character matching, Repeated character handling, Sequential comparison",
+      "answers": [
+        {
+          "id": 132636,
+          "text": "Extended character matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161200",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/unique-email-addresses\" target=\"_blank\">929. Unique Email Addresses</a>",
+      "number": 35,
+      "hint": null,
+      "notes": "",
+      "explanation": "Process each email by removing dots from the local part, ignoring everything after a plus sign, then count unique normalized addresses using a set.\nTime complexity: O(n*m), Space complexity: O(n*m)\nAlgorithms: String parsing, Set operations\nData Structures: Hash set, String\nKey concepts: Email normalization, Character filtering, Unique counting",
+      "answers": [
+        {
+          "id": 132637,
+          "text": "String normalization and deduplication",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161201",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-recent-calls\" target=\"_blank\">933. Number of Recent Calls</a>",
+      "number": 36,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a queue to store ping timestamps, removing older timestamps that fall outside the 3000ms window before counting the size of the queue.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Queue operations, Sliding window\nData Structures: Queue\nKey concepts: Time window, FIFO operations, Request counting",
+      "answers": [
+        {
+          "id": 132638,
+          "text": "Time-window filtering approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161202",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/range-sum-of-bst\" target=\"_blank\">938. Range Sum of BST</a>",
+      "number": 37,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the BST and sum values that fall within the given range [low, high], using BST properties to skip branches that cannot contain values in the range.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, BST traversal\nData Structures: Binary search tree\nKey concepts: Range filtering, BST properties, Value accumulation",
+      "answers": [
+        {
+          "id": 132639,
+          "text": "Constrained tree value summation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161203",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/valid-mountain-array\" target=\"_blank\">941. Valid Mountain Array</a>",
+      "number": 38,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the array to find a peak, ensuring the array strictly increases to the peak and then strictly decreases afterward, with the peak not at either end.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linear scan, Peak finding\nData Structures: Array\nKey concepts: Mountain pattern, Strictly monotonic segments, Peak detection",
+      "answers": [
+        {
+          "id": 132640,
+          "text": "Bidirectional trend validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161204",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/di-string-match\" target=\"_blank\">942. DI String Match</a>",
+      "number": 39,
+      "hint": null,
+      "notes": "",
+      "explanation": "Maintain low and high pointers at 0 and n. For 'I', take the current low value and increment it; for 'D', take the current high value and decrement it.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Greedy approach, Two-pointer technique\nData Structures: Array\nKey concepts: Permutation generation, Pattern matching, Boundary tracking",
+      "answers": [
+        {
+          "id": 132641,
+          "text": "Pattern-guided value assignment",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161205",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/delete-columns-to-make-sorted\" target=\"_blank\">944. Delete Columns to Make Sorted</a>",
+      "number": 40,
+      "hint": null,
+      "notes": "",
+      "explanation": "Check each column of the grid to see if it is sorted in non-decreasing order, counting the number of columns that need to be deleted (those that are not sorted).\nTime complexity: O(n*m), Space complexity: O(1)\nAlgorithms: Matrix traversal, Column checking\nData Structures: 2D array\nKey concepts: Column-wise traversal, Lexicographical order, Column deletion",
+      "answers": [
+        {
+          "id": 132642,
+          "text": "Column-wise order verification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161206",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/verifying-an-alien-dictionary\" target=\"_blank\">953. Verifying an Alien Dictionary</a>",
+      "number": 41,
+      "hint": null,
+      "notes": "",
+      "explanation": "Create a mapping of alien characters to their lexicographical order, then check if each adjacent pair of words in the array is sorted according to this ordering.\nTime complexity: O(n*m), Space complexity: O(1)\nAlgorithms: String comparison, Custom sorting\nData Structures: Hash map, Array\nKey concepts: Lexicographical order, Character mapping, Sorted verification",
+      "answers": [
+        {
+          "id": 132643,
+          "text": "Custom order validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161207",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/n-repeated-element-in-size-2n-array\" target=\"_blank\">961. N-Repeated Element in Size 2N Array</a>",
+      "number": 42,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find the element that appears n times in an array of size 2n by either using a hash set to track seen elements or checking adjacent elements and elements at small distances.\nTime complexity: O(n), Space complexity: O(n) or O(1) with optimized approach\nAlgorithms: Hash set lookup, Pigeonhole principle\nData Structures: Hash set, Array\nKey concepts: Duplicate detection, Array properties, Frequency analysis",
+      "answers": [
+        {
+          "id": 132644,
+          "text": "Repeated element identification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161208",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/univalued-binary-tree\" target=\"_blank\">965. Univalued Binary Tree</a>",
+      "number": 43,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the tree and check if all nodes have the same value as the root node, returning false as soon as a different value is found.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, Tree traversal\nData Structures: Binary tree\nKey concepts: Value equality, Tree traversal, Early termination",
+      "answers": [
+        {
+          "id": 132645,
+          "text": "Tree value uniformity checking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161209",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/largest-perimeter-triangle\" target=\"_blank\">976. Largest Perimeter Triangle</a>",
+      "number": 44,
+      "hint": null,
+      "notes": "",
+      "explanation": "Sort the array in descending order, then check each consecutive triplet of sides to find the first valid triangle with the largest perimeter.\nTime complexity: O(n log n), Space complexity: O(1)\nAlgorithms: Sorting, Triangle inequality\nData Structures: Array\nKey concepts: Triangle validity, Perimeter maximization, Greedy approach",
+      "answers": [
+        {
+          "id": 132646,
+          "text": "Triangle formation maximization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161210",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/squares-of-a-sorted-array\" target=\"_blank\">977. Squares of a Sorted Array</a>",
+      "number": 45,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use two pointers starting from both ends of the array, comparing the absolute values and placing the larger squared value in the result array from right to left.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Two-pointer technique, Merge approach\nData Structures: Array\nKey concepts: Squared values, Sorted merge, Absolute value comparison",
+      "answers": [
+        {
+          "id": 132647,
+          "text": "Dual-end value processing",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161211",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/add-to-array-form-of-integer\" target=\"_blank\">989. Add to Array-Form of Integer</a>",
+      "number": 46,
+      "hint": null,
+      "notes": "",
+      "explanation": "Add K to the array representation of the number digit by digit from right to left, handling carries appropriately as in regular addition.\nTime complexity: O(max(n, log k)), Space complexity: O(max(n, log k))\nAlgorithms: Digit-by-digit addition, Carry propagation\nData Structures: Array\nKey concepts: Array-form arithmetic, Digit manipulation, Carry handling",
+      "answers": [
+        {
+          "id": 132648,
+          "text": "Array-based numeric addition",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161212",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/cousins-in-binary-tree\" target=\"_blank\">993. Cousins in Binary Tree</a>",
+      "number": 47,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform a tree traversal to find the depth and parent of each target node, then check if the depths are the same but the parents are different.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, Breadth-first search\nData Structures: Binary tree, Queue\nKey concepts: Tree relationships, Depth tracking, Parent identification",
+      "answers": [
+        {
+          "id": 132649,
+          "text": "Tree relationship verification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161213",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/find-the-town-judge\" target=\"_blank\">997. Find the Town Judge</a>",
+      "number": 48,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count incoming and outgoing trust relationships for each person. The judge is trusted by everyone else (n-1 people) and trusts nobody.\nTime complexity: O(n+e), Space complexity: O(n)\nAlgorithms: Graph degree counting, Trust verification\nData Structures: Array\nKey concepts: Graph indegree/outdegree, Trust relationships, Person identification",
+      "answers": [
+        {
+          "id": 132650,
+          "text": "Trust relationship analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161214",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/available-captures-for-rook\" target=\"_blank\">999. Available Captures for Rook</a>",
+      "number": 49,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find the rook's position, then look in all four directions (up, down, left, right) to count pawns that can be captured by the rook.\nTime complexity: O(n²), Space complexity: O(1)\nAlgorithms: Grid traversal, Direction search\nData Structures: 2D array\nKey concepts: Chess rules, Direction exploration, Piece capture",
+      "answers": [
+        {
+          "id": 132651,
+          "text": "Directional search pattern",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161215",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 4",
+      "question": "<a href=\"https://leetcode.com/problems/find-common-characters\" target=\"_blank\">1002. Find Common Characters</a>",
+      "number": 50,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the frequency of each character in each string, then find the minimum frequency of each character across all strings to determine common characters.\nTime complexity: O(n*m), Space complexity: O(1)\nAlgorithms: Frequency counting, Intersection finding\nData Structures: Array, Hash map\nKey concepts: Character frequency, Common element detection, Minimum occurrence",
+      "answers": [
+        {
+          "id": 132652,
+          "text": "Frequency intersection calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161216",
+      "deckId": "_1"
+    }
+  ]
+}

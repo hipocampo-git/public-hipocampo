@@ -1,0 +1,1266 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode program med free 6",
+      "id": 1,
+      "description": "Leetcode free programming questions, difficulty medium",
+      "synopsis": "Leetcode free programming questions, difficulty medium",
+      "notes": "Created with Claude 3.7 Sonnet\nSeeing lots of overly specific answers",
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/optimal-division\" target=\"_blank\">553. Optimal Division</a>",
+      "number": 1,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use mathematical observation that maximum result is achieved by dividing first number by minimum of remaining division chain. Add parentheses around all numbers after second number to force sequential division.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Mathematical optimization\nData Structures: String\nKey concepts: Expression optimization, Division properties, String manipulation",
+      "answers": [
+        {
+          "id": 134035,
+          "text": "Mathematical expression optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162564",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/brick-wall\" target=\"_blank\">554. Brick Wall</a>",
+      "number": 2,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use hash map to count edges at each position. For each row, track cumulative width and increment count at each edge position. Maximum edge count represents minimum bricks to cross.\nTime complexity: O(n*m) where n is rows and m is bricks per row, Space complexity: O(w) where w is wall width\nAlgorithms: Hash mapping\nData Structures: Hash Map\nKey concepts: Edge counting, Prefix sums, Optimal path finding",
+      "answers": [
+        {
+          "id": 134036,
+          "text": "Edge frequency counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162565",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/next-greater-element-iii\" target=\"_blank\">556. Next Greater Element III</a>",
+      "number": 3,
+      "hint": null,
+      "notes": "",
+      "explanation": "Convert number to array of digits. Find rightmost digit that's smaller than its next digit. Find smallest digit on right that's greater than it. Swap them and reverse remaining digits. Handle integer overflow.\nTime complexity: O(log n), Space complexity: O(log n)\nAlgorithms: Next permutation\nData Structures: Array\nKey concepts: Digit manipulation, Permutation generation, Integer bounds",
+      "answers": [
+        {
+          "id": 134037,
+          "text": "Next permutation algorithm",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162566",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees\" target=\"_blank\">558. Logical OR of Two Binary Grids Represented as Quad-Trees</a>",
+      "number": 4,
+      "hint": null,
+      "notes": "",
+      "explanation": "Recursively process quad tree nodes. If either node is leaf with value 1, result is leaf with value 1. If either is leaf with value 0, return other node. Otherwise, recursively process all four children.\nTime complexity: O(n) where n is number of nodes, Space complexity: O(h) where h is tree height\nAlgorithms: Divide and conquer, Tree traversal\nData Structures: Quad Tree\nKey concepts: Tree merging, Logical operations, Recursive processing",
+      "answers": [
+        {
+          "id": 134038,
+          "text": "Recursive quad tree merging",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162567",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/subarray-sum-equals-k\" target=\"_blank\">560. Subarray Sum Equals K</a>",
+      "number": 5,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use prefix sum with hash map. Track running sum and count of each sum seen. For each sum, check if (sum - k) exists in map to find subarrays summing to k.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Prefix sum, Hash mapping\nData Structures: Hash Map, Array\nKey concepts: Cumulative sum, Subarray counting, Difference tracking",
+      "answers": [
+        {
+          "id": 134039,
+          "text": "Prefix sum with hash map",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162568",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/array-nesting\" target=\"_blank\">565. Array Nesting</a>",
+      "number": 6,
+      "hint": null,
+      "notes": "",
+      "explanation": "For each unvisited number, follow the sequence until cycle is found. Mark visited numbers to avoid reprocessing. Length of longest sequence is the answer.\nTime complexity: O(n), Space complexity: O(1) using input array for marking\nAlgorithms: Cycle detection\nData Structures: Array\nKey concepts: Sequence following, Cycle finding, In-place marking",
+      "answers": [
+        {
+          "id": 134040,
+          "text": "Cycle detection in array",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162569",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/permutation-in-string\" target=\"_blank\">567. Permutation in String</a>",
+      "number": 7,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use sliding window with character frequency counting. Maintain counts for window of size s1.length and compare with s1's character counts. Update window by adding right character and removing left character.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Sliding Window\nData Structures: Hash Map, Array\nKey concepts: Character frequency, Window manipulation, Permutation checking",
+      "answers": [
+        {
+          "id": 134041,
+          "text": "Sliding window with frequency matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162570",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/out-of-boundary-paths\" target=\"_blank\">576. Out of Boundary Paths</a>",
+      "number": 8,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use 3D dynamic programming where dp[i][j][k] represents paths from position (i,j) with k moves remaining. For each state, sum paths from four adjacent cells with one less move. Handle modulo arithmetic.\nTime complexity: O(m*n*maxMove), Space complexity: O(m*n*maxMove)\nAlgorithms: Dynamic Programming\nData Structures: 3D Array\nKey concepts: Path counting, State transition, Modular arithmetic",
+      "answers": [
+        {
+          "id": 134042,
+          "text": "3D DP with state transitions",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162571",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/shortest-unsorted-continuous-subarray\" target=\"_blank\">581. Shortest Unsorted Continuous Subarray</a>",
+      "number": 9,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find leftmost element that's greater than some element on its right and rightmost element that's smaller than some element on its left. These mark the boundaries of unsorted subarray.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Array scanning\nData Structures: Array\nKey concepts: Subarray identification, Order violation, Boundary finding",
+      "answers": [
+        {
+          "id": 134043,
+          "text": "Two-way scanning for boundaries",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162572",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/delete-operation-for-two-strings\" target=\"_blank\">583. Delete Operation for Two Strings</a>",
+      "number": 10,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find longest common subsequence (LCS) using dynamic programming. Answer is sum of lengths minus twice LCS length. Alternative: directly compute minimum deletions using DP.\nTime complexity: O(m*n), Space complexity: O(m*n)\nAlgorithms: Dynamic Programming\nData Structures: 2D Array\nKey concepts: String transformation, LCS, Edit distance",
+      "answers": [
+        {
+          "id": 134044,
+          "text": "DP with LCS calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162573",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/fraction-addition-and-subtraction\" target=\"_blank\">592. Fraction Addition and Subtraction</a>",
+      "number": 11,
+      "hint": null,
+      "notes": "",
+      "explanation": "Parse string to extract numerators and denominators. Find least common multiple (LCM) of all denominators. Convert all fractions to common denominator using LCM. Add numerators and simplify result using GCD.\nTime complexity: O(n + log m) where m is max denominator, Space complexity: O(n)\nAlgorithms: Math, GCD/LCM calculation\nData Structures: Array\nKey concepts: Fraction arithmetic, String parsing, Number theory",
+      "answers": [
+        {
+          "id": 134045,
+          "text": "Fraction arithmetic with LCM",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162574",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/valid-square\" target=\"_blank\">593. Valid Square</a>",
+      "number": 12,
+      "hint": null,
+      "notes": "Calculate the distance between all the points and you should end up with 4 edges and 2 diagonals.",
+      "explanation": "Calculate all pairwise distances between points. A valid square has four equal sides and two equal diagonals. Check that all side lengths are equal and non-zero, and both diagonals are equal.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Geometry\nData Structures: Array\nKey concepts: Distance calculation, Shape validation, Coordinate geometry",
+      "answers": [
+        {
+          "id": 134046,
+          "text": "Distance-based shape validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162575",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/construct-string-from-binary-tree\" target=\"_blank\">606. Construct String from Binary Tree</a>",
+      "number": 13,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use preorder traversal with special handling of empty nodes. Add parentheses for left child even if empty when right child exists. Skip parentheses for right child if empty.\nTime complexity: O(n), Space complexity: O(h) where h is tree height\nAlgorithms: DFS, Preorder traversal\nData Structures: Binary Tree, String\nKey concepts: Tree serialization, Parentheses matching, String construction",
+      "answers": [
+        {
+          "id": 134047,
+          "text": "Preorder traversal with parentheses",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162576",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/find-duplicate-file-in-system\" target=\"_blank\">609. Find Duplicate File in System</a>",
+      "number": 14,
+      "hint": null,
+      "notes": "",
+      "explanation": "Parse each path string to extract directory and files. Use hash map to group files by content. Return groups with size greater than 1. Handle path concatenation correctly.\nTime complexity: O(n*k) where k is average file content length, Space complexity: O(n*k)\nAlgorithms: String parsing, Hash mapping\nData Structures: Hash Map, Array\nKey concepts: File system paths, Content grouping, String manipulation",
+      "answers": [
+        {
+          "id": 134048,
+          "text": "Hash map with content grouping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162577",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/valid-triangle-number\" target=\"_blank\">611. Valid Triangle Number</a>",
+      "number": 15,
+      "hint": null,
+      "notes": "",
+      "explanation": "Sort array in ascending order. For each pair of numbers, use binary search to find count of valid third numbers. Alternative: use two pointers after fixing largest side.\nTime complexity: O(n^2) with two pointers, O(n^2 log n) with binary search, Space complexity: O(1)\nAlgorithms: Two pointers, Binary search\nData Structures: Array\nKey concepts: Triangle inequality, Sorted array properties, Combination counting",
+      "answers": [
+        {
+          "id": 134049,
+          "text": "Two pointers with triangle inequality",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162578",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/task-scheduler\" target=\"_blank\">621. Task Scheduler</a>",
+      "number": 16,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count frequency of each task. Most frequent task determines minimum slots needed. Fill remaining slots with other tasks. Result is maximum of slots needed and total tasks.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Greedy\nData Structures: Array, Priority Queue (optional)\nKey concepts: Task scheduling, Idle time minimization, Frequency-based arrangement",
+      "answers": [
+        {
+          "id": 134050,
+          "text": "Greedy frequency-based scheduling",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162579",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/design-circular-queue\" target=\"_blank\">622. Design Circular Queue</a>",
+      "number": 17,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use array with head and tail pointers. Maintain size counter. Handle wraparound using modulo operation. Special case for empty and full conditions.\nTime complexity: O(1) for all operations, Space complexity: O(k)\nAlgorithms: Array manipulation\nData Structures: Array, Queue\nKey concepts: Circular buffer, Pointer management, Boundary conditions",
+      "answers": [
+        {
+          "id": 134051,
+          "text": "Array-based circular buffer",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162580",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/add-one-row-to-tree\" target=\"_blank\">623. Add One Row to Tree</a>",
+      "number": 18,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use level-order traversal or DFS to reach target depth. At target depth-1, store original children, create new nodes with value v, and reconnect appropriately.\nTime complexity: O(n), Space complexity: O(w) where w is maximum width\nAlgorithms: BFS/DFS\nData Structures: Binary Tree, Queue\nKey concepts: Tree modification, Level processing, Node insertion",
+      "answers": [
+        {
+          "id": 134052,
+          "text": "Level-based tree modification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162581",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-distance-in-arrays\" target=\"_blank\">624. Maximum Distance in Arrays</a>",
+      "number": 19,
+      "hint": null,
+      "notes": "",
+      "explanation": "Track minimum and maximum values seen so far. For each array, compute maximum distance using current array's min/max and overall min/max from previous arrays.\nTime complexity: O(n) where n is total elements, Space complexity: O(1)\nAlgorithms: Array traversal\nData Structures: Array\nKey concepts: Min/max tracking, Distance calculation, Cross-array comparison",
+      "answers": [
+        {
+          "id": 134053,
+          "text": "Min/max tracking across arrays",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162582",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/sum-of-square-numbers\" target=\"_blank\">633. Sum of Square Numbers</a>",
+      "number": 20,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use two pointers approach with square root as upper bound. Move pointers based on sum comparison with target. Alternative: binary search for each potential a value.\nTime complexity: O(sqrt(c)), Space complexity: O(1)\nAlgorithms: Two pointers, Binary search\nData Structures: None\nKey concepts: Square numbers, Range search, Mathematical properties",
+      "answers": [
+        {
+          "id": 134054,
+          "text": "Two pointers with square numbers",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162583",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/exclusive-time-of-functions\" target=\"_blank\">636. Exclusive Time of Functions</a>",
+      "number": 21,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use stack to track nested function calls. For each log, update time of current function and handle start/end transitions. Account for time spent in nested functions.\nTime complexity: O(n), Space complexity: O(m) where m is number of functions\nAlgorithms: Stack processing\nData Structures: Stack, Array\nKey concepts: Time tracking, Function nesting, Log parsing",
+      "answers": [
+        {
+          "id": 134055,
+          "text": "Stack-based time calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162584",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/shopping-offers\" target=\"_blank\">638. Shopping Offers</a>",
+      "number": 22,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use DFS with memoization. For each state, try using each special offer if valid and compute minimum cost. Base case is buying remaining items at original price.\nTime complexity: O(n * m^k) where n is number of offers, m is max quantity, k is number of items, Space complexity: O(m^k)\nAlgorithms: DFS, Dynamic Programming\nData Structures: Hash Map, Array\nKey concepts: State space search, Optimization problem, Memoization",
+      "answers": [
+        {
+          "id": 134056,
+          "text": "DFS with offer optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162585",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/solve-the-equation\" target=\"_blank\">640. Solve the Equation</a>",
+      "number": 23,
+      "hint": null,
+      "notes": "",
+      "explanation": "Parse equation into coefficients of x and constants on both sides. Combine like terms and solve for x. Handle special cases of no solution and infinite solutions.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: String parsing, Mathematical equation solving\nData Structures: String\nKey concepts: Equation parsing, Coefficient collection, Linear equation",
+      "answers": [
+        {
+          "id": 134057,
+          "text": "Equation parsing and solving",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162586",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/design-circular-deque\" target=\"_blank\">641. Design Circular Deque</a>",
+      "number": 24,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use array with front and rear pointers. Handle wraparound using modulo. Maintain size counter for empty/full checks. Support operations from both ends.\nTime complexity: O(1) for all operations, Space complexity: O(k)\nAlgorithms: Array manipulation\nData Structures: Array, Deque\nKey concepts: Circular buffer, Double-ended queue, Boundary conditions",
+      "answers": [
+        {
+          "id": 134058,
+          "text": "Array-based circular deque",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162587",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-length-of-pair-chain\" target=\"_blank\">646. Maximum Length of Pair Chain</a>",
+      "number": 25,
+      "hint": null,
+      "notes": "",
+      "explanation": "Sort pairs by second element. Greedily select non-overlapping pairs. Keep track of last selected pair's end. Alternative: use dynamic programming after sorting by first element.\nTime complexity: O(n log n), Space complexity: O(1)\nAlgorithms: Greedy, Sorting\nData Structures: Array\nKey concepts: Interval scheduling, Chain formation, Optimal selection",
+      "answers": [
+        {
+          "id": 134059,
+          "text": "Greedy interval chaining",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162588",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/palindromic-substrings\" target=\"_blank\">647. Palindromic Substrings</a>",
+      "number": 26,
+      "hint": null,
+      "notes": "",
+      "explanation": "Expand around each center (both odd and even length). Count palindromes found during expansion. Alternative: use dynamic programming to mark palindromic substrings.\nTime complexity: O(n^2), Space complexity: O(1)\nAlgorithms: String manipulation, Center expansion\nData Structures: String\nKey concepts: Palindrome checking, Center expansion, Substring counting",
+      "answers": [
+        {
+          "id": 134060,
+          "text": "Center expansion for palindromes",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162589",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/replace-words\" target=\"_blank\">648. Replace Words</a>",
+      "number": 27,
+      "hint": null,
+      "notes": "",
+      "explanation": "Build trie from dictionary roots. For each word in sentence, find shortest root in trie that is prefix of word. Replace word with root if found.\nTime complexity: O(n) where n is total characters, Space complexity: O(m) where m is dictionary size\nAlgorithms: Trie construction and search\nData Structures: Trie\nKey concepts: Prefix matching, Word replacement, Dictionary operations",
+      "answers": [
+        {
+          "id": 134061,
+          "text": "Trie-based prefix matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162590",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/dota2-senate\" target=\"_blank\">649. Dota2 Senate</a>",
+      "number": 28,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use two queues for each party. Each senator bans next opponent's turn by removing from their queue. Continue until one queue is empty.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Queue processing\nData Structures: Queue\nKey concepts: Turn-based simulation, Voting system, Party elimination",
+      "answers": [
+        {
+          "id": 134062,
+          "text": "Queue-based voting simulation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162591",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/2-keys-keyboard\" target=\"_blank\">650. 2 Keys Keyboard</a>",
+      "number": 29,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use prime factorization. Each prime factor represents a sequence of copy-paste operations. Sum of prime factors gives minimum steps. Alternative: dynamic programming approach.\nTime complexity: O(sqrt(n)), Space complexity: O(1)\nAlgorithms: Prime factorization, Dynamic Programming\nData Structures: None\nKey concepts: Number theory, Optimal sequence, Prime decomposition",
+      "answers": [
+        {
+          "id": 134063,
+          "text": "Prime factorization approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162592",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/find-duplicate-subtrees\" target=\"_blank\">652. Find Duplicate Subtrees</a>",
+      "number": 30,
+      "hint": null,
+      "notes": "",
+      "explanation": "Serialize each subtree using preorder traversal. Use hash map to track frequency of each serialized subtree. Return roots of subtrees that appear more than once.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: DFS, Tree serialization\nData Structures: Hash Map, Binary Tree\nKey concepts: Tree serialization, Duplicate detection, Unique representation",
+      "answers": [
+        {
+          "id": 134064,
+          "text": "Preorder serialization with hashmap",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162593",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-binary-tree\" target=\"_blank\">654. Maximum Binary Tree</a>",
+      "number": 31,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use divide and conquer. Find maximum element in current range, make it root, recursively build left and right subtrees from subarrays. Alternative: use stack for O(n) solution.\nTime complexity: O(n^2) for recursive, O(n) for stack, Space complexity: O(n)\nAlgorithms: Divide and conquer, Stack\nData Structures: Binary Tree, Stack\nKey concepts: Tree construction, Maximum finding, Range processing",
+      "answers": [
+        {
+          "id": 134065,
+          "text": "Divide and conquer tree building",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162594",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/print-binary-tree\" target=\"_blank\">655. Print Binary Tree</a>",
+      "number": 32,
+      "hint": null,
+      "notes": "",
+      "explanation": "First find tree height. Create matrix with height rows and (2^height-1) columns. Fill matrix using DFS, calculating position for each node based on level and parent position.\nTime complexity: O(h * 2^h) where h is height, Space complexity: O(h * 2^h)\nAlgorithms: DFS, Matrix manipulation\nData Structures: Binary Tree, 2D Array\nKey concepts: Tree visualization, Position calculation, Matrix filling",
+      "answers": [
+        {
+          "id": 134066,
+          "text": "Matrix-based tree printing",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162595",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/find-k-closest-elements\" target=\"_blank\">658. Find K Closest Elements</a>",
+      "number": 33,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use binary search to find starting position of k-length window. Compare differences between x and endpoints of potential windows. Alternative: two pointers expanding from closest element.\nTime complexity: O(log(n-k) + k), Space complexity: O(1)\nAlgorithms: Binary Search, Two Pointers\nData Structures: Array\nKey concepts: Window sliding, Distance comparison, Sorted array properties",
+      "answers": [
+        {
+          "id": 134067,
+          "text": "Binary search with window sliding",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162596",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/split-array-into-consecutive-subsequences\" target=\"_blank\">659. Split Array into Consecutive Subsequences</a>",
+      "number": 34,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use greedy approach with two hash maps: one for frequency of remaining numbers, one for sequences ending at each number. Try extending existing sequences before creating new ones.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Greedy\nData Structures: Hash Map\nKey concepts: Sequence formation, Frequency counting, Greedy choice",
+      "answers": [
+        {
+          "id": 134068,
+          "text": "Greedy sequence construction",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162597",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-width-of-binary-tree\" target=\"_blank\">662. Maximum Width of Binary Tree</a>",
+      "number": 35,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use level order traversal with node numbering. For each node, left child is 2*i, right child is 2*i+1. Track leftmost and rightmost indices at each level. Handle integer overflow.\nTime complexity: O(n), Space complexity: O(w) where w is maximum width\nAlgorithms: BFS, Level-order traversal\nData Structures: Binary Tree, Queue\nKey concepts: Tree numbering, Level processing, Width calculation",
+      "answers": [
+        {
+          "id": 134069,
+          "text": "Level-order width calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162598",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/non-decreasing-array\" target=\"_blank\">665. Non-decreasing Array</a>",
+      "number": 36,
+      "hint": null,
+      "notes": "",
+      "explanation": "When finding a violation, try both modifying current element and previous element. Check if either modification makes array non-decreasing. Count modifications needed.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Array traversal\nData Structures: Array\nKey concepts: Array modification, Order violation, Greedy choice",
+      "answers": [
+        {
+          "id": 134070,
+          "text": "Greedy array modification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162599",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/beautiful-arrangement-ii\" target=\"_blank\">667. Beautiful Arrangement II</a>",
+      "number": 37,
+      "hint": null,
+      "notes": "",
+      "explanation": "Construct array by alternating between smallest and largest remaining numbers to create k-1 different absolute differences. Fill remaining positions in ascending order.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Array construction\nData Structures: Array\nKey concepts: Sequence construction, Difference control, Pattern formation",
+      "answers": [
+        {
+          "id": 134071,
+          "text": "Alternating sequence construction",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162600",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/trim-a-binary-search-tree\" target=\"_blank\">669. Trim a Binary Search Tree</a>",
+      "number": 38,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use recursive approach. If root value &lt; low, return trimmed right subtree. If root value &gt; high, return trimmed left subtree. Otherwise, recursively trim both subtrees.\nTime complexity: O(n), Space complexity: O(h) where h is height\nAlgorithms: DFS, BST properties\nData Structures: Binary Search Tree\nKey concepts: Tree pruning, BST properties, Recursive trimming",
+      "answers": [
+        {
+          "id": 134072,
+          "text": "Recursive BST trimming",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162601",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-swap\" target=\"_blank\">670. Maximum Swap</a>",
+      "number": 39,
+      "hint": null,
+      "notes": "",
+      "explanation": "Convert number to array of digits. For each position, find largest digit to its right. Swap with leftmost occurrence of that digit if larger than current. Handle edge cases.\nTime complexity: O(n) where n is number of digits, Space complexity: O(n)\nAlgorithms: Array manipulation\nData Structures: Array\nKey concepts: Digit swapping, Maximum finding, Greedy choice",
+      "answers": [
+        {
+          "id": 134073,
+          "text": "Greedy digit swapping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162602",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/bulb-switcher-ii\" target=\"_blank\">672. Bulb Switcher II</a>",
+      "number": 40,
+      "hint": null,
+      "notes": "",
+      "explanation": "Observe that after 4 operations, pattern repeats. First 3 bulbs determine state of all bulbs. Consider combinations of operations and their effects on first 3 bulbs.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Pattern recognition\nData Structures: None\nKey concepts: State analysis, Pattern repetition, Operation combinations",
+      "answers": [
+        {
+          "id": 134074,
+          "text": "Pattern-based state analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162603",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-longest-increasing-subsequence\" target=\"_blank\">673. Number of Longest Increasing Subsequence</a>",
+      "number": 41,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use dynamic programming with two arrays: one for length of LIS ending at each index, one for count of LIS of that length. Update both arrays while traversing.\nTime complexity: O(n^2), Space complexity: O(n)\nAlgorithms: Dynamic Programming\nData Structures: Array\nKey concepts: LIS counting, State tracking, Sequence counting",
+      "answers": [
+        {
+          "id": 134075,
+          "text": "DP with count tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162604",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/valid-parenthesis-string\" target=\"_blank\">678. Valid Parenthesis String</a>",
+      "number": 42,
+      "hint": null,
+      "notes": "",
+      "explanation": "Track minimum and maximum possible open parentheses while scanning string. * can be treated as (, ) or empty. Update ranges accordingly. Check final state for validity.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Greedy, Range tracking\nData Structures: None\nKey concepts: Parentheses matching, Range maintenance, Wildcard handling",
+      "answers": [
+        {
+          "id": 134076,
+          "text": "Range-based validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162605",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/redundant-connection\" target=\"_blank\">684. Redundant Connection</a>",
+      "number": 43,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use Union-Find to detect cycle in graph. Process edges in order, if nodes of edge already connected, that edge creates cycle. Return last such edge found.\nTime complexity: O(n) with path compression, Space complexity: O(n)\nAlgorithms: Union-Find\nData Structures: Disjoint Set\nKey concepts: Cycle detection, Graph connectivity, Edge redundancy",
+      "answers": [
+        {
+          "id": 134077,
+          "text": "Union-find cycle detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162606",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/repeated-string-match\" target=\"_blank\">686. Repeated String Match</a>",
+      "number": 44,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate minimum repetitions needed to potentially contain B. Check if B is substring of A repeated that many times or one more time. Use efficient string search algorithm.\nTime complexity: O(n + m) where n, m are string lengths, Space complexity: O(n)\nAlgorithms: String matching\nData Structures: String\nKey concepts: String repetition, Pattern matching, Minimum repetition",
+      "answers": [
+        {
+          "id": 134078,
+          "text": "String repetition with matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162607",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/longest-univalue-path\" target=\"_blank\">687. Longest Univalue Path</a>",
+      "number": 45,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use DFS with path length tracking. For each node, compute longest path through it with same value. Update global maximum when processing each node.\nTime complexity: O(n), Space complexity: O(h) where h is height\nAlgorithms: DFS\nData Structures: Binary Tree\nKey concepts: Path finding, Value matching, Tree traversal",
+      "answers": [
+        {
+          "id": 134079,
+          "text": "DFS with path tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162608",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/top-k-frequent-words\" target=\"_blank\">692. Top K Frequent Words</a>",
+      "number": 46,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use hash map to count word frequencies. Use min heap of size k to maintain top k words, with custom comparator for frequency and lexicographical order. Alternative: use trie with frequency counting.\nTime complexity: O(n log k), Space complexity: O(n)\nAlgorithms: Heap, Hash mapping\nData Structures: Hash Map, Heap\nKey concepts: Frequency counting, Priority queue, Lexicographical ordering",
+      "answers": [
+        {
+          "id": 134080,
+          "text": "Heap-based frequency sorting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162609",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/binary-number-with-alternating-bits\" target=\"_blank\">693. Binary Number with Alternating Bits</a>",
+      "number": 47,
+      "hint": null,
+      "notes": "",
+      "explanation": "Right shift number and XOR with original. If bits alternate, result should be all 1s. Add 1 and AND with original result to check if all 1s.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Bit manipulation\nData Structures: None\nKey concepts: Bit patterns, XOR properties, Pattern verification",
+      "answers": [
+        {
+          "id": 134081,
+          "text": "Bit manipulation with XOR",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162610",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/max-area-of-island\" target=\"_blank\">695. Max Area of Island</a>",
+      "number": 48,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use DFS or BFS to explore each island. Keep track of current island size while exploring. Update maximum area found. Mark visited cells to avoid counting twice.\nTime complexity: O(m*n), Space complexity: O(m*n)\nAlgorithms: DFS/BFS\nData Structures: Grid\nKey concepts: Island counting, Connected components, Area calculation",
+      "answers": [
+        {
+          "id": 134082,
+          "text": "DFS-based area calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162611",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/partition-to-k-equal-sum-subsets\" target=\"_blank\">698. Partition to K Equal Sum Subsets</a>",
+      "number": 49,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use backtracking with state tracking. Sort array in descending order for optimization. Try adding each number to current subset, backtrack if sum exceeds target.\nTime complexity: O(k * 2^n), Space complexity: O(n)\nAlgorithms: Backtracking, DFS\nData Structures: Array\nKey concepts: Subset sum, State tracking, Equal partition",
+      "answers": [
+        {
+          "id": 134083,
+          "text": "Backtracking with state tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162612",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 6",
+      "question": "<a href=\"https://leetcode.com/problems/search-in-a-binary-search-tree\" target=\"_blank\">700. Search in a Binary Search Tree</a>",
+      "number": 50,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use BST properties. If current node value equals target, return node. If target is smaller, search left subtree. If target is larger, search right subtree. Return null if not found.\nTime complexity: O(h) where h is height, Space complexity: O(1) iterative, O(h) recursive\nAlgorithms: Binary Search Tree traversal\nData Structures: Binary Search Tree\nKey concepts: BST properties, Tree traversal, Value comparison",
+      "answers": [
+        {
+          "id": 134084,
+          "text": "BST search traversal",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "162613",
+      "deckId": "_1"
+    }
+  ]
+}

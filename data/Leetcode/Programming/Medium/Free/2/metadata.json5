@@ -1,0 +1,1266 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode program med free 2",
+      "id": 1,
+      "description": "Leetcode free programming questions, difficulty medium, part 2",
+      "synopsis": "Leetcode free programming questions, difficulty medium, part 2",
+      "notes": "Created with Gemini-2.5-pro",
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii\" target=\"_blank\">82. Remove Duplicates from Sorted List II</a>",
+      "number": 1,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a sentinel head and a predecessor pointer. Iterate through the list; if a duplicate sequence is found, skip all duplicates by advancing the current pointer until a unique element or the end of the list is reached. Connect the predecessor to this unique element.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linked List Traversal, Two Pointers\nData Structures: Linked List\nKey concepts: Sentinel node, Duplicate removal, Pointer manipulation",
+      "answers": [
+        {
+          "id": 133004,
+          "text": "Bit manipulation with XOR",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161532",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/partition-list\" target=\"_blank\">86. Partition List</a>",
+      "number": 2,
+      "hint": null,
+      "notes": "",
+      "explanation": "Create two separate linked lists: one for nodes less than x and one for nodes greater than or equal to x. Iterate through the original list, appending nodes to the appropriate new list. Finally, connect the tail of the 'less than' list to the head of the 'greater or equal' list.\nTime complexity: O(n), Space complexity: O(1) (if modifying pointers in place, not O(n) for new lists if nodes are reused)\nAlgorithms: Linked List Manipulation, Two Pointers (for managing new lists)\nData Structures: Linked List\nKey concepts: List partitioning, Pointer management, Maintaining relative order",
+      "answers": [
+        {
+          "id": 133005,
+          "text": "Tree construction with inorder",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161533",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/gray-code\" target=\"_blank\">89. Gray Code</a>",
+      "number": 3,
+      "hint": null,
+      "notes": "",
+      "explanation": "Generate Gray codes iteratively or using the formula G(i) = i XOR (i &gt;&gt; 1). For an iterative approach, start with [0]. To get G(n) from G(n-1), append G(n-1) reversed with 2^(n-1) added to each element.\nTime complexity: O(2^n), Space complexity: O(2^n) to store the result\nAlgorithms: Bit Manipulation, Iterative sequence generation\nData Structures: List\nKey concepts: Reflective binary code, Bitwise XOR, Pattern recognition",
+      "answers": [
+        {
+          "id": 133006,
+          "text": "Matrix traversal optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161534",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/subsets-ii\" target=\"_blank\">90. Subsets II</a>",
+      "number": 4,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a backtracking approach. Sort the input array to handle duplicates easily. In the recursive step, if the current number is the same as the previous and the previous was not included in the path (by skipping it in the for loop iteration), skip the current number to avoid duplicate subsets.\nTime complexity: O(N * 2^N), Space complexity: O(N) for recursion stack and current subset\nAlgorithms: Backtracking, Recursion, Sorting\nData Structures: Array, List\nKey concepts: Power set with duplicates, Duplicate handling in subsets, Depth-first search",
+      "answers": [
+        {
+          "id": 133007,
+          "text": "Divide and conquer recursion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161535",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/decode-ways\" target=\"_blank\">91. Decode Ways</a>",
+      "number": 5,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use dynamic programming. dp[i] will be the number of ways to decode the substring s[0...i-1]. If s[i-1] is not '0', dp[i] += dp[i-1]. If s[i-2]s[i-1] forms a valid two-digit code (10-26), dp[i] += dp[i-2]. Handle edge cases like leading zeros.\nTime complexity: O(n), Space complexity: O(n) or O(1) with space optimization\nAlgorithms: Dynamic Programming\nData Structures: Array (for DP table), String\nKey concepts: String decoding, DP state definition, Overlapping subproblems",
+      "answers": [
+        {
+          "id": 133008,
+          "text": "Stack with parentheses matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161536",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/reverse-linked-list-ii\" target=\"_blank\">92. Reverse Linked List II</a>",
+      "number": 6,
+      "hint": null,
+      "notes": "",
+      "explanation": "Locate the sublist from position 'left' to 'right'. Reverse this sublist in place. Connect the node before 'left' to the new head of the reversed sublist, and connect the original tail of the sublist to the node after 'right'.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linked List Traversal, In-place Reversal, Pointer Manipulation\nData Structures: Linked List\nKey concepts: Sublist reversal, Connection management, Iterative reversal",
+      "answers": [
+        {
+          "id": 133009,
+          "text": "Bitwise operation analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161537",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/restore-ip-addresses\" target=\"_blank\">93. Restore IP Addresses</a>",
+      "number": 7,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a backtracking approach. Try to form 4 valid segments (0-255, no leading zeros unless the number is 0 itself) from the input string. At each step, try to form the next segment of length 1, 2, or 3 characters, ensuring it's a valid IP segment.\nTime complexity: Roughly O(1) because the number of segments is fixed at 4 and length of string is small (max 12 for valid IPs). More precisely, constant factor related to 3^4. Space complexity: O(1) for storing results (max string length is fixed).\nAlgorithms: Backtracking, Recursion, String Parsing\nData Structures: String, List\nKey concepts: IP address validation rules, Segment generation, Depth-first search",
+      "answers": [
+        {
+          "id": 133010,
+          "text": "Pattern matching algorithm",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161538",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/unique-binary-search-trees-ii\" target=\"_blank\">95. Unique Binary Search Trees II</a>",
+      "number": 8,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a recursive approach with memoization (or dynamic programming). For a range [start, end], iterate through each number i in this range as the root. Recursively generate all unique left subtrees from [start, i-1] and all unique right subtrees from [i+1, end]. Combine each left subtree with each right subtree for root i.\nTime complexity: O(N * Gn) where Gn is the nth Catalan number. Space complexity: O(N * Gn) for storing trees and recursion.\nAlgorithms: Recursion, Dynamic Programming (conceptually), Tree Construction\nData Structures: Binary Tree, List\nKey concepts: BST properties, Divide and conquer, Combinatorial tree generation",
+      "answers": [
+        {
+          "id": 133011,
+          "text": "Binary search modification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161539",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/unique-binary-search-trees\" target=\"_blank\">96. Unique Binary Search Trees</a>",
+      "number": 9,
+      "hint": null,
+      "notes": "",
+      "explanation": "This is a Catalan number problem. Use dynamic programming. dp[i] represents the number of unique BSTs that can be formed with i nodes. dp[i] = sum(dp[j-1] * dp[i-j]) for j from 1 to i (j is the root, j-1 nodes in left subtree, i-j nodes in right). dp[0] = 1.\nTime complexity: O(n^2), Space complexity: O(n)\nAlgorithms: Dynamic Programming\nData Structures: Array (for DP table)\nKey concepts: Catalan numbers, BST structure, DP recurrence relation",
+      "answers": [
+        {
+          "id": 133012,
+          "text": "Reservoir sampling algorithm",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161540",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/interleaving-string\" target=\"_blank\">97. Interleaving String</a>",
+      "number": 10,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use 2D dynamic programming. dp[i][j] is true if s3[0...i+j-1] can be formed by interleaving s1[0...i-1] and s2[0...j-1]. If s1[i-1] == s3[i+j-1], dp[i][j] can be true if dp[i-1][j] is true. If s2[j-1] == s3[i+j-1], dp[i][j] can be true if dp[i][j-1] is true.\nTime complexity: O(m*n), Space complexity: O(m*n) or O(min(m,n)) with space optimization\nAlgorithms: Dynamic Programming\nData Structures: 2D Boolean Array (DP table)\nKey concepts: String matching, DP state transition, Interleaving conditions",
+      "answers": [
+        {
+          "id": 133013,
+          "text": "Geometric algorithm application",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161541",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/validate-binary-search-tree\" target=\"_blank\">98. Validate Binary Search Tree</a>",
+      "number": 11,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform an in-order traversal. The sequence of visited nodes should be strictly increasing. Alternatively, use a recursive approach keeping track of the valid range (min, max) for each node's value.\nTime complexity: O(n), Space complexity: O(n) for recursion stack (or O(h) where h is height)\nAlgorithms: In-order Traversal, Recursion, Range Validation\nData Structures: Binary Tree\nKey concepts: BST properties, Tree traversal, Recursive validation with constraints",
+      "answers": [
+        {
+          "id": 133014,
+          "text": "Two pointers technique",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161542",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/recover-binary-search-tree\" target=\"_blank\">99. Recover Binary Search Tree</a>",
+      "number": 12,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform an in-order traversal. Find the two nodes that are swapped by identifying the violations of the sorted order (first_node where prev.val &gt; curr.val, and second_node where prev.val &gt; curr.val again or the last curr in first violation). Then swap their values. For O(1) space, use Morris Traversal.\nTime complexity: O(n) for in-order traversal, Space complexity: O(h) for recursion or O(1) with Morris Traversal\nAlgorithms: In-order Traversal, Morris Traversal (for O(1) space)\nData Structures: Binary Tree\nKey concepts: BST properties, Identifying swapped nodes, In-place recovery",
+      "answers": [
+        {
+          "id": 133015,
+          "text": "Greedy optimization approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161543",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/binary-tree-level-order-traversal\" target=\"_blank\">102. Binary Tree Level Order Traversal</a>",
+      "number": 13,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use Breadth-First Search (BFS) with a queue. In each iteration of the BFS, process all nodes at the current level, add their children to the queue for the next level, and store the current level's nodes in a list.\nTime complexity: O(n), Space complexity: O(w) where w is the maximum width of the tree (for the queue)\nAlgorithms: Breadth-First Search (BFS)\nData Structures: Binary Tree, Queue, List\nKey concepts: Level-by-level processing, Queue for BFS, Tree traversal",
+      "answers": [
+        {
+          "id": 133016,
+          "text": "DP state optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161544",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal\" target=\"_blank\">103. Binary Tree Zigzag Level Order Traversal</a>",
+      "number": 14,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use Breadth-First Search (BFS) similar to level order traversal. Keep track of the current level number. If the level is even, add nodes to the current level's list from left to right. If odd, add from right to left (or add normally and reverse before adding to result).\nTime complexity: O(n), Space complexity: O(w) where w is max tree width\nAlgorithms: Breadth-First Search (BFS)\nData Structures: Binary Tree, Queue (or Deque), List\nKey concepts: Level-by-level processing with direction change, Alternating traversal order",
+      "answers": [
+        {
+          "id": 133017,
+          "text": "Graph traversal with DFS",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161545",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal\" target=\"_blank\">105. Construct Binary Tree from Preorder and Inorder Traversal</a>",
+      "number": 15,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use recursion. The first element of preorder is the root. Find this root in inorder; elements to its left form the inorder traversal of the left subtree, and elements to its right form the inorder of the right subtree. Use this to determine the ranges for preorder traversal of left/right subtrees and recurse.\nTime complexity: O(n) with a hash map for inorder indices, O(n^2) without. Space complexity: O(n) for hash map and recursion stack (or O(h)).\nAlgorithms: Recursion, Divide and Conquer\nData Structures: Binary Tree, Array, Hash Map (optional for optimization)\nKey concepts: Tree traversal properties (preorder, inorder), Root identification, Subtree construction",
+      "answers": [
+        {
+          "id": 133018,
+          "text": "Hash map implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161546",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal\" target=\"_blank\">106. Construct Binary Tree from Inorder and Postorder Traversal</a>",
+      "number": 16,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use recursion. The last element of postorder is the root. Find this root in inorder; elements to its left form the inorder of the left subtree, and elements to its right form the inorder of the right subtree. Use this to determine ranges for postorder traversal of left/right subtrees and recurse.\nTime complexity: O(n) with hash map for inorder indices, O(n^2) without. Space complexity: O(n) for hash map and recursion stack (or O(h)).\nAlgorithms: Recursion, Divide and Conquer\nData Structures: Binary Tree, Array, Hash Map (optional)\nKey concepts: Tree traversal properties (inorder, postorder), Root identification from postorder, Subtree construction",
+      "answers": [
+        {
+          "id": 133019,
+          "text": "Element comparison method",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161547",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/binary-tree-level-order-traversal-ii\" target=\"_blank\">107. Binary Tree Level Order Traversal II</a>",
+      "number": 17,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform a standard level order traversal (BFS) to get levels from top to bottom. Then, reverse the resulting list of levels.\nTime complexity: O(n), Space complexity: O(w) where w is max tree width (for queue) + O(n) for result storage\nAlgorithms: Breadth-First Search (BFS)\nData Structures: Binary Tree, Queue, List\nKey concepts: Level-by-level processing, Result reversal, Tree traversal",
+      "answers": [
+        {
+          "id": 133020,
+          "text": "Sliding window approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161548",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree\" target=\"_blank\">109. Convert Sorted List to Binary Search Tree</a>",
+      "number": 18,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find the middle element of the linked list using a fast and slow pointer approach; this becomes the root. Recursively build the left subtree from the first half of the list and the right subtree from the second half. Alternatively, convert list to array first, then build BST (simpler but O(N) space for array).\nTime complexity: O(N log N) for list approach (finding middle repeatedly), O(N) if converting to array first. Space complexity: O(log N) for recursion stack (height of tree).\nAlgorithms: Recursion, Divide and Conquer, Two Pointers (to find middle)\nData Structures: Linked List, Binary Search Tree\nKey concepts: Height-balanced BST, Middle element as root, Recursive construction",
+      "answers": [
+        {
+          "id": 133021,
+          "text": "Binary search implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161549",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/path-sum-ii\" target=\"_blank\">113. Path Sum II</a>",
+      "number": 19,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use Depth-First Search (DFS) or recursion. Maintain the current path and current sum. If a leaf node is reached and the current sum equals the target sum, add the current path to the results. Backtrack by removing the node from the current path when returning from recursion.\nTime complexity: O(N) where N is number of nodes (visits each node once). Space complexity: O(H) for recursion stack (height of tree) + O(M*H) for results where M is number of paths.\nAlgorithms: Depth-First Search (DFS), Backtracking, Recursion\nData Structures: Binary Tree, List\nKey concepts: Root-to-leaf paths, Sum tracking, Path reconstruction",
+      "answers": [
+        {
+          "id": 133022,
+          "text": "Backtracking recursion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161550",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/flatten-binary-tree-to-linked-list\" target=\"_blank\">114. Flatten Binary Tree to Linked List</a>",
+      "number": 20,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform a modified pre-order traversal (right, left, root). Keep track of the previously processed node ('prev'). For each current node, set its right child to 'prev', its left child to null, and then update 'prev' to be the current node. Or, recursively flatten left and right subtrees, then connect root -&gt; flattened_left -&gt; flattened_right.\nTime complexity: O(n), Space complexity: O(h) for recursion or O(1) with Morris-like traversal modification.\nAlgorithms: Depth-First Search (DFS), Tree Traversal (modified pre-order or post-order)\nData Structures: Binary Tree\nKey concepts: In-place modification, Tree to list conversion, Pointer rewiring",
+      "answers": [
+        {
+          "id": 133023,
+          "text": "Preprocessing with sort",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161551",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/populating-next-right-pointers-in-each-node\" target=\"_blank\">116. Populating Next Right Pointers in Each Node</a>",
+      "number": 21,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use BFS. For each node dequeued, its 'next' pointer is the next node in the queue (if it's not the last on its level). Or, use DFS: for a node, if its left child exists, left.next = right. If node.next exists and node.right exists, right.next = node.next.left. Perfect binary tree property helps.\nTime complexity: O(n), Space complexity: O(w) for BFS queue or O(h) for DFS recursion (for perfect tree, h = log n, w = n/2). O(1) space solution exists using level iteration.\nAlgorithms: Breadth-First Search (BFS), Depth-First Search (DFS), Level Iteration\nData Structures: Perfect Binary Tree (with 'next' pointer)\nKey concepts: Level linking, Next pointer population, Tree traversal variants",
+      "answers": [
+        {
+          "id": 133024,
+          "text": "Bit manipulation with XOR",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161552",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii\" target=\"_blank\">117. Populating Next Right Pointers in Each Node II</a>",
+      "number": 22,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use BFS with a queue. In each level, iterate through nodes and set current_node.next to the next node in the queue if it belongs to the same level. Or, iterate level by level using a dummy head for the next level. The leftmost node of the current level is the starting point. Traverse current level using 'next' pointers and connect children.\nTime complexity: O(n), Space complexity: O(w) for BFS queue, or O(1) for iterative level-by-level approach.\nAlgorithms: Breadth-First Search (BFS), Iterative Level Traversal\nData Structures: Binary Tree (with 'next' pointer), Queue\nKey concepts: Level linking for general binary trees, Next pointer population, Handling missing children",
+      "answers": [
+        {
+          "id": 133025,
+          "text": "Tree construction with inorder",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161553",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/triangle\" target=\"_blank\">120. Triangle</a>",
+      "number": 23,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use dynamic programming, bottom-up. Start from the second to last row. For each element in this row, its minimum path sum is its value plus the minimum of the two elements below it in the next row. Repeat until the top element is reached. Can optimize space to O(N) where N is number of elements in last row, or modify triangle in-place.\nTime complexity: O(n^2) where n is number of rows, Space complexity: O(n) or O(1) if in-place\nAlgorithms: Dynamic Programming\nData Structures: List of Lists (Triangle), Array (for DP)\nKey concepts: Minimum path sum, Bottom-up DP, Space optimization for DP",
+      "answers": [
+        {
+          "id": 133026,
+          "text": "Matrix traversal optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161554",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii\" target=\"_blank\">122. Best Time to Buy and Sell Stock II</a>",
+      "number": 24,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a greedy approach. Iterate through the prices. If the price on day i+1 is greater than on day i, buy on day i and sell on day i+1. This accumulates all positive price differences.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Greedy\nData Structures: Array\nKey concepts: Profit maximization, Multiple transactions, Accumulating positive gains",
+      "answers": [
+        {
+          "id": 133027,
+          "text": "Divide and conquer recursion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161555",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/longest-consecutive-sequence\" target=\"_blank\">128. Longest Consecutive Sequence</a>",
+      "number": 25,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a hash set to store all numbers for O(1) lookup. Iterate through the numbers. If a number `num` is the start of a sequence (i.e., `num-1` is not in the set), then start counting the length of the consecutive sequence starting from `num` by checking for `num+1`, `num+2`, etc., in the set.\nTime complexity: O(n) on average (each number is visited at most twice), Space complexity: O(n) for the hash set\nAlgorithms: Hashing, Set operations\nData Structures: Hash Set, Array\nKey concepts: Sequence identification, Efficient lookup, Avoiding redundant checks",
+      "answers": [
+        {
+          "id": 133028,
+          "text": "Stack with parentheses matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161556",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/sum-root-to-leaf-numbers\" target=\"_blank\">129. Sum Root to Leaf Numbers</a>",
+      "number": 26,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use Depth-First Search (DFS) or recursion. Maintain the current number formed along the path from root to the current node. When a leaf node is reached, add the current number to the total sum. For a node, the number passed to its children is current_number * 10 + child.val.\nTime complexity: O(n), Space complexity: O(h) for recursion stack\nAlgorithms: Depth-First Search (DFS), Recursion\nData Structures: Binary Tree\nKey concepts: Root-to-leaf paths, Number construction during traversal, Tree traversal",
+      "answers": [
+        {
+          "id": 133029,
+          "text": "Bitwise operation analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161557",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/surrounded-regions\" target=\"_blank\">130. Surrounded Regions</a>",
+      "number": 27,
+      "hint": null,
+      "notes": "Start by identifying the non reachable nodes.",
+      "explanation": "Start DFS or BFS from all 'O's on the border. Mark these 'O's and any 'O's reachable from them as non-flippable (e.g., change to 'N'). Then, iterate through the board: flip all remaining 'O's to 'X', and change all 'N's back to 'O'.\nTime complexity: O(m*n), Space complexity: O(m*n) for recursion stack/queue in worst case\nAlgorithms: Depth-First Search (DFS) or Breadth-First Search (BFS), Matrix Traversal\nData Structures: 2D Array (Board)\nKey concepts: Boundary traversal, Region marking, Flipping based on reachability from border",
+      "answers": [
+        {
+          "id": 133030,
+          "text": "Pattern matching algorithm",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161558",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/palindrome-partitioning\" target=\"_blank\">131. Palindrome Partitioning</a>",
+      "number": 28,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use backtracking. Iterate through possible end points for the first palindrome substring. If s[start...i] is a palindrome, add it to the current partition and recurse for the rest of the string s[i+1...end]. Backtrack by removing the substring if the recursive call doesn't lead to a full partition.\nTime complexity: O(N * 2^N) in worst case. Space complexity: O(N) for recursion stack and current partition.\nAlgorithms: Backtracking, Recursion, Palindrome Checking\nData Structures: String, List\nKey concepts: String partitioning, Palindromic substrings, Depth-first search for combinations",
+      "answers": [
+        {
+          "id": 133031,
+          "text": "Binary search modification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161559",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/clone-graph\" target=\"_blank\">133. Clone Graph</a>",
+      "number": 29,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use DFS or BFS. Maintain a hash map to store a mapping from original nodes to their clones. When visiting a node, if it's already cloned, return its clone. Otherwise, create a clone, store it in the map, and then recursively clone all its neighbors and add them to the clone's neighbors list.\nTime complexity: O(V+E) where V is vertices, E is edges. Space complexity: O(V) for hash map and recursion/queue.\nAlgorithms: Depth-First Search (DFS) or Breadth-First Search (BFS), Graph Traversal\nData Structures: Graph (Node with neighbors), Hash Map\nKey concepts: Deep copy of graph, Visited tracking (implicit via map), Recursive cloning",
+      "answers": [
+        {
+          "id": 133032,
+          "text": "Reservoir sampling algorithm",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161560",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/gas-station\" target=\"_blank\">134. Gas Station</a>",
+      "number": 30,
+      "hint": null,
+      "notes": "",
+      "explanation": "If the total gas is less than total cost, no solution exists. Otherwise, a solution is guaranteed. Iterate through the stations, maintaining current tank fuel. If tank &lt; 0 at any point, it means starting from the previous candidate start_index is not possible. Reset tank to 0 and set current station as new potential start_index. The last valid start_index found will be the answer.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Greedy, Array Traversal\nData Structures: Array\nKey concepts: Circular tour, Fuel tracking, Identifying valid starting point",
+      "answers": [
+        {
+          "id": 133033,
+          "text": "Geometric algorithm application",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161561",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/single-number-ii\" target=\"_blank\">137. Single Number II</a>",
+      "number": 31,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use bit manipulation. Count the occurrences of set bits at each bit position (0 to 31) for all numbers. If a bit position's count is not a multiple of 3, then that bit is set in the single number. Construct the single number from these bits. Or use two bitmask variables 'ones' and 'twos'.\nTime complexity: O(n) (or O(32n)), Space complexity: O(1)\nAlgorithms: Bit Manipulation, Counting bits\nData Structures: Array (conceptually for bit counts)\nKey concepts: Bitwise operations (AND, OR, XOR, NOT), Counting modulo k, State machine with bits (ones, twos approach)",
+      "answers": [
+        {
+          "id": 133034,
+          "text": "Two pointers technique",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161562",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/copy-list-with-random-pointer\" target=\"_blank\">138. Copy List with Random Pointer</a>",
+      "number": 32,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a hash map to store mapping from original nodes to copied nodes. First pass: iterate, create copies of each node and store in map. Second pass: iterate again, set 'next' and 'random' pointers for copied nodes using the map. Alternative O(1) space: interweave copied nodes with original (orig1 -&gt; copy1 -&gt; orig2 -&gt; copy2), then set random pointers for copies, then separate lists.\nTime complexity: O(n), Space complexity: O(n) for hash map or O(1) for interweaving approach.\nAlgorithms: Hash Map, Linked List Traversal, Pointer Manipulation\nData Structures: Linked List (with random pointer), Hash Map\nKey concepts: Deep copy of complex structure, Mapping original to copy, Multi-pass processing",
+      "answers": [
+        {
+          "id": 133035,
+          "text": "Greedy optimization approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161563",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/word-break\" target=\"_blank\">139. Word Break</a>",
+      "number": 33,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use dynamic programming. dp[i] is true if s[0...i-1] can be segmented into dictionary words. To compute dp[i], check if there's a j &lt; i such that dp[j] is true and s[j...i-1] is in the dictionary.\nTime complexity: O(n*m*k) where n=s.length, m=wordDict.length, k=avg word length (or O(n^2 * k) if substring takes O(k), optimized to O(n^2) with set and better substring). Space complexity: O(n) for DP array + O(L) for dictionary set (L total length of words in dict).\nAlgorithms: Dynamic Programming\nData Structures: String, List (Dictionary), Set (for fast lookup), Boolean Array (DP table)\nKey concepts: String segmentation, DP state definition, Dictionary lookup",
+      "answers": [
+        {
+          "id": 133036,
+          "text": "DP state optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161564",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/linked-list-cycle-ii\" target=\"_blank\">142. Linked List Cycle II</a>",
+      "number": 34,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use Floyd's Tortoise and Hare algorithm. If a cycle exists, the slow and fast pointers will meet. After they meet, reset one pointer (e.g., slow) to the head. Then move both slow and fast one step at a time. The point where they meet again is the start of the cycle.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two Pointers (Floyd's Cycle Detection)\nData Structures: Linked List\nKey concepts: Cycle detection, Finding cycle start, Relative speeds of pointers",
+      "answers": [
+        {
+          "id": 133037,
+          "text": "Graph traversal with DFS",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161565",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/reorder-list\" target=\"_blank\">143. Reorder List</a>",
+      "number": 35,
+      "hint": null,
+      "notes": "",
+      "explanation": "1. Find the middle of the list using fast/slow pointers. 2. Reverse the second half of the list. 3. Merge the first half and the reversed second half by interleaving nodes.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two Pointers, Linked List Reversal, Linked List Merging\nData Structures: Linked List\nKey concepts: Midpoint finding, In-place reversal, Interleaving merge",
+      "answers": [
+        {
+          "id": 133038,
+          "text": "Hash map implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161566",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/lru-cache\" target=\"_blank\">146. LRU Cache</a>",
+      "number": 36,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a hash map for O(1) key lookup and a doubly linked list to maintain the order of usage (most recently used at head, least recently used at tail). When an item is accessed (get or put), move it to the head. If capacity is exceeded during a put, remove from tail.\nTime complexity: O(1) for get and put. Space complexity: O(capacity).\nAlgorithms: Doubly Linked List, Hashing\nData Structures: Hash Map, Doubly Linked List\nKey concepts: Cache eviction policy, Recency tracking, Combined data structures for efficiency",
+      "answers": [
+        {
+          "id": 133039,
+          "text": "Element comparison method",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161567",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/insertion-sort-list\" target=\"_blank\">147. Insertion Sort List</a>",
+      "number": 37,
+      "hint": null,
+      "notes": "",
+      "explanation": "Maintain a sorted portion of the list. Iterate through the unsorted portion. For each node from the unsorted part, find its correct position in the sorted part and insert it there. Use a dummy head for the sorted list to simplify insertion at the beginning.\nTime complexity: O(n^2), Space complexity: O(1)\nAlgorithms: Insertion Sort, Linked List Manipulation\nData Structures: Linked List\nKey concepts: Building sorted sublist, Iterative insertion, Pointer management",
+      "answers": [
+        {
+          "id": 133040,
+          "text": "Sliding window approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161568",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/sort-list\" target=\"_blank\">148. Sort List</a>",
+      "number": 38,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use merge sort. Recursively divide the list into two halves using a fast/slow pointer to find the middle. Sort each half. Then merge the two sorted halves.\nTime complexity: O(n log n), Space complexity: O(log n) for recursion stack (or O(1) for bottom-up merge sort if implemented carefully, but typical recursive is O(log n)).\nAlgorithms: Merge Sort, Recursion, Two Pointers (for middle and merging)\nData Structures: Linked List\nKey concepts: Divide and conquer sorting, List splitting, Sorted list merging",
+      "answers": [
+        {
+          "id": 133041,
+          "text": "Binary search implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161569",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/evaluate-reverse-polish-notation\" target=\"_blank\">150. Evaluate Reverse Polish Notation</a>",
+      "number": 39,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a stack. Iterate through the tokens. If a token is a number, push it onto the stack. If it's an operator, pop the top two numbers from the stack, perform the operation, and push the result back onto the stack. The final result will be the only item on the stack.\nTime complexity: O(n), Space complexity: O(n) for the stack in worst case\nAlgorithms: Stack-based evaluation\nData Structures: Stack, Array/List (of tokens)\nKey concepts: Postfix notation, Operator precedence (implicit by RPN), Operand storage",
+      "answers": [
+        {
+          "id": 133042,
+          "text": "Backtracking recursion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161570",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/reverse-words-in-a-string\" target=\"_blank\">151. Reverse Words in a String</a>",
+      "number": 40,
+      "hint": null,
+      "notes": "",
+      "explanation": "Split the string by spaces (handling multiple spaces). Reverse the list of words. Join the words back with a single space. Or, iterate from end of string, identify words, and append to a new string builder. For in-place, reverse entire string, then reverse each word.\nTime complexity: O(n), Space complexity: O(n) for new string/list of words (or O(1) for in-place variant).\nAlgorithms: String Manipulation, Array/List Reversal\nData Structures: String, Array/List (of words), StringBuilder\nKey concepts: Word extraction, Order reversal, Space handling",
+      "answers": [
+        {
+          "id": 133043,
+          "text": "Preprocessing with sort",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161571",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-product-subarray\" target=\"_blank\">152. Maximum Product Subarray</a>",
+      "number": 41,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use dynamic programming. Keep track of the maximum and minimum product ending at the current position (min product is needed because multiplying by a negative number can make it max). max_prod[i] = max(nums[i], nums[i]*max_prod[i-1], nums[i]*min_prod[i-1]). Similarly for min_prod[i]. The overall max is the answer.\nTime complexity: O(n), Space complexity: O(1) (if only keeping track of previous max/min)\nAlgorithms: Dynamic Programming\nData Structures: Array\nKey concepts: Contiguous subarray product, Handling negative numbers, DP state for max/min products",
+      "answers": [
+        {
+          "id": 133044,
+          "text": "Bit manipulation with XOR",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161572",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/find-minimum-in-rotated-sorted-array\" target=\"_blank\">153. Find Minimum in Rotated Sorted Array</a>",
+      "number": 42,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a modified binary search. If nums[mid] &gt; nums[high], the minimum is in the right half (mid+1 to high). If nums[mid] &lt; nums[high], the minimum is in the left half (low to mid), including mid. If nums[mid] == nums[high], can decrement high (this case is more relevant when duplicates are allowed, but good to consider). Base case: when low == high, that's the minimum.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary Search (modified)\nData Structures: Array\nKey concepts: Rotated sorted array properties, Pivot point, Search space reduction",
+      "answers": [
+        {
+          "id": 133045,
+          "text": "Tree construction with inorder",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161573",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/min-stack\" target=\"_blank\">155. Min Stack</a>",
+      "number": 43,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use two stacks: one for the actual values and another to store the minimum element found so far at each point. When pushing, if the new element is &lt;= current min, push to min_stack. When popping, if popped element == top of min_stack, pop from min_stack too. Or, store pairs (value, current_min) in a single stack.\nTime complexity: O(1) for all operations. Space complexity: O(n) in worst case.\nAlgorithms: Stack operations\nData Structures: Stack\nKey concepts: Auxiliary data structure for tracking minimum, Synchronized stack operations",
+      "answers": [
+        {
+          "id": 133046,
+          "text": "Matrix traversal optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161574",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/find-peak-element\" target=\"_blank\">162. Find Peak Element</a>",
+      "number": 44,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a modified binary search. If nums[mid] &lt; nums[mid+1], a peak must be in the right half (mid+1 to high). If nums[mid] &gt; nums[mid+1] (or mid is last element), a peak could be nums[mid] or in the left half. The condition nums[i] != nums[i+1] simplifies comparisons. The problem guarantees a peak exists.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary Search (modified)\nData Structures: Array\nKey concepts: Peak definition, Property of adjacent elements, Search space reduction based on slope",
+      "answers": [
+        {
+          "id": 133047,
+          "text": "Divide and conquer recursion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161575",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-gap\" target=\"_blank\">164. Maximum Gap</a>",
+      "number": 45,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use bucket sort or radix sort ideas. Find min and max values. Create buckets of size (max-min)/(n-1). Distribute numbers into buckets, storing only min/max per bucket. The max gap must be between max of one bucket and min of the next non-empty bucket. If n &lt; 2, return 0.\nTime complexity: O(n) for bucket sort if range is manageable or radix sort. O(n log n) if standard sort is used first. Space complexity: O(n) for buckets or O(1) if sorting in place and then iterating.\nAlgorithms: Bucket Sort (Pigeonhole Principle), Radix Sort\nData Structures: Array, Buckets (can be arrays or lists)\nKey concepts: Non-comparison sort, Gap calculation between buckets, Range partitioning",
+      "answers": [
+        {
+          "id": 133048,
+          "text": "Stack with parentheses matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161576",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/compare-version-numbers\" target=\"_blank\">165. Compare Version Numbers</a>",
+      "number": 46,
+      "hint": null,
+      "notes": "",
+      "explanation": "Split both version strings by '.'. Iterate through the revisions, comparing corresponding parts as integers. If one version has more revisions, treat missing parts as 0.\nTime complexity: O(N+M+max(L1,L2)) where N, M are lengths of strings, L1, L2 are number of revisions. Space complexity: O(L1+L2) for storing revisions.\nAlgorithms: String Parsing, Iteration\nData Structures: String, Array/List (of revision numbers)\nKey concepts: Lexicographical comparison of components, Integer conversion, Handling unequal number of revisions",
+      "answers": [
+        {
+          "id": 133049,
+          "text": "Bitwise operation analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161577",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/fraction-to-recurring-decimal\" target=\"_blank\">166. Fraction to Recurring Decimal</a>",
+      "number": 47,
+      "hint": null,
+      "notes": "",
+      "explanation": "Handle sign. Calculate integer part. For fractional part, simulate long division. Keep track of remainders seen and their positions. If a remainder repeats, the decimal part is recurring from that position. Store digits in a list/builder.\\nTime complexity: O(denominator) in worst case (length of recurring part). Space complexity: O(denominator) for storing remainders.\\nAlgorithms: Long Division Simulation, Hashing (for remainders)\\\\nData Structures: String/StringBuilder, Hash Map\\\\nKey concepts: Decimal representation, Recurring patterns, Remainder tracking",
+      "answers": [
+        {
+          "id": 133050,
+          "text": "Pattern matching algorithm",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161578",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/two-sum-ii-input-array-is-sorted\" target=\"_blank\">167. Two Sum II - Input Array Is Sorted</a>",
+      "number": 48,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a two-pointer approach. Initialize one pointer at the beginning (low) and another at the end (high) of the sorted array. If sum of numbers[low] + numbers[high] is less than target, increment low. If greater, decrement high. If equal, solution found.\\\\nTime complexity: O(n), Space complexity: O(1)\\\\nAlgorithms: Two Pointers\\\\nData Structures: Array\\\\nKey concepts: Sorted array properties, Converging pointers, Sum comparison",
+      "answers": [
+        {
+          "id": 133051,
+          "text": "Binary search modification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161579",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/factorial-trailing-zeroes\" target=\"_blank\">172. Factorial Trailing Zeroes</a>",
+      "number": 49,
+      "hint": null,
+      "notes": "",
+      "explanation": "Trailing zeros are formed by factors of 10, which means factors of 2 and 5. Since factors of 5 are less frequent, count the number of factors of 5 in n!. This is n/5 + n/25 + n/125 + ... until the term becomes 0.\\\\nTime complexity: O(log5 n), Space complexity: O(1)\\\\nAlgorithms: Mathematical insight, Iteration\\\\nData Structures: Integer\\\\nKey concepts: Prime factorization of factorial, Counting factors of 5, Legendre's formula",
+      "answers": [
+        {
+          "id": 133052,
+          "text": "Reservoir sampling algorithm",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161580",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program med free 2",
+      "question": "<a href=\"https://leetcode.com/problems/binary-search-tree-iterator\" target=\"_blank\">173. Binary Search Tree Iterator</a>",
+      "number": 50,
+      "hint": null,
+      "notes": "",
+      "explanation": "Implement controlled in-order traversal. Use a stack. In the constructor or first `next()` call, push all left children of the root onto the stack. `next()` pops from stack (this is the smallest), then pushes all left children of its right child. `hasNext()` checks if stack is not empty.\\\\nTime complexity: O(1) average for next() and hasNext() (amortized over N calls is O(N)). Space complexity: O(h) for the stack.\\\\nAlgorithms: In-order Traversal (Iterative), Stack\\\\nData Structures: Binary Search Tree, Stack\\\\nKey concepts: Iterator design, Flattening BST implicitly, Controlled traversal",
+      "answers": [
+        {
+          "id": 133053,
+          "text": "Geometric algorithm application",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161581",
+      "deckId": "_1"
+    }
+  ]
+}

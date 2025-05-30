@@ -1,0 +1,1266 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode program easy free 3",
+      "id": 1,
+      "description": "Leetcode free programming questions, difficulty easy, part 3",
+      "synopsis": "Leetcode free programming questions, difficulty easy, part 3",
+      "notes": "Created with claude-3.7-sonnet",
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/relative-ranks\" target=\"_blank\">506. Relative Ranks</a>",
+      "number": 1,
+      "hint": null,
+      "notes": "",
+      "explanation": "Map each athlete's score to their original position, then sort the scores and assign medals or ranks accordingly.\nTime complexity: O(n log n), Space complexity: O(n)\nAlgorithms: Sorting, Mapping\nData Structures: Array, Hash map\nKey concepts: Relative ordering, Position tracking, Custom ranking",
+      "answers": [
+        {
+          "id": 132553,
+          "text": "Score-to-position mapping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161117",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/perfect-number\" target=\"_blank\">507. Perfect Number</a>",
+      "number": 2,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find all divisors of the number by checking potential factors up to the square root, then sum them to verify if it equals the original number.\nTime complexity: O(sqrt(n)), Space complexity: O(1)\nAlgorithms: Number theory, Divisor calculation\nData Structures: Integer variables\nKey concepts: Perfect numbers, Factor pairs, Mathematical properties",
+      "answers": [
+        {
+          "id": 132554,
+          "text": "Divisor summation verification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161118",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/fibonacci-number\" target=\"_blank\">509. Fibonacci Number</a>",
+      "number": 3,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate Fibonacci numbers iteratively using dynamic programming or recursion with memoization to avoid redundant calculations.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Dynamic programming, Iterative calculation\nData Structures: Integer variables\nKey concepts: Fibonacci sequence, Recurrence relation, Bottom-up approach",
+      "answers": [
+        {
+          "id": 132555,
+          "text": "Iterative sequence calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161119",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/detect-capital\" target=\"_blank\">520. Detect Capital</a>",
+      "number": 4,
+      "hint": null,
+      "notes": "Can be done in one pass with tracking variables isFirst and isAll. \nSimilar in nature to the is valid number problem (need to look up the number)",
+      "explanation": "Check if all letters are uppercase, all letters are lowercase, or only the first letter is uppercase and the rest are lowercase.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: String traversal, Case checking\nData Structures: String\nKey concepts: Capitalization rules, String manipulation, Case sensitivity",
+      "answers": [
+        {
+          "id": 132556,
+          "text": "Iteration with state tracking.",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161120",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/longest-uncommon-subsequence-i\" target=\"_blank\">521. Longest Uncommon Subsequence I</a>",
+      "number": 5,
+      "hint": null,
+      "notes": "",
+      "explanation": "Compare the two strings and return the length of the longer string if they're different, or -1 if they're identical.\nTime complexity: O(min(n,m)), Space complexity: O(1)\nAlgorithms: String comparison\nData Structures: String\nKey concepts: Subsequence properties, String equality, Edge case handling",
+      "answers": [
+        {
+          "id": 132557,
+          "text": "String length comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161121",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/minimum-absolute-difference-in-bst\" target=\"_blank\">530. Minimum Absolute Difference in BST</a>",
+      "number": 6,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform an inorder traversal of the BST to get values in ascending order, then find the minimum difference between consecutive elements.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Inorder traversal, Linear scan\nData Structures: Binary search tree\nKey concepts: BST properties, Sorted traversal, Minimum difference",
+      "answers": [
+        {
+          "id": 132558,
+          "text": "Ordered tree traversal",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161122",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/reverse-string-ii\" target=\"_blank\">541. Reverse String II</a>",
+      "number": 7,
+      "hint": null,
+      "notes": "",
+      "explanation": "Process the string in chunks of 2k characters, reversing the first k characters in each chunk while leaving the rest unchanged.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: String traversal, Chunk processing\nData Structures: String, Character array\nKey concepts: Partial reversal, Group processing, Index calculation",
+      "answers": [
+        {
+          "id": 132559,
+          "text": "Conditional segment reversal",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161123",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/diameter-of-binary-tree\" target=\"_blank\">543. Diameter of Binary Tree</a>",
+      "number": 8,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the height of each node's left and right subtrees, updating the maximum diameter found as the sum of the heights of both subtrees.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, Post-order traversal\nData Structures: Binary tree\nKey concepts: Tree diameter, Height calculation, Path length",
+      "answers": [
+        {
+          "id": 132560,
+          "text": "DFS",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161124",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/student-attendance-record-i\" target=\"_blank\">551. Student Attendance Record I</a>",
+      "number": 9,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the number of absences and check for consecutive late days, verifying that absences are fewer than 2 and there are no three consecutive late days.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: String traversal, Counting\nData Structures: String\nKey concepts: Pattern detection, Character counting, Consecutive occurrences",
+      "answers": [
+        {
+          "id": 132561,
+          "text": "Pattern frequency analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161125",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/reverse-words-in-a-string-iii\" target=\"_blank\">557. Reverse Words in a String III</a>",
+      "number": 10,
+      "hint": null,
+      "notes": "",
+      "explanation": "Split the string into words, reverse each word individually, then join them back together with spaces.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: String traversal, Word reversal\nData Structures: String, Array\nKey concepts: Word boundary detection, Character reversal, String manipulation",
+      "answers": [
+        {
+          "id": 132562,
+          "text": "Word-level string manipulation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161126",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-depth-of-n-ary-tree\" target=\"_blank\">559. Maximum Depth of N-ary Tree</a>",
+      "number": 11,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use either recursive or iterative approach to traverse the tree and find the maximum depth by calculating the height of each subtree.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Tree traversal, Depth-first search, Breadth-first search\nData Structures: N-ary tree, Queue/Stack\nKey concepts: Tree height, Level traversal, Recursive depth",
+      "answers": [
+        {
+          "id": 132563,
+          "text": "Tree depth calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161127",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/array-partition\" target=\"_blank\">561. Array Partition</a>",
+      "number": 12,
+      "hint": null,
+      "notes": "",
+      "explanation": "Sort the array and sum up elements at even indices to maximize the sum of minimum values in each pair.\nTime complexity: O(n log n), Space complexity: O(1)\nAlgorithms: Sorting, Greedy approach\nData Structures: Array\nKey concepts: Pair optimization, Minimum value maximization, Sorted distribution",
+      "answers": [
+        {
+          "id": 132564,
+          "text": "Ordered element pairing",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161128",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/binary-tree-tilt\" target=\"_blank\">563. Binary Tree Tilt</a>",
+      "number": 13,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use post-order traversal to calculate the sum of values in each subtree and compute the tilt of each node as the absolute difference between its left and right subtree sums.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Post-order traversal, Depth-first search\nData Structures: Binary tree\nKey concepts: Tree traversal, Node differences, Subtree sum calculation",
+      "answers": [
+        {
+          "id": 132565,
+          "text": "Post order DFS",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161129",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/reshape-the-matrix\" target=\"_blank\">566. Reshape the Matrix</a>",
+      "number": 14,
+      "hint": null,
+      "notes": "",
+      "explanation": "Validate that the reshape operation is possible, then traverse the original matrix in row-major order to populate the new matrix with the desired dimensions.\nTime complexity: O(r*c), Space complexity: O(r*c)\nAlgorithms: Matrix traversal, 2D array manipulation\nData Structures: 2D array\nKey concepts: Row-major ordering, Dimension validation, Index mapping",
+      "answers": [
+        {
+          "id": 132566,
+          "text": "Prevalidation followed by iteration ",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161130",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/subtree-of-another-tree\" target=\"_blank\">572. Subtree of Another Tree</a>",
+      "number": 15,
+      "hint": null,
+      "notes": "",
+      "explanation": "For each node in the main tree, check if the subtree rooted at that node is identical to the given tree using a recursive approach.\nTime complexity: O(m*n), Space complexity: O(h)\nAlgorithms: Tree traversal, Recursive comparison\nData Structures: Binary tree\nKey concepts: Subtree identification, Structural equality, Recursive verification",
+      "answers": [
+        {
+          "id": 132567,
+          "text": "Tree structure matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161131",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/distribute-candies\" target=\"_blank\">575. Distribute Candies</a>",
+      "number": 16,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the number of unique candy types and return the minimum of that count and half the total number of candies, as the sister can get at most one of each type.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Set operations, Counting\nData Structures: Hash set\nKey concepts: Unique element counting, Maximum variety, Equal distribution",
+      "answers": [
+        {
+          "id": 132568,
+          "text": "Tracking with HashMap",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161132",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/n-ary-tree-preorder-traversal\" target=\"_blank\">589. N-ary Tree Preorder Traversal</a>",
+      "number": 17,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the N-ary tree in preorder fashion (root first, then children from left to right) using either recursion or an iterative approach with a stack.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Tree traversal, Depth-first search\nData Structures: N-ary tree, Stack\nKey concepts: Preorder traversal, Multiple children, Root-first exploration",
+      "answers": [
+        {
+          "id": 132569,
+          "text": "Root-first multi-child traversal",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161133",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/n-ary-tree-postorder-traversal\" target=\"_blank\">590. N-ary Tree Postorder Traversal</a>",
+      "number": 18,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the N-ary tree in postorder fashion (children from left to right, then root) using recursion or an iterative approach with a stack and result reversal.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Tree traversal, Depth-first search\nData Structures: N-ary tree, Stack\nKey concepts: Postorder traversal, Multiple children, Children-first exploration",
+      "answers": [
+        {
+          "id": 132570,
+          "text": "Children-first multi-node traversal",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161134",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/longest-harmonious-subsequence\" target=\"_blank\">594. Longest Harmonious Subsequence</a>",
+      "number": 19,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the frequency of each number and find pairs of consecutive integers whose combined count is maximum, as a harmonious subsequence requires a difference of exactly 1.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Hash table counting, Linear scan\nData Structures: Hash map\nKey concepts: Frequency counting, Consecutive integers, Subsequence properties",
+      "answers": [
+        {
+          "id": 132571,
+          "text": "Adjacent value frequency analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161135",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/range-addition-ii\" target=\"_blank\">598. Range Addition II</a>",
+      "number": 20,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find the minimum row and column indices across all operations, as these define the rectangle of most-incremented elements.\nTime complexity: O(k), Space complexity: O(1)\nAlgorithms: Rectangle intersection, Minimum tracking\nData Structures: Integer variables\nKey concepts: Operation overlap, Coordinate tracking, Rectangle area",
+      "answers": [
+        {
+          "id": 132572,
+          "text": "Operation intersection calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161136",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/minimum-index-sum-of-two-lists\" target=\"_blank\">599. Minimum Index Sum of Two Lists</a>",
+      "number": 21,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a hash map to store the first list's strings and their indices, then iterate through the second list to find common strings with minimum index sum.\nTime complexity: O(n+m), Space complexity: O(n)\nAlgorithms: Hash mapping, Common element finding\nData Structures: Hash map\nKey concepts: Index tracking, Common element detection, Minimum sum",
+      "answers": [
+        {
+          "id": 132573,
+          "text": "Populate Hash map then iteration",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161137",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/can-place-flowers\" target=\"_blank\">605. Can Place Flowers</a>",
+      "number": 22,
+      "hint": null,
+      "notes": "",
+      "explanation": "Greedily place flowers at available positions from left to right, following the constraint that no adjacent positions can have flowers.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Greedy approach, Linear scan\nData Structures: Array\nKey concepts: Adjacent constraints, Placement strategy, Availability checking",
+      "answers": [
+        {
+          "id": 132574,
+          "text": "Constraint-based placement",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161138",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/merge-two-binary-trees\" target=\"_blank\">617. Merge Two Binary Trees</a>",
+      "number": 23,
+      "hint": null,
+      "notes": "",
+      "explanation": "Recursively merge two binary trees by summing node values at corresponding positions and connecting their children appropriately.\nTime complexity: O(min(m,n)), Space complexity: O(min(h1,h2))\nAlgorithms: Tree traversal, Recursive construction\nData Structures: Binary tree\nKey concepts: Tree merging, Node summation, Structural combination",
+      "answers": [
+        {
+          "id": 132575,
+          "text": "Tree structure combination",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161139",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-product-of-three-numbers\" target=\"_blank\">628. Maximum Product of Three Numbers</a>",
+      "number": 24,
+      "hint": null,
+      "notes": "",
+      "explanation": "Sort the array and return the maximum of the product of the three largest numbers or the product of the two smallest (negative) numbers and the largest number.\nTime complexity: O(n log n), Space complexity: O(1)\nAlgorithms: Sorting, Mathematical reasoning\nData Structures: Array\nKey concepts: Maximum product, Negative number handling, Edge case identification",
+      "answers": [
+        {
+          "id": 132576,
+          "text": "Sorting and then calculate ",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161140",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/average-of-levels-in-binary-tree\" target=\"_blank\">637. Average of Levels in Binary Tree</a>",
+      "number": 25,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform a level-order traversal of the tree using a queue and calculate the average value for each level.\nTime complexity: O(n), Space complexity: O(w)\nAlgorithms: Breadth-first search, Level-order traversal\nData Structures: Binary tree, Queue\nKey concepts: Tree level identification, Average calculation, Level-wise traversal",
+      "answers": [
+        {
+          "id": 132577,
+          "text": "Level-based tree analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161141",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-average-subarray-i\" target=\"_blank\">643. Maximum Average Subarray I</a>",
+      "number": 26,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a sliding window technique to efficiently calculate the sum of each k-length subarray and find the maximum average.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Sliding window, Running sum\nData Structures: Array\nKey concepts: Subarray averages, Window sliding, Maximum tracking",
+      "answers": [
+        {
+          "id": 132578,
+          "text": "Fixed-size window analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161142",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/set-mismatch\" target=\"_blank\">645. Set Mismatch</a>",
+      "number": 27,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use array indexing or bit manipulation to identify the duplicate and missing numbers in a sequence that should contain exactly one of each number from 1 to n.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Array marking, Hash set, Bit manipulation\nData Structures: Array\nKey concepts: Duplicate detection, Missing element finding, Number sequence",
+      "answers": [
+        {
+          "id": 132579,
+          "text": "Sequence aberration detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161143",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/two-sum-iv-input-is-a-bst\" target=\"_blank\">653. Two Sum IV - Input is a BST</a>",
+      "number": 28,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the BST while using a hash set to check if the complement of each node's value (target - node.val) has been seen before.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Tree traversal, Hash set lookup\nData Structures: Binary search tree, Hash set\nKey concepts: Pair finding, Complement search, BST traversal",
+      "answers": [
+        {
+          "id": 132580,
+          "text": "Tree-based pair detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161144",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/robot-return-to-origin\" target=\"_blank\">657. Robot Return to Origin</a>",
+      "number": 29,
+      "hint": null,
+      "notes": "",
+      "explanation": "Track the robot's position as it moves according to the instructions, then check if it returns to the origin (0,0) after all moves.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: String traversal, Coordinate tracking\nData Structures: Integer variables\nKey concepts: Directional movement, Position tracking, Zero-sum movement",
+      "answers": [
+        {
+          "id": 132581,
+          "text": "Iteration",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161145",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/image-smoother\" target=\"_blank\">661. Image Smoother</a>",
+      "number": 30,
+      "hint": null,
+      "notes": "I believe this is just standard iteration with averaging over the matrix.",
+      "explanation": "For each cell in the matrix, calculate the average value of itself and its eight surrounding cells (or fewer if on the boundary).\nTime complexity: O(m*n), Space complexity: O(m*n)\nAlgorithms: Matrix traversal, Neighborhood averaging\nData Structures: 2D array\nKey concepts: Image processing, Cell neighborhood, Boundary handling",
+      "answers": [
+        {
+          "id": 132582,
+          "text": "Local neighborhood averaging",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161146",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/second-minimum-node-in-a-binary-tree\" target=\"_blank\">671. Second Minimum Node In a Binary Tree</a>",
+      "number": 31,
+      "hint": null,
+      "notes": "Time complexity is n for when the tree is all of the same number.\nUse DFS to maintain the space complexity as h.",
+      "explanation": "Exploit the special property of the tree where each node has either two children or none, and parent values are the minimum of children, to find the second smallest value.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Tree traversal, Value tracking\nData Structures: Binary tree\nKey concepts: Special tree properties, Second minimum finding, Early termination",
+      "answers": [
+        {
+          "id": 132583,
+          "text": "Specialized tree value searching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161147",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/longest-continuous-increasing-subsequence\" target=\"_blank\">674. Longest Continuous Increasing Subsequence</a>",
+      "number": 32,
+      "hint": null,
+      "notes": "",
+      "explanation": "Scan through the array and track the length of the current increasing sequence, updating the maximum length when the sequence breaks.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linear scan, Kadane's algorithm variant\nData Structures: Array\nKey concepts: Continuous subsequence, Increasing property, Length tracking",
+      "answers": [
+        {
+          "id": 132584,
+          "text": "Iteration + Tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161148",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/valid-palindrome-ii\" target=\"_blank\">680. Valid Palindrome II</a>",
+      "number": 33,
+      "hint": null,
+      "notes": "",
+      "explanation": "Check if the string is a palindrome, and when a mismatch is found, verify if removing either the left or right character would result in a palindrome.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, Palindrome checking\nData Structures: String\nKey concepts: Character deletion, Almost-palindrome, Bidirectional checking",
+      "answers": [
+        {
+          "id": 132585,
+          "text": "Single-deletion verification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161149",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/baseball-game\" target=\"_blank\">682. Baseball Game</a>",
+      "number": 34,
+      "hint": null,
+      "notes": "",
+      "explanation": "Process operations in order, maintaining a stack of valid scores and performing special operations (C, D, +) as specified by modifying the stack appropriately.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Stack operations, String parsing\nData Structures: Stack\nKey concepts: Operation simulation, Score tracking, Command processing",
+      "answers": [
+        {
+          "id": 132586,
+          "text": "Iteration with a stack",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161150",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/binary-number-with-alternating-bits\" target=\"_blank\">693. Binary Number with Alternating Bits</a>",
+      "number": 35,
+      "hint": null,
+      "notes": "Need to find out how to use bitwise operators to perform this.",
+      "explanation": "Check if the binary representation of the number has alternating 0s and 1s by comparing adjacent bits or using bitwise operations.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Bit manipulation, Pattern checking\nData Structures: Integer\nKey concepts: Binary representation, Alternating pattern, Bit shifting",
+      "answers": [
+        {
+          "id": 132587,
+          "text": "Binary pattern verification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161151",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/count-binary-substrings\" target=\"_blank\">696. Count Binary Substrings</a>",
+      "number": 36,
+      "hint": null,
+      "notes": "How is this space complexity constant, don't you have to save the groupings somewhere?",
+      "explanation": "Group consecutive 0s and 1s, then count valid substrings by taking the minimum length of adjacent groups, as this represents how many balanced substrings can be formed.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: String traversal, Group counting\nData Structures: String\nKey concepts: Consecutive grouping, Balanced substring, Adjacent group comparison",
+      "answers": [
+        {
+          "id": 132588,
+          "text": "Adjacent group analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161152",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/degree-of-an-array\" target=\"_blank\">697. Degree of an Array</a>",
+      "number": 37,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a hash to find elements with maximum frequency (degree) while keeping track of the max so far. Then calculate the length of the shortest subarray containing all occurrences of each such element.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Hash mapping, Frequency counting\nData Structures: Hash map\nKey concepts: Array degree, Frequency tracking, Subarray boundaries",
+      "answers": [
+        {
+          "id": 132589,
+          "text": "Frequency-based subarray analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161153",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/search-in-a-binary-search-tree\" target=\"_blank\">700. Search in a Binary Search Tree</a>",
+      "number": 38,
+      "hint": null,
+      "notes": "It's not balanced so the time complexity is O(h) instead of log n",
+      "explanation": "Leverage BST properties to search for a target value by recursively or iteratively going left if the target is smaller, right if larger, or returning the node if equal.\nTime complexity: O(h), Space complexity: O(h) recursive, O(1) iterative\nAlgorithms: Binary search tree traversal\nData Structures: Binary search tree\nKey concepts: BST properties, Target search, Tree navigation",
+      "answers": [
+        {
+          "id": 132590,
+          "text": "Ordered tree searching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161154",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/kth-largest-element-in-a-stream\" target=\"_blank\">703. Kth Largest Element in a Stream</a>",
+      "number": 39,
+      "hint": null,
+      "notes": "",
+      "explanation": "Maintain a min-heap of size k to efficiently track the k largest elements, where the smallest element in the heap is always the kth largest overall.\nTime complexity: O(n log k) for initialization, O(log k) for adding elements, Space complexity: O(k)\nAlgorithms: Heap operations, Priority queue\nData Structures: Min-heap\nKey concepts: Kth largest tracking, Stream processing, Heap maintenance",
+      "answers": [
+        {
+          "id": 132591,
+          "text": "Priority-based element tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161155",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/binary-search\" target=\"_blank\">704. Binary Search</a>",
+      "number": 40,
+      "hint": null,
+      "notes": "",
+      "explanation": "Implement classic binary search on a sorted array by repeatedly dividing the search interval in half based on comparing the target with the middle element.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary search\nData Structures: Sorted array\nKey concepts: Search space reduction, Sorted array properties, Logarithmic time complexity",
+      "answers": [
+        {
+          "id": 132592,
+          "text": "Divide-and-conquer searching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161156",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/design-hashset\" target=\"_blank\">705. Design HashSet</a>",
+      "number": 41,
+      "hint": null,
+      "notes": "Apparently can't use object\nHow is a linked list or balanced tree going to be O(1)! for add operations?",
+      "explanation": "Implement a HashSet data structure with basic operations (add, remove, contains) using either an array, linked lists with hashing, or a balanced tree.\nTime complexity: O(1) average for operations, Space complexity: O(n)\nAlgorithms: Hashing, Collision handling\nData Structures: Array, Linked list, BST\nKey concepts: Hash function, Set operations, Data structure design",
+      "answers": [
+        {
+          "id": 132593,
+          "text": "Custom data structure implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161157",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/design-hashmap\" target=\"_blank\">706. Design HashMap</a>",
+      "number": 42,
+      "hint": null,
+      "notes": "",
+      "explanation": "Implement a HashMap data structure supporting basic operations (put, get, remove) using techniques like separate chaining or open addressing to handle collisions.\nTime complexity: O(1) average for operations, Space complexity: O(n)\nAlgorithms: Hashing, Collision resolution\nData Structures: Array, Linked list\nKey concepts: Key-value mapping, Hash function, Collision handling",
+      "answers": [
+        {
+          "id": 132594,
+          "text": "Hash-based mapping structure",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161158",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/to-lower-case\" target=\"_blank\">709. To Lower Case</a>",
+      "number": 43,
+      "hint": null,
+      "notes": "",
+      "explanation": "Convert each uppercase letter to lowercase by adding the ASCII difference between uppercase and lowercase letters, leaving non-alphabetic characters unchanged.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: String traversal, Character manipulation\nData Structures: String\nKey concepts: ASCII values, Case conversion, Character transformation",
+      "answers": [
+        {
+          "id": 132595,
+          "text": "Character transformation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161159",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/1-bit-and-2-bit-characters\" target=\"_blank\">717. 1-bit and 2-bit Characters</a>",
+      "number": 44,
+      "hint": null,
+      "notes": "",
+      "explanation": "Scan through the array by parsing valid characters (0 as a 1-bit character, or 10/11 as 2-bit characters), and check if the last character parsed is a 1-bit character.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Greedy approach, Linear scan\nData Structures: Array\nKey concepts: Character encoding, Parsing strategy, End-state verification",
+      "answers": [
+        {
+          "id": 132596,
+          "text": "Sequential parsing validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161160",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/find-pivot-index\" target=\"_blank\">724. Find Pivot Index</a>",
+      "number": 45,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the total sum, then iterate through the array maintaining a running sum, checking at each index if the sum to the left equals the sum to the right.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Prefix sum, Linear scan\nData Structures: Array\nKey concepts: Equilibrium index, Running sum, Balance point",
+      "answers": [
+        {
+          "id": 132597,
+          "text": "Balance point identification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161161",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/self-dividing-numbers\" target=\"_blank\">728. Self Dividing Numbers</a>",
+      "number": 46,
+      "hint": null,
+      "notes": "",
+      "explanation": "Check each number in the range to see if it's self-dividing by extracting its digits and verifying that none are zero and that the original number is divisible by each digit.\nTime complexity: O(n * log n), Space complexity: O(1)\nAlgorithms: Digit extraction, Divisibility testing\nData Structures: Integer\nKey concepts: Self-dividing property, Digit manipulation, Range iteration",
+      "answers": [
+        {
+          "id": 132598,
+          "text": "Basic iteration with an operation ",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161162",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/flood-fill\" target=\"_blank\">733. Flood Fill</a>",
+      "number": 47,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use depth-first search or breadth-first search to traverse and change the color of connected pixels that match the starting pixel's color.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Depth-first search, Breadth-first search\nData Structures: 2D array, Queue/Stack\nKey concepts: Connected component, Color filling, Graph traversal",
+      "answers": [
+        {
+          "id": 132599,
+          "text": "Region-based color transformation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161163",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/find-smallest-letter-greater-than-target\" target=\"_blank\">744. Find Smallest Letter Greater Than Target</a>",
+      "number": 48,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use binary search to find the smallest letter in the array that is lexicographically greater than the target, wrapping around if necessary.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary search, Linear scan\nData Structures: Sorted array\nKey concepts: Circular wrapping, Lexicographic comparison, Upper bound",
+      "answers": [
+        {
+          "id": 132600,
+          "text": "Binary search successor finding",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161164",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/min-cost-climbing-stairs\" target=\"_blank\">746. Min Cost Climbing Stairs</a>",
+      "number": 49,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use dynamic programming to calculate the minimum cost to reach each step, considering the option to take either one or two steps at a time.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Dynamic programming, Bottom-up approach\nData Structures: Array\nKey concepts: Minimum cost path, State transition, Optimal substructure",
+      "answers": [
+        {
+          "id": 132601,
+          "text": "Cost-minimizing path selection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161165",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 3",
+      "question": "<a href=\"https://leetcode.com/problems/largest-number-at-least-twice-of-others\" target=\"_blank\">747. Largest Number At Least Twice of Others</a>",
+      "number": 50,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find the largest and second largest elements in the array, then verify if the largest is at least twice as large as the second largest.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linear scan, Maximum finding\nData Structures: Array\nKey concepts: Element comparison, Dominant element, Index tracking",
+      "answers": [
+        {
+          "id": 132602,
+          "text": "Compare Largest to second largest",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161166",
+      "deckId": "_1"
+    }
+  ]
+}

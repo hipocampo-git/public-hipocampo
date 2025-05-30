@@ -1,0 +1,1641 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode program easy prem 1",
+      "id": 1,
+      "description": "Leetcode premium programming questions, difficulty easy",
+      "synopsis": "Leetcode premium programming questions, difficulty easy",
+      "notes": "Created with claude-3.5-sonnet",
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/read-n-characters-given-read4\" target=\"_blank\">157. Read N Characters Given Read4</a>",
+      "number": 1,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Buffer management, Two-pointer technique\nData Structures: Array buffer, Character array\nKey concepts: File I/O, Buffer reading, Partial reads",
+      "answers": [
+        {
+          "id": 132388,
+          "text": "Buffer management and iteration",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160952",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/missing-ranges\" target=\"_blank\">163. Missing Ranges</a>",
+      "number": 2,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Linear scan, Range comparison\nData Structures: Array\nKey concepts: Range manipulation, Boundary handling, Edge cases with integer limits",
+      "answers": [
+        {
+          "id": 132389,
+          "text": "Range comparison and boundary handling",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160953",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/two-sum-iii-data-structure-design\" target=\"_blank\">170. Two Sum III - Data Structure Design</a>",
+      "number": 3,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n) for add, O(n) for find, Space complexity: O(n)\nAlgorithms: Hash table lookup, Two-sum algorithm\nData Structures: Hash map/Hash set\nKey concepts: Data structure design, Space-time tradeoff, Dynamic updates",
+      "answers": [
+        {
+          "id": 132390,
+          "text": "Efficient data structure choice and lookup",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160954",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/shortest-word-distance\" target=\"_blank\">243. Shortest Word Distance</a>",
+      "number": 4,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Linear scan, Two-pointer technique\nData Structures: Array\nKey concepts: String comparison, Distance calculation, Position tracking",
+      "answers": [
+        {
+          "id": 132391,
+          "text": "Linear traversal with position tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160955",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/strobogrammatic-number\" target=\"_blank\">246. Strobogrammatic Number</a>",
+      "number": 5,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, Character mapping\nData Structures: Hash map, String\nKey concepts: String manipulation, Symmetry checking, Character rotation",
+      "answers": [
+        {
+          "id": 132392,
+          "text": "Character mapping and comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160956",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/meeting-rooms\" target=\"_blank\">252. Meeting Rooms</a>",
+      "number": 6,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(1)\nAlgorithms: Sorting, Interval scheduling\nData Structures: Array of intervals\nKey concepts: Interval overlap detection, Chronological ordering, Meeting scheduling",
+      "answers": [
+        {
+          "id": 132393,
+          "text": "Interval sorting and overlap detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160957",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/palindrome-permutation\" target=\"_blank\">266. Palindrome Permutation</a>",
+      "number": 7,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Character frequency counting, Parity checking\nData Structures: Hash map/Array (frequency table)\nKey concepts: Palindrome properties, Character frequency analysis, Permutation validation",
+      "answers": [
+        {
+          "id": 132394,
+          "text": "Character frequency analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160958",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/closest-binary-search-tree-value\" target=\"_blank\">270. Closest Binary Search Tree Value</a>",
+      "number": 8,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(h), Space complexity: O(1)\nAlgorithms: Binary search tree traversal, Binary search\nData Structures: Binary Search Tree\nKey concepts: Tree traversal, Closest value search, BST properties",
+      "answers": [
+        {
+          "id": 132395,
+          "text": "Binary search tree traversal",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160959",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/flip-game\" target=\"_blank\">293. Flip Game</a>",
+      "number": 9,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: String pattern matching, State generation\nData Structures: Array/String, List\nKey concepts: String manipulation, Pattern matching, State transformation",
+      "answers": [
+        {
+          "id": 132396,
+          "text": "String pattern matching and modification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160960",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/moving-average-from-data-stream\" target=\"_blank\">346. Moving Average from Data Stream</a>",
+      "number": 10,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(1), Space complexity: O(n)\nAlgorithms: Sliding window, Running average\nData Structures: Queue/Circular buffer\nKey concepts: Data stream processing, Moving window calculations, Queue operations",
+      "answers": [
+        {
+          "id": 132397,
+          "text": "Queue-based sliding window",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160961",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/logger-rate-limiter\" target=\"_blank\">359. Logger Rate Limiter</a>",
+      "number": 11,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(1), Space complexity: O(n)\nAlgorithms: Hash table operations, Time-based caching\nData Structures: Hash map with timestamps\nKey concepts: Rate limiting, Message deduplication, Time window management",
+      "answers": [
+        {
+          "id": 132398,
+          "text": "Hash map with timestamp tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160962",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/valid-word-abbreviation\" target=\"_blank\">408. Valid Word Abbreviation</a>",
+      "number": 12,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, String parsing\nData Structures: String\nKey concepts: String validation, Number parsing, Abbreviation rules",
+      "answers": [
+        {
+          "id": 132399,
+          "text": "Two-pointer string comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160963",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/valid-word-square\" target=\"_blank\">422. Valid Word Square</a>",
+      "number": 13,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n*m), Space complexity: O(1)\nAlgorithms: Matrix traversal, Symmetry checking\nData Structures: 2D Array/Matrix\nKey concepts: Matrix symmetry, Character matching, Boundary checking",
+      "answers": [
+        {
+          "id": 132400,
+          "text": "Matrix symmetry verification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160964",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/design-compressed-string-iterator\" target=\"_blank\">604. Design Compressed String Iterator</a>",
+      "number": 14,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(1) average, Space complexity: O(1)\nAlgorithms: String parsing, Iterator design\nData Structures: String, Counter variables\nKey concepts: Iterator pattern, Run-length encoding, Lazy evaluation",
+      "answers": [
+        {
+          "id": 132401,
+          "text": "Iterator with count tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160965",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/sentence-similarity\" target=\"_blank\">734. Sentence Similarity</a>",
+      "number": 15,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(k)\nAlgorithms: Hash set lookup, String comparison\nData Structures: Hash set, Array\nKey concepts: Word similarity, Pair matching, Bidirectional mapping",
+      "answers": [
+        {
+          "id": 132402,
+          "text": "Hash set based word mapping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160966",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/find-anagram-mappings\" target=\"_blank\">760. Find Anagram Mappings</a>",
+      "number": 16,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: Hash table mapping, Array indexing\nData Structures: Hash map, Array\nKey concepts: Anagram properties, Index mapping, Value lookup",
+      "answers": [
+        {
+          "id": 132403,
+          "text": "Hash map based index mapping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160967",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/similar-rgb-color\" target=\"_blank\">800. Similar RGB Color</a>",
+      "number": 17,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(1), Space complexity: O(1)\nAlgorithms: Rounding, Hexadecimal conversion\nData Structures: String\nKey concepts: Color representation, Hexadecimal arithmetic, Nearest value computation",
+      "answers": [
+        {
+          "id": 132404,
+          "text": "Hexadecimal rounding",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160968",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/confusing-number\" target=\"_blank\">1056. Confusing Number</a>",
+      "number": 18,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(log n), Space complexity: O(1)\nAlgorithms: Digit manipulation, Number rotation\nData Structures: Hash map (for digit mapping)\nKey concepts: Number properties, Digit rotation rules, Valid digit checking",
+      "answers": [
+        {
+          "id": 132405,
+          "text": "Digit rotation validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160969",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/fixed-point\" target=\"_blank\">1064. Fixed Point</a>",
+      "number": 19,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary search, Array traversal\nData Structures: Sorted array\nKey concepts: Fixed point properties, Binary search optimization, Array indexing",
+      "answers": [
+        {
+          "id": 132406,
+          "text": "Binary search optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160970",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/index-pairs-of-a-string\" target=\"_blank\">1065. Index Pairs of a String</a>",
+      "number": 20,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n*m*k), Space complexity: O(r)\nAlgorithms: String matching, Sorting\nData Structures: Array, Trie (optional optimization)\nKey concepts: String searching, Index pair generation, Result sorting",
+      "answers": [
+        {
+          "id": 132407,
+          "text": "String matching with sorting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160971",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/sum-of-digits-in-the-minimum-number\" target=\"_blank\">1085. Sum of Digits in the Minimum Number</a>",
+      "number": 21,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n + log k), Space complexity: O(1)\nAlgorithms: Array minimum finding, Digit sum calculation\nData Structures: Array\nKey concepts: Number manipulation, Digit extraction, Minimum value",
+      "answers": [
+        {
+          "id": 132408,
+          "text": "Array minimum and digit sum",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160972",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/high-five\" target=\"_blank\">1086. High Five</a>",
+      "number": 22,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log k), Space complexity: O(n)\nAlgorithms: Priority queue operations, Sorting\nData Structures: Priority Queue/Heap, Hash map\nKey concepts: Top-k elements, Average calculation, Student scores",
+      "answers": [
+        {
+          "id": 132409,
+          "text": "Priority queue based selection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160973",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/two-sum-less-than-k\" target=\"_blank\">1099. Two Sum Less Than K</a>",
+      "number": 23,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, Sorting\nData Structures: Array\nKey concepts: Sum constraints, Array sorting, Maximum value finding",
+      "answers": [
+        {
+          "id": 132410,
+          "text": "Two pointer technique with sorting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160974",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-days-in-a-month\" target=\"_blank\">1118. Number of Days in a Month</a>",
+      "number": 24,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(1), Space complexity: O(1)\nAlgorithms: Calendar calculation, Leap year checking\nData Structures: Integer variables\nKey concepts: Date validation, Month lengths, Leap year rules",
+      "answers": [
+        {
+          "id": 132411,
+          "text": "Calendar rule implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160975",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/remove-vowels-from-a-string\" target=\"_blank\">1119. Remove Vowels from a String</a>",
+      "number": 25,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: String traversal, Character filtering\nData Structures: String, Set (for vowels)\nKey concepts: String manipulation, Character classification, In-place modification",
+      "answers": [
+        {
+          "id": 132412,
+          "text": "Character filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160976",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/largest-unique-number\" target=\"_blank\">1133. Largest Unique Number</a>",
+      "number": 26,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: Hash table counting, Maximum finding\nData Structures: Hash map/Array\nKey concepts: Frequency counting, Unique elements, Maximum value",
+      "answers": [
+        {
+          "id": 132413,
+          "text": "Frequency counting with maximum",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160977",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/armstrong-number\" target=\"_blank\">1134. Armstrong Number</a>",
+      "number": 27,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(log n), Space complexity: O(1)\nAlgorithms: Digit extraction, Power calculation\nData Structures: Integer variables\nKey concepts: Number theory, Digit manipulation, Mathematical properties",
+      "answers": [
+        {
+          "id": 132414,
+          "text": "Digit power summation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160978",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array\" target=\"_blank\">1150. Check If a Number Is Majority Element in a Sorted Array</a>",
+      "number": 28,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary search, Frequency counting\nData Structures: Sorted array\nKey concepts: Majority element, Binary search bounds, Array properties",
+      "answers": [
+        {
+          "id": 132415,
+          "text": "Binary search with counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160979",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/single-row-keyboard\" target=\"_blank\">1165. Single-Row Keyboard</a>",
+      "number": 29,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: String traversal, Distance calculation\nData Structures: Hash map (for character positions)\nKey concepts: Keyboard layout, Character indexing, Distance computation",
+      "answers": [
+        {
+          "id": 132416,
+          "text": "Character position mapping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160980",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/diet-plan-performance\" target=\"_blank\">1176. Diet Plan Performance</a>",
+      "number": 30,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Sliding window, Running sum\nData Structures: Array\nKey concepts: Window sum, Performance metrics, Threshold comparison",
+      "answers": [
+        {
+          "id": 132417,
+          "text": "Sliding window summation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160981",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter\" target=\"_blank\">1180. Count Substrings with Only One Distinct Letter</a>",
+      "number": 31,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: String traversal, Arithmetic sequence\nData Structures: String\nKey concepts: Substring counting, Consecutive characters, Arithmetic series",
+      "answers": [
+        {
+          "id": 132418,
+          "text": "Consecutive character counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160982",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket\" target=\"_blank\">1196. How Many Apples Can You Put into the Basket</a>",
+      "number": 32,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n log n), Space complexity: O(1)\nAlgorithms: Sorting, Greedy approach\nData Structures: Array\nKey concepts: Weight constraints, Greedy selection, Maximum count",
+      "answers": [
+        {
+          "id": 132419,
+          "text": "Greedy selection with sorting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160983",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/intersection-of-three-sorted-arrays\" target=\"_blank\">1213. Intersection of Three Sorted Arrays</a>",
+      "number": 33,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Three-pointer technique, Merge-like traversal\nData Structures: Sorted arrays\nKey concepts: Array intersection, Sorted array properties, Multiple pointers",
+      "answers": [
+        {
+          "id": 132420,
+          "text": "Three pointer traversal",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160984",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/missing-number-in-arithmetic-progression\" target=\"_blank\">1228. Missing Number in Arithmetic Progression</a>",
+      "number": 34,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary search, Arithmetic sequence\nData Structures: Array\nKey concepts: Arithmetic progression, Common difference, Missing term",
+      "answers": [
+        {
+          "id": 132421,
+          "text": "Binary search with difference",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160985",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/array-transformation\" target=\"_blank\">1243. Array Transformation</a>",
+      "number": 35,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n^2), Space complexity: O(n)\nAlgorithms: Array manipulation, Simulation\nData Structures: Array\nKey concepts: Array transformation, Adjacent elements, Iterative modification",
+      "answers": [
+        {
+          "id": 132422,
+          "text": "Iterative array modification",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160986",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/hexspeak\" target=\"_blank\">1271. Hexspeak</a>",
+      "number": 36,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(log n), Space complexity: O(1)\nAlgorithms: Base conversion, String validation\nData Structures: String, Hash set\nKey concepts: Hexadecimal representation, Valid character checking, Number systems",
+      "answers": [
+        {
+          "id": 132423,
+          "text": "Number base conversion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160987",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/traffic-light-controlled-intersection\" target=\"_blank\">1279. Traffic Light Controlled Intersection</a>",
+      "number": 37,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(1), Space complexity: O(1)\nAlgorithms: Mutex/Lock mechanism, State management\nData Structures: Boolean flag, Synchronization primitives\nKey concepts: Concurrency control, Traffic management, Critical section",
+      "answers": [
+        {
+          "id": 132424,
+          "text": "Synchronization mechanism",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160988",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/counting-elements\" target=\"_blank\">1426. Counting Elements</a>",
+      "number": 38,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: Hash set operations, Linear scan\nData Structures: Hash set, Array\nKey concepts: Element counting, Increment checking, Set operations",
+      "answers": [
+        {
+          "id": 132425,
+          "text": "Hash set with increment check",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160989",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/perform-string-shifts\" target=\"_blank\">1427. Perform String Shifts</a>",
+      "number": 39,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: String rotation, Modular arithmetic\nData Structures: String, Array\nKey concepts: String manipulation, Circular shifts, Net shift calculation",
+      "answers": [
+        {
+          "id": 132426,
+          "text": "Net shift calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160990",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/find-all-the-lonely-nodes\" target=\"_blank\">1469. Find All The Lonely Nodes</a>",
+      "number": 40,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(h)\nAlgorithms: Tree traversal (DFS/BFS), Node counting\nData Structures: Binary tree, List\nKey concepts: Tree properties, Lonely nodes, Child count",
+      "answers": [
+        {
+          "id": 132427,
+          "text": "Tree traversal with child counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160991",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list\" target=\"_blank\">1474. Delete N Nodes After M Nodes of a Linked List</a>",
+      "number": 41,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Linked list traversal, Node deletion\nData Structures: Singly linked list\nKey concepts: List manipulation, Node counting, Pattern deletion",
+      "answers": [
+        {
+          "id": 132428,
+          "text": "Node counting and skipping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160992",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/largest-subarray-length-k\" target=\"_blank\">1708. Largest Subarray Length K</a>",
+      "number": 42,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(k)\nAlgorithms: Array traversal, Lexicographical comparison\nData Structures: Array\nKey concepts: Subarray selection, Maximum subsequence, Fixed length",
+      "answers": [
+        {
+          "id": 132429,
+          "text": "Maximum subarray selection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160993",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/faulty-sensor\" target=\"_blank\">1826. Faulty Sensor</a>",
+      "number": 43,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Array comparison, Pattern matching\nData Structures: Array\nKey concepts: Sensor readings, Error detection, Array differences",
+      "answers": [
+        {
+          "id": 132430,
+          "text": "Array comparison with offset",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160994",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings\" target=\"_blank\">1933. Check if String Is Decomposable Into Value-Equal Substrings</a>",
+      "number": 44,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: String parsing, Group counting\nData Structures: String\nKey concepts: String decomposition, Pattern matching, Group validation",
+      "answers": [
+        {
+          "id": 132431,
+          "text": "Group length validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160995",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/check-if-an-array-is-consecutive\" target=\"_blank\">2229. Check if an Array Is Consecutive</a>",
+      "number": 45,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Array traversal, Min/Max finding\nData Structures: Array\nKey concepts: Consecutive sequence, Range checking, Array properties",
+      "answers": [
+        {
+          "id": 132432,
+          "text": "Sequence validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160996",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/extract-kth-character-from-the-rope-tree\" target=\"_blank\">2689. Extract Kth Character From The Rope Tree</a>",
+      "number": 46,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(h), Space complexity: O(h)\nAlgorithms: Tree traversal, Binary search\nData Structures: Binary tree, String\nKey concepts: Rope data structure, Tree navigation, Character indexing",
+      "answers": [
+        {
+          "id": 132433,
+          "text": "Tree traversal with length tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160997",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/infinite-method-object\" target=\"_blank\">2690. Infinite Method Object</a>",
+      "number": 47,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(1), Space complexity: O(1)\nAlgorithms: Method chaining, Proxy pattern\nData Structures: Object/Class\nKey concepts: Method chaining, Object-oriented design, Function composition",
+      "answers": [
+        {
+          "id": 132434,
+          "text": "Method chaining implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160998",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/count-houses-in-a-circular-street\" target=\"_blank\">2728. Count Houses in a Circular Street</a>",
+      "number": 48,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Circular traversal, State tracking\nData Structures: Boolean array/State variables\nKey concepts: Circular structure, House counting, State management",
+      "answers": [
+        {
+          "id": 132435,
+          "text": "Circular traversal counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "160999",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/next-day\" target=\"_blank\">2758. Next Day</a>",
+      "number": 49,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(1), Space complexity: O(1)\nAlgorithms: Date arithmetic, Calendar rules\nData Structures: Date object\nKey concepts: Date manipulation, Month boundaries, Leap year handling",
+      "answers": [
+        {
+          "id": 132436,
+          "text": "Date manipulation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161000",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/array-upper-bound\" target=\"_blank\">2774. Array Upper Bound</a>",
+      "number": 50,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary search, Upper bound search\nData Structures: Sorted array\nKey concepts: Binary search variants, Boundary conditions, Search algorithms",
+      "answers": [
+        {
+          "id": 132437,
+          "text": "Binary search implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161001",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/create-object-from-two-arrays\" target=\"_blank\">2794. Create Object from Two Arrays</a>",
+      "number": 51,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: Array iteration, Object construction\nData Structures: Array, Object/Map\nKey concepts: Key-value pairing, Object creation, Array mapping",
+      "answers": [
+        {
+          "id": 132438,
+          "text": "Array to object mapping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161002",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/repeat-string\" target=\"_blank\">2796. Repeat String</a>",
+      "number": 52,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: String concatenation, Repetition\nData Structures: String\nKey concepts: String manipulation, String repetition, Input validation",
+      "answers": [
+        {
+          "id": 132439,
+          "text": "String repetition handling",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161003",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/partial-function-with-placeholders\" target=\"_blank\">2797. Partial Function with Placeholders</a>",
+      "number": 53,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: Function currying, Argument binding\nData Structures: Array, Function\nKey concepts: Partial application, Function composition, Placeholder handling",
+      "answers": [
+        {
+          "id": 132440,
+          "text": "Function argument binding",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161004",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/factorial-generator\" target=\"_blank\">2803. Factorial Generator</a>",
+      "number": 54,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Generator function, Factorial calculation\nData Structures: Iterator\nKey concepts: Generator pattern, Factorial sequence, Lazy evaluation",
+      "answers": [
+        {
+          "id": 132441,
+          "text": "Generator function implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161005",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/array-prototype-foreach\" target=\"_blank\">2804. Array Prototype ForEach</a>",
+      "number": 55,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Array iteration, Callback execution\nData Structures: Array\nKey concepts: Array methods, Prototype extension, Callback functions",
+      "answers": [
+        {
+          "id": 132442,
+          "text": "Array method implementation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161006",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/inversion-of-object\" target=\"_blank\">2822. Inversion of Object</a>",
+      "number": 56,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: Object traversal, Key-value swapping\nData Structures: Object/Map\nKey concepts: Object manipulation, Key-value inversion, Property handling",
+      "answers": [
+        {
+          "id": 132443,
+          "text": "Object key-value swapping",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161007",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/count-numbers-with-unique-digits-ii\" target=\"_blank\">3032. Count Numbers with Unique Digits II</a>",
+      "number": 57,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(log n), Space complexity: O(1)\nAlgorithms: Digit extraction, Set operations\nData Structures: Hash set\nKey concepts: Digit uniqueness, Range counting, Number properties",
+      "answers": [
+        {
+          "id": 132444,
+          "text": "Digit uniqueness checking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161008",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/winner-of-the-linked-list-game\" target=\"_blank\">3062. Winner of the Linked List Game</a>",
+      "number": 58,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Linked list traversal, Score tracking\nData Structures: Singly linked list\nKey concepts: List traversal, Game rules, Score comparison",
+      "answers": [
+        {
+          "id": 132445,
+          "text": "Linked list value comparison",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161009",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/linked-list-frequency\" target=\"_blank\">3063. Linked List Frequency</a>",
+      "number": 59,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: Linked list traversal, Frequency counting\nData Structures: Linked list, Hash map\nKey concepts: Frequency analysis, List traversal, Value counting",
+      "answers": [
+        {
+          "id": 132446,
+          "text": "Frequency counting in linked list",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161010",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/bitwise-or-of-adjacent-elements\" target=\"_blank\">3173. Bitwise OR of Adjacent Elements</a>",
+      "number": 60,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: Array traversal, Bitwise operations\nData Structures: Array\nKey concepts: Bitwise OR, Adjacent elements, Array transformation",
+      "answers": [
+        {
+          "id": 132447,
+          "text": "Adjacent element bitwise operation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161011",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/count-triplets-with-even-xor-set-bits-i\" target=\"_blank\">3199. Count Triplets with Even XOR Set Bits I</a>",
+      "number": 61,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n^3), Space complexity: O(1)\nAlgorithms: Bit manipulation, Triple loop\nData Structures: Array\nKey concepts: XOR operation, Set bits counting, Triplet combination",
+      "answers": [
+        {
+          "id": 132448,
+          "text": "Bit manipulation and counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161012",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/convert-doubly-linked-list-to-array-i\" target=\"_blank\">3263. Convert Doubly Linked List to Array I</a>",
+      "number": 62,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(n)\nAlgorithms: Linked list traversal, Array construction\nData Structures: Doubly linked list, Array\nKey concepts: List conversion, Sequential access, Array building",
+      "answers": [
+        {
+          "id": 132449,
+          "text": "Linked list to array conversion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161013",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/minimum-total-operations\" target=\"_blank\">3353. Minimum Total Operations</a>",
+      "number": 63,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Greedy approach, Operation counting\nData Structures: Array\nKey concepts: Operation optimization, Minimum operations, Array transformation",
+      "answers": [
+        {
+          "id": 132450,
+          "text": "Operation count optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161014",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-students-on-a-single-bench\" target=\"_blank\">3450. Maximum Students on a Single Bench</a>",
+      "number": 64,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n), Space complexity: O(1)\nAlgorithms: Array traversal, Maximum finding\nData Structures: Array\nKey concepts: Capacity calculation, Maximum value, Array analysis",
+      "answers": [
+        {
+          "id": 132451,
+          "text": "Maximum capacity calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161015",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy prem 1",
+      "question": "<a href=\"https://leetcode.com/problems/phone-number-prefix\" target=\"_blank\">3491. Phone Number Prefix</a>",
+      "number": 65,
+      "hint": "",
+      "notes": "",
+      "explanation": "Time complexity: O(n*m), Space complexity: O(1)\nAlgorithms: String matching, Prefix checking\nData Structures: Array, String\nKey concepts: Prefix validation, String comparison, Phone number format",
+      "answers": [
+        {
+          "id": 132452,
+          "text": "String prefix matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161016",
+      "deckId": "_1"
+    }
+  ]
+}

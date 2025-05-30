@@ -1,0 +1,1266 @@
+{
+  "objects": [
+    {
+      "type": "deck",
+      "name": "Leetcode program easy free 5",
+      "id": 1,
+      "description": "Leetcode free programming questions, difficulty easy, part 5",
+      "synopsis": "Leetcode free programming questions, difficulty easy, part 5",
+      "notes": "Created with claude-3.7-sonnet",
+      "textToSpeech": 0,
+      "preface": 1,
+      "feedback": 0,
+      "showDontKnow": 1
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/maximize-sum-of-array-after-k-negations\" target=\"_blank\">1005. Maximize Sum Of Array After K Negations</a>",
+      "number": 1,
+      "hint": null,
+      "notes": "",
+      "explanation": "Sort the array, negate the smallest negative numbers first, then repeatedly negate the smallest remaining number if K is still odd.\nTime complexity: O(n log n), Space complexity: O(1)\nAlgorithms: Greedy approach, Sorting\nData Structures: Array\nKey concepts: Negation optimization, Priority handling, Maximum sum",
+      "answers": [
+        {
+          "id": 132653,
+          "text": "Greedy negation strategy",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161217",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/complement-of-base-10-integer\" target=\"_blank\">1009. Complement of Base 10 Integer</a>",
+      "number": 2,
+      "hint": null,
+      "notes": "",
+      "explanation": "Find the number of bits in the integer, create a mask with all 1s of that length, then XOR the number with the mask to flip all bits.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Bit manipulation, XOR operation\nData Structures: Integer\nKey concepts: Binary representation, Bit complement, Mask creation",
+      "answers": [
+        {
+          "id": 132654,
+          "text": "Bit-flipping with masks",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161218",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum\" target=\"_blank\">1013. Partition Array Into Three Parts With Equal Sum</a>",
+      "number": 3,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the total sum, find if it's divisible by 3, then traverse the array counting parts that sum to exactly one-third of the total.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Array traversal, Running sum\nData Structures: Array\nKey concepts: Equal partitioning, Sum division, Part counting",
+      "answers": [
+        {
+          "id": 132655,
+          "text": "Equal sum partitioning",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161219",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/binary-prefix-divisible-by-5\" target=\"_blank\">1018. Binary Prefix Divisible By 5</a>",
+      "number": 4,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the array and for each prefix, calculate its decimal value modulo 5 to avoid overflow, checking divisibility by 5.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Binary to decimal conversion, Modular arithmetic\nData Structures: Array, Boolean array\nKey concepts: Prefix calculation, Divisibility check, Modulo operation",
+      "answers": [
+        {
+          "id": 132656,
+          "text": "Modular prefix computation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161220",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/remove-outermost-parentheses\" target=\"_blank\">1021. Remove Outermost Parentheses</a>",
+      "number": 5,
+      "hint": null,
+      "notes": "",
+      "explanation": "Track the nesting depth while traversing the string, adding parentheses to the result only when the depth is greater than 1.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: String traversal, Depth tracking\nData Structures: String, StringBuilder\nKey concepts: Parentheses decomposition, Primitive detection, Balanced parentheses",
+      "answers": [
+        {
+          "id": 132657,
+          "text": "Depth-based character filtering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161221",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers\" target=\"_blank\">1022. Sum of Root To Leaf Binary Numbers</a>",
+      "number": 6,
+      "hint": null,
+      "notes": "",
+      "explanation": "Perform a depth-first traversal, keeping track of the binary number formed along each path from root to leaf, then sum all values.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, Binary number calculation\nData Structures: Binary tree\nKey concepts: Path encoding, Binary conversion, Recursive traversal",
+      "answers": [
+        {
+          "id": 132658,
+          "text": "Path-based value calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161222",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/divisor-game\" target=\"_blank\">1025. Divisor Game</a>",
+      "number": 7,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use mathematical induction to prove that Alice wins if and only if N is even, as even numbers always lead to odd numbers, and odd numbers can only yield even numbers.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Mathematical proof, Game theory\nData Structures: Integer\nKey concepts: Parity analysis, Optimal play, Winning strategy",
+      "answers": [
+        {
+          "id": 132659,
+          "text": "Parity-based game analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161223",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/matrix-cells-in-distance-order\" target=\"_blank\">1030. Matrix Cells in Distance Order</a>",
+      "number": 8,
+      "hint": null,
+      "notes": "",
+      "explanation": "Generate all cell coordinates, then sort them based on their Manhattan distance from the origin cell, or use a BFS approach starting from the origin.\nTime complexity: O(rows*cols*log(rows*cols)) or O(rows*cols) with BFS, Space complexity: O(rows*cols)\nAlgorithms: Sorting, Breadth-first search\nData Structures: Array, Queue\nKey concepts: Manhattan distance, Cell ordering, Distance-based traversal",
+      "answers": [
+        {
+          "id": 132660,
+          "text": "Distance-based sorting approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161224",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/valid-boomerang\" target=\"_blank\">1037. Valid Boomerang</a>",
+      "number": 9,
+      "hint": null,
+      "notes": "",
+      "explanation": "Check if the three points are non-collinear by calculating the area of the triangle formed by them, or by comparing slopes of lines formed by pairs of points.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Geometric calculation, Slope comparison\nData Structures: Array\nKey concepts: Collinearity test, Triangle area, Slope calculation",
+      "answers": [
+        {
+          "id": 132661,
+          "text": "Geometric collinearity testing",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161225",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/last-stone-weight\" target=\"_blank\">1046. Last Stone Weight</a>",
+      "number": 10,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a max heap to repeatedly extract the two heaviest stones, smash them together, and reinsert the remainder if not zero.\nTime complexity: O(n log n), Space complexity: O(n)\nAlgorithms: Heap operations, Greedy approach\nData Structures: Priority queue, Max heap\nKey concepts: Weight comparison, Simulated collision, Priority processing",
+      "answers": [
+        {
+          "id": 132662,
+          "text": "Priority-based simulation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161226",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string\" target=\"_blank\">1047. Remove All Adjacent Duplicates In String</a>",
+      "number": 11,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use a stack to keep track of characters, popping when the current character matches the stack top, otherwise pushing it onto the stack.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Stack operations, String manipulation\nData Structures: Stack, String\nKey concepts: Adjacent duplicate removal, Character matching, Last-in-first-out processing",
+      "answers": [
+        {
+          "id": 132663,
+          "text": "Stack-based duplicate elimination",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161227",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/height-checker\" target=\"_blank\">1051. Height Checker</a>",
+      "number": 12,
+      "hint": null,
+      "notes": "",
+      "explanation": "Create a sorted copy of the heights array, then compare it with the original array to count positions where heights differ.\nTime complexity: O(n log n), Space complexity: O(n)\nAlgorithms: Sorting, Array comparison\nData Structures: Array\nKey concepts: Order verification, Position comparison, Sorting expectation",
+      "answers": [
+        {
+          "id": 132664,
+          "text": "Order discrepancy counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161228",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/greatest-common-divisor-of-strings\" target=\"_blank\">1071. Greatest Common Divisor of Strings</a>",
+      "number": 13,
+      "hint": null,
+      "notes": "",
+      "explanation": "Check if the concatenation of both strings in different orders is equal, then find the GCD of their lengths to determine the length of the largest common divisor string.\nTime complexity: O(n+m), Space complexity: O(n+m)\nAlgorithms: String concatenation, GCD calculation\nData Structures: String\nKey concepts: String division, Common divisor, Length-based approach",
+      "answers": [
+        {
+          "id": 132665,
+          "text": "String-based GCD computation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161229",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/occurrences-after-bigram\" target=\"_blank\">1078. Occurrences After Bigram</a>",
+      "number": 14,
+      "hint": null,
+      "notes": "",
+      "explanation": "Split the text into words and check for each consecutive triplet if the first two words match first and second, then add the third word to the result.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: String parsing, Pattern matching\nData Structures: Array, List\nKey concepts: Word sequence, Pattern detection, Text parsing",
+      "answers": [
+        {
+          "id": 132666,
+          "text": "Sequential word pattern matching",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161230",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/duplicate-zeros\" target=\"_blank\">1089. Duplicate Zeros</a>",
+      "number": 15,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the number of zeros to determine how elements will shift, then work backwards to avoid overwriting elements, duplicating zeros as needed.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pass approach, In-place modification\nData Structures: Array\nKey concepts: Array shifting, Zero duplication, In-place operations",
+      "answers": [
+        {
+          "id": 132667,
+          "text": "In-place element duplication",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161231",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/distribute-candies-to-people\" target=\"_blank\">1103. Distribute Candies to People</a>",
+      "number": 16,
+      "hint": null,
+      "notes": "",
+      "explanation": "Simulate the distribution process by keeping track of the current person and the number of candies to give, adjusting when remaining candies are insufficient.\nTime complexity: O(√n), Space complexity: O(num_people)\nAlgorithms: Simulation, Mathematical calculation\nData Structures: Array\nKey concepts: Distribution rules, Round-robin allocation, Arithmetic sequence",
+      "answers": [
+        {
+          "id": 132668,
+          "text": "Incremental distribution simulation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161232",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/defanging-an-ip-address\" target=\"_blank\">1108. Defanging an IP Address</a>",
+      "number": 17,
+      "hint": null,
+      "notes": "",
+      "explanation": "Replace each occurrence of '.' in the IP address with '[.]' using string replacement methods or by building a new string character by character.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: String manipulation, Character replacement\nData Structures: String\nKey concepts: Character substitution, String building, Regular expression",
+      "answers": [
+        {
+          "id": 132669,
+          "text": "Character sequence replacement",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161233",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/print-in-order\" target=\"_blank\">1114. Print in Order</a>",
+      "number": 18,
+      "hint": null,
+      "notes": "",
+      "explanation": "Use synchronization mechanisms like semaphores, mutex locks, or condition variables to ensure that functions execute in the required order regardless of timing.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Concurrency control, Thread synchronization\nData Structures: Semaphore, Lock\nKey concepts: Thread ordering, Execution sequence, Concurrency primitives",
+      "answers": [
+        {
+          "id": 132670,
+          "text": "Thread synchronization approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161234",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/relative-sort-array\" target=\"_blank\">1122. Relative Sort Array</a>",
+      "number": 19,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count occurrences of elements in arr1, then append elements in the order they appear in arr2, followed by remaining elements in sorted order.\nTime complexity: O(n+m), Space complexity: O(max(values in arr1))\nAlgorithms: Counting sort, Custom ordering\nData Structures: Hash map, Array\nKey concepts: Relative ordering, Frequency counting, Custom comparator",
+      "answers": [
+        {
+          "id": 132671,
+          "text": "Reference-based ordering",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161235",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-equivalent-domino-pairs\" target=\"_blank\">1128. Number of Equivalent Domino Pairs</a>",
+      "number": 20,
+      "hint": null,
+      "notes": "",
+      "explanation": "Normalize each domino by ensuring the smaller number is first, then count occurrences of each normalized pair and calculate the number of pairs using the combination formula.\nTime complexity: O(n), Space complexity: O(100) = O(1)\nAlgorithms: Counting, Combination calculation\nData Structures: Hash map\nKey concepts: Equivalent pairs, Normalization, Combination counting",
+      "answers": [
+        {
+          "id": 132672,
+          "text": "Normalized pair counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161236",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/n-th-tribonacci-number\" target=\"_blank\">1137. N-th Tribonacci Number</a>",
+      "number": 21,
+      "hint": null,
+      "notes": "",
+      "explanation": "Compute the Tribonacci sequence iteratively using three variables to track the previous three values, updating them as you progress to the target index.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Dynamic programming, Iterative calculation\nData Structures: Integer variables\nKey concepts: Tribonacci sequence, Bottom-up approach, Space optimization",
+      "answers": [
+        {
+          "id": 132673,
+          "text": "Iterative sequence generation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161237",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/day-of-the-year\" target=\"_blank\">1154. Day of the Year</a>",
+      "number": 22,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the total days by summing days in each month up to the given month, adding the days of the current month, and accounting for leap years when appropriate.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Date calculation, Calendar rules\nData Structures: Array, Integer\nKey concepts: Leap year rules, Cumulative days, Date parsing",
+      "answers": [
+        {
+          "id": 132674,
+          "text": "Calendar-based day counting",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161238",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/find-words-that-can-be-formed-by-characters\" target=\"_blank\">1160. Find Words That Can Be Formed by Characters</a>",
+      "number": 23,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count character frequencies in chars, then check each word to see if its character frequencies are all less than or equal to the corresponding frequencies in chars.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Character counting, Frequency comparison\nData Structures: Hash map, Array\nKey concepts: Character availability, Word formation, Frequency limitation",
+      "answers": [
+        {
+          "id": 132675,
+          "text": "Character frequency validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161239",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/prime-arrangements\" target=\"_blank\">1175. Prime Arrangements</a>",
+      "number": 24,
+      "hint": null,
+      "notes": "Fix",
+      "explanation": "Count the number of primes up to n, then calculate the product of factorials for the count of primes and the count of non-primes, taking the modulo as required.\nTime complexity: O(n log log n), Space complexity: O(1)\nAlgorithms: Sieve of Eratosthenes, Factorial calculation\nData Structures: Array, Integer\nKey concepts: Prime counting, Permutation counting, Modular arithmetic",
+      "answers": [
+        {
+          "id": 132676,
+          "text": "Group-based permutation calculation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161240",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/distance-between-bus-stops\" target=\"_blank\">1184. Distance Between Bus Stops</a>",
+      "number": 25,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the distance in both clockwise and counterclockwise directions by summing the distances between stops, then return the minimum of the two.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linear scan, Path comparison\nData Structures: Array\nKey concepts: Circular path, Bidirectional distance, Minimum path selection",
+      "answers": [
+        {
+          "id": 132677,
+          "text": "Circular route optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161241",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/day-of-the-week\" target=\"_blank\">1185. Day of the Week</a>",
+      "number": 26,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the total number of days since a known reference date, then determine the day of the week based on the remainder when divided by 7.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Zeller's congruence, Calendar calculation\nData Structures: Array, Integer\nKey concepts: Day determination, Date arithmetic, Calendar formulas",
+      "answers": [
+        {
+          "id": 132678,
+          "text": "Day computation from date",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161242",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-number-of-balloons\" target=\"_blank\">1189. Maximum Number of Balloons</a>",
+      "number": 27,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the frequency of each character in the string, then determine how many complete 'balloon' words can be formed based on the limiting character.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Character counting, Minimum finding\nData Structures: Hash map, Array\nKey concepts: Character frequency, Word formation, Bottleneck identification",
+      "answers": [
+        {
+          "id": 132679,
+          "text": "Character availability analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161243",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/minimum-absolute-difference\" target=\"_blank\">1200. Minimum Absolute Difference</a>",
+      "number": 28,
+      "hint": null,
+      "notes": "",
+      "explanation": "Sort the array, find the minimum difference between adjacent elements, then collect all pairs with that minimum difference.\nTime complexity: O(n log n), Space complexity: O(n)\nAlgorithms: Sorting, Linear scan\nData Structures: Array, List\nKey concepts: Absolute difference, Adjacent comparison, Pair collection",
+      "answers": [
+        {
+          "id": 132680,
+          "text": "Sorted adjacent element analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161244",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/unique-number-of-occurrences\" target=\"_blank\">1207. Unique Number of Occurrences</a>",
+      "number": 29,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the frequency of each value in the array, then check if all frequency counts are unique using a hash set.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Frequency counting, Uniqueness checking\nData Structures: Hash map, Hash set\nKey concepts: Frequency distribution, Uniqueness verification, Count collection",
+      "answers": [
+        {
+          "id": 132681,
+          "text": "Frequency uniqueness validation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161245",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position\" target=\"_blank\">1217. Minimum Cost to Move Chips to the Same Position</a>",
+      "number": 30,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the number of chips at even and odd positions, then return the minimum of the two counts since moving by 2 positions costs nothing.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Counting, Parity analysis\nData Structures: Integer counters\nKey concepts: Movement cost optimization, Parity grouping, Minimum cost determination",
+      "answers": [
+        {
+          "id": 132682,
+          "text": "Parity-based optimization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161246",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/split-a-string-in-balanced-strings\" target=\"_blank\">1221. Split a String in Balanced Strings</a>",
+      "number": 31,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the string while keeping a count of 'R's and 'L's. Increment the result whenever the counts of 'R' and 'L' become equal.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Counting, Balancing\nData Structures: Integer counter\nKey concepts: Balance tracking, Substring division, Character counting",
+      "answers": [
+        {
+          "id": 132683,
+          "text": "Balance-based partitioning",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161247",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/check-if-it-is-a-straight-line\" target=\"_blank\">1232. Check If It Is a Straight Line</a>",
+      "number": 32,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the slope between the first two points, then verify that the slope between the first point and every other point is the same, handling vertical lines specially.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Slope calculation, Geometric verification\nData Structures: Array\nKey concepts: Collinearity, Slope comparison, Line verification",
+      "answers": [
+        {
+          "id": 132684,
+          "text": "Slope consistency checking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161248",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/cells-with-odd-values-in-a-matrix\" target=\"_blank\">1252. Cells with Odd Values in a Matrix</a>",
+      "number": 33,
+      "hint": null,
+      "notes": "",
+      "explanation": "Track the number of increments for each row and column, then count cells where the sum of their row and column increments is odd.\nTime complexity: O(n*m + indices.length), Space complexity: O(n+m)\nAlgorithms: Counting, Parity analysis\nData Structures: Array\nKey concepts: Increment tracking, Parity determination, Efficient simulation",
+      "answers": [
+        {
+          "id": 132685,
+          "text": "Increment frequency analysis",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161249",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/shift-2d-grid\" target=\"_blank\">1260. Shift 2D Grid</a>",
+      "number": 34,
+      "hint": null,
+      "notes": "",
+      "explanation": "Treat the 2D grid as a 1D array (dimensional transformation), apply the shift by calculating new positions, then remap back to 2D coordinates for the result.\nTime complexity: O(m*n), Space complexity: O(m*n)\nAlgorithms: Array manipulation, Modular arithmetic\nData Structures: 2D array\nKey concepts: 2D-to-1D conversion, Circular shifting, Position remapping",
+      "answers": [
+        {
+          "id": 132686,
+          "text": "Dimensional transformation approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161250",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/minimum-time-visiting-all-points\" target=\"_blank\">1266. Minimum Time Visiting All Points</a>",
+      "number": 35,
+      "hint": null,
+      "notes": "",
+      "explanation": "Calculate the Chebyshev distance (maximum of absolute differences in x and y) between consecutive points and sum them up.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Chebyshev distance, Sequential processing\nData Structures: Array\nKey concepts: Diagonal movement, Distance calculation, Path optimization",
+      "answers": [
+        {
+          "id": 132687,
+          "text": "Maximum coordinate difference approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161251",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game\" target=\"_blank\">1275. Find Winner on a Tic Tac Toe Game</a>",
+      "number": 36,
+      "hint": null,
+      "notes": "",
+      "explanation": "Simulate the game by filling the board according to the moves, checking for a winner after each move by examining rows, columns, and diagonals.\nTime complexity: O(m) where m is the number of moves, Space complexity: O(1)\nAlgorithms: Game simulation, Victory condition checking\nData Structures: 2D array\nKey concepts: Board state tracking, Win condition verification, Game state assessment",
+      "answers": [
+        {
+          "id": 132688,
+          "text": "Game state evaluation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161252",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer\" target=\"_blank\">1281. Subtract the Product and Sum of Digits of an Integer</a>",
+      "number": 37,
+      "hint": null,
+      "notes": "",
+      "explanation": "Extract each digit of the number, calculate their product and sum separately, then return the difference between the product and sum.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Digit extraction, Mathematical operations\nData Structures: Integer variables\nKey concepts: Digit manipulation, Product calculation, Sum calculation",
+      "answers": [
+        {
+          "id": 132689,
+          "text": "Digit-based arithmetic",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161253",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array\" target=\"_blank\">1287. Element Appearing More Than 25% In Sorted Array</a>",
+      "number": 38,
+      "hint": null,
+      "notes": "",
+      "explanation": "Since the array is sorted, count consecutive occurrences of each element and return the one that appears more than 25% of the time.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linear scan, Frequency counting\nData Structures: Array\nKey concepts: Sorted property, Threshold checking, Frequency analysis",
+      "answers": [
+        {
+          "id": 132690,
+          "text": "Frequency threshold detection",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161254",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer\" target=\"_blank\">1290. Convert Binary Number in a Linked List to Integer</a>",
+      "number": 39,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the linked list from head to tail, treating each node's value as a bit in a binary number, using left shifts to build the result.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linked list traversal, Binary conversion\nData Structures: Linked list, Integer\nKey concepts: Binary representation, Bit manipulation, Sequential processing",
+      "answers": [
+        {
+          "id": 132691,
+          "text": "Binary sequence interpretation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161255",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/find-numbers-with-even-number-of-digits\" target=\"_blank\">1295. Find Numbers with Even Number of Digits</a>",
+      "number": 40,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the number of digits in each integer (either using logarithm, string conversion, or digit counting), then count how many have an even number of digits.\nTime complexity: O(n * log(max_num)), Space complexity: O(1)\nAlgorithms: Digit counting, Parity checking\nData Structures: Array\nKey concepts: Number length, Even count, Digit extraction",
+      "answers": [
+        {
+          "id": 132692,
+          "text": "Digit count parity check",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161256",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side\" target=\"_blank\">1299. Replace Elements with Greatest Element on Right Side</a>",
+      "number": 41,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the array from right to left, keeping track of the maximum value seen so far and replacing each element with that maximum.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Right-to-left traversal, Maximum tracking\nData Structures: Array\nKey concepts: In-place replacement, Backward iteration, Maximum tracking",
+      "answers": [
+        {
+          "id": 132693,
+          "text": "Reverse traversal with tracking",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161257",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero\" target=\"_blank\">1304. Find N Unique Integers Sum up to Zero</a>",
+      "number": 42,
+      "hint": null,
+      "notes": "",
+      "explanation": "Generate pairs of symmetric integers (e.g., -k and k) that sum to zero. For even n, use n/2 pairs; for odd n, use (n-1)/2 pairs plus zero.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Symmetric pair generation, Array construction\nData Structures: Array\nKey concepts: Zero sum property, Symmetric values, Parity handling",
+      "answers": [
+        {
+          "id": 132694,
+          "text": "Symmetric value generation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161258",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping\" target=\"_blank\">1309. Decrypt String from Alphabet to Integer Mapping</a>",
+      "number": 43,
+      "hint": null,
+      "notes": "",
+      "explanation": "Traverse the string right to left, decoding two-digit or one-digit codes into characters according to the mapping rules, with special handling for '#'.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: String decoding, Character mapping\nData Structures: String, StringBuilder\nKey concepts: Character encoding, String parsing, Reverse traversal",
+      "answers": [
+        {
+          "id": 132695,
+          "text": "Encoded string interpretation",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161259",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/decompress-run-length-encoded-list\" target=\"_blank\">1313. Decompress Run-Length Encoded List</a>",
+      "number": 44,
+      "hint": null,
+      "notes": "",
+      "explanation": "Process pairs of values where the first value (freq) indicates how many times the second value (val) should appear in the decompressed list.\nTime complexity: O(n + sum of frequencies), Space complexity: O(sum of frequencies)\nAlgorithms: Run-length decoding, Array construction\nData Structures: Array, List\nKey concepts: Data expansion, Frequency replication, Pair processing",
+      "answers": [
+        {
+          "id": 132696,
+          "text": "Frequency-based expansion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161260",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers\" target=\"_blank\">1317. Convert Integer to the Sum of Two No-Zero Integers</a>",
+      "number": 45,
+      "hint": null,
+      "notes": "",
+      "explanation": "Try different pairs of numbers that sum to n, checking if both numbers contain no zero digits, and return the first valid pair found.\nTime complexity: O(n * log n), Space complexity: O(1)\nAlgorithms: Brute force, Digit checking\nData Structures: Integer variables\nKey concepts: No-zero integers, Digit verification, Pair finding",
+      "answers": [
+        {
+          "id": 132697,
+          "text": "Digit constraint satisfaction",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161261",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-69-number\" target=\"_blank\">1323. Maximum 69 Number</a>",
+      "number": 46,
+      "hint": null,
+      "notes": "",
+      "explanation": "Convert the number to a string, replace the first occurrence of '6' with '9' if any exist, then convert back to an integer.\nTime complexity: O(log n), Space complexity: O(log n)\nAlgorithms: Digit replacement, String manipulation\nData Structures: String\nKey concepts: Number maximization, First occurrence replacement, Digit conversion",
+      "answers": [
+        {
+          "id": 132698,
+          "text": "Single replacement maximization",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161262",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/rank-transform-of-an-array\" target=\"_blank\">1331. Rank Transform of an Array</a>",
+      "number": 47,
+      "hint": null,
+      "notes": "",
+      "explanation": "Create a sorted copy of the array, assign ranks to each unique value, then replace each element in the original array with its corresponding rank.\nTime complexity: O(n log n), Space complexity: O(n)\nAlgorithms: Sorting, Rank assignment\nData Structures: Hash map, Array\nKey concepts: Relative ordering, Unique ranking, Value mapping",
+      "answers": [
+        {
+          "id": 132699,
+          "text": "Value-to-rank conversion",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161263",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/remove-palindromic-subsequences\" target=\"_blank\">1332. Remove Palindromic Subsequences</a>",
+      "number": 48,
+      "hint": null,
+      "notes": "Basically a trick problem that takes 1 or 2 steps",
+      "explanation": "Since the string contains only 'a' and 'b', we can remove all 'a's in one step and all 'b's in another step. If the string is already a palindrome, we need just one step.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Palindrome checking, Subsequence removal\nData Structures: String\nKey concepts: Palindrome property, Binary alphabet, Subsequence vs substring",
+      "answers": [
+        {
+          "id": 132700,
+          "text": "Character-based grouping approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161264",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix\" target=\"_blank\">1337. The K Weakest Rows in a Matrix</a>",
+      "number": 49,
+      "hint": null,
+      "notes": "",
+      "explanation": "Count the number of soldiers (1's) in each row, then sort the rows based on soldier count and row index to find the k weakest rows.\nTime complexity: O(m*n + m*log m), Space complexity: O(m)\nAlgorithms: Binary search, Custom sorting\nData Structures: Array, Priority queue\nKey concepts: Row strength, Stable sorting, Multiple criteria sorting",
+      "answers": [
+        {
+          "id": 132701,
+          "text": "Multi-criteria sorting approach",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161265",
+      "deckId": "_1"
+    },
+    {
+      "type": "card",
+      "algo": 5,
+      "deck": "Leetcode program easy free 5",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero\" target=\"_blank\">1342. Number of Steps to Reduce a Number to Zero</a>",
+      "number": 50,
+      "hint": null,
+      "notes": "",
+      "explanation": "Simulate the process: if the number is even, divide by 2; if odd, subtract 1. Count the steps until reaching zero.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Bit manipulation, Simulation\nData Structures: Integer\nKey concepts: Even-odd operations, Step counting, Iterative reduction",
+      "answers": [
+        {
+          "id": 132702,
+          "text": "Parity-based reduction process",
+          "number": 1,
+          "isCorrect": 1,
+          "groupIndex": 1
+        }
+      ],
+      "algoSettings": {
+        "randomize": false,
+        "confirmResponse": false
+      },
+      "id": "161266",
+      "deckId": "_1"
+    }
+  ]
+}
