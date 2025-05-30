@@ -2,11 +2,11 @@
   "objects": [
     {
       "type": "deck",
-      "name": "Leetcode - database (easy)",
+      "name": "Leetcode program easy free 1",
       "id": 1,
-      "description": null,
-      "synopsis": null,
-      "notes": null,
+      "description": "Leetcode free programming questions, difficulty easy",
+      "synopsis": "Leetcode free programming questions, difficulty easy",
+      "notes": "Created with claude-3.7-sonnet\nThis is a note",
       "textToSpeech": 0,
       "preface": 1,
       "feedback": 0,
@@ -15,16 +15,16 @@
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/combine-two-tables/description/\" target=\"_blank\">175. Combine Two Tables</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/two-sum\" target=\"_blank\">1. Two Sum</a>",
       "number": 1,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse LEFT JOIN to include all persons regardless of whether they have an address",
+      "explanation": "Use a hash map to store each element and its index. For each element, check if its complement exists in the hash map.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Hash mapping, One-pass approach\nData Structures: Hash map/Hash table\nKey concepts: Array traversal, Complement finding, Lookup optimization",
       "answers": [
         {
-          "id": 131997,
-          "text": "LEFT JOIN to preserve all persons",
+          "id": 132453,
+          "text": "Using a hash-based data structure",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -34,22 +34,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160562",
+      "id": "161017",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/employees-earning-more-than-their-managers/description/\" target=\"_blank\">181. Employees Earning More Than Their Managers</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/palindrome-number\" target=\"_blank\">9. Palindrome Number</a>",
       "number": 2,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse self join to compare employee salary with their manager's salary",
+      "explanation": "Either convert to string and check palindrome property, or reverse the number by extracting digits and compare with original.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Digit extraction, Reversal comparison\nData Structures: Integer variables\nKey concepts: Numerical manipulation, Palindrome properties, Edge case handling",
       "answers": [
         {
-          "id": 131998,
-          "text": "Self join with salary comparison",
+          "id": 132454,
+          "text": "Comparing elements from opposite ends",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -59,22 +59,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160563",
+      "id": "161018",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/duplicate-emails/description/\" target=\"_blank\">182. Duplicate Emails</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/roman-to-integer\" target=\"_blank\">13. Roman to Integer</a>",
       "number": 3,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP BY with HAVING to find emails that appear more than once",
+      "explanation": "Traverse the string and use a map for symbol values. When a smaller value precedes a larger one, subtract; otherwise add.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: String traversal, Value mapping\nData Structures: Hash map/Array\nKey concepts: Roman numeral rules, Subtraction principle, Character comparison",
       "answers": [
         {
-          "id": 131999,
-          "text": "GROUP BY with HAVING count &gt; 1",
+          "id": 132455,
+          "text": "Value mapping with special case handling",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -84,22 +84,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160564",
+      "id": "161019",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/customers-who-never-order/description/\" target=\"_blank\">183. Customers Who Never Order</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/longest-common-prefix\" target=\"_blank\">14. Longest Common Prefix</a>",
       "number": 4,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nFind customers with no matching orders using LEFT JOIN or subquery",
+      "explanation": "Compare characters at the same position across all strings until a mismatch is found, returning the common prefix so far.\nTime complexity: O(n*m), Space complexity: O(1)\nAlgorithms: Vertical scanning, Character matching\nData Structures: String array\nKey concepts: String comparison, Common prefix detection, Early termination",
       "answers": [
         {
-          "id": 132000,
-          "text": "LEFT JOIN with NULL check or NOT EXISTS",
+          "id": 132456,
+          "text": "Character-by-character comparison",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -109,22 +109,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160565",
+      "id": "161020",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/delete-duplicate-emails/description/\" target=\"_blank\">196. Delete Duplicate Emails</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/valid-parentheses\" target=\"_blank\">20. Valid Parentheses</a>",
       "number": 5,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(1)\n\nUse self join or window functions to identify and delete duplicate emails while keeping the smallest id",
+      "explanation": "Use a stack to track opening brackets. Push when an opening bracket is encountered, pop and check for matching pair when a closing bracket is found.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Stack operations, Bracket matching\nData Structures: Stack, Hash map\nKey concepts: LIFO principle, Bracket pairing, Balance verification",
       "answers": [
         {
-          "id": 132001,
-          "text": "DELETE with self join or ROW_NUMBER()",
+          "id": 132457,
+          "text": "Using a LIFO data structure",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -134,22 +134,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160566",
+      "id": "161021",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/rising-temperature/description/\" target=\"_blank\">197. Rising Temperature</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/merge-two-sorted-lists\" target=\"_blank\">21. Merge Two Sorted Lists</a>",
       "number": 6,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse window functions or self join with date arithmetic to compare consecutive days",
+      "explanation": "Create a dummy head and iteratively select the smaller node from either list to connect to the result list until one list is exhausted. Can also be solved recursively.\nTime complexity: O(n+m), Space complexity: O(1) iterative, O(n+m) recursive\nAlgorithms: Two-pointer technique, Merge procedure, Recursion\nData Structures: Linked list\nKey concepts: Sorted list properties, In-place merging, Dummy head technique",
       "answers": [
         {
-          "id": 132002,
-          "text": "LAG() or self join with DATEDIFF()",
+          "id": 132458,
+          "text": "Sequential pointer manipulation",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -159,22 +159,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160567",
+      "id": "161022",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/game-play-analysis-i/description/\" target=\"_blank\">511. Game Play Analysis I</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/remove-duplicates-from-sorted-array\" target=\"_blank\">26. Remove Duplicates from Sorted Array</a>",
       "number": 7,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP BY or window functions to find earliest event date per player",
+      "explanation": "Use two pointers: one to iterate through the array and another to track the position for the next unique element to be placed.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, In-place manipulation\nData Structures: Array\nKey concepts: Sorted array properties, In-place modification, Element uniqueness",
       "answers": [
         {
-          "id": 132003,
-          "text": "MIN() with GROUP BY or FIRST_VALUE()",
+          "id": 132459,
+          "text": "Two-pointer technique",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -184,22 +184,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160568",
+      "id": "161023",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/employee-bonus/description/\" target=\"_blank\">577. Employee Bonus</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/remove-element\" target=\"_blank\">27. Remove Element</a>",
       "number": 8,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse LEFT JOIN to include all employees and filter bonus amount",
+      "explanation": "Use two pointers to overwrite elements equal to the target value with elements from the end of the array that need to be kept.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, Element swapping\nData Structures: Array\nKey concepts: In-place deletion, Element filtering, Order preservation",
       "answers": [
         {
-          "id": 132004,
-          "text": "LEFT JOIN with bonus filtering",
+          "id": 132460,
+          "text": "In-place array modification",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -209,22 +209,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160569",
+      "id": "161024",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/find-customer-referee/description/\" target=\"_blank\">584. Find Customer Referee</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string\" target=\"_blank\">28. Find the Index of the First Occurrence in a String</a>",
       "number": 9,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nFilter customers not referred by referee_id 2, including NULL values",
+      "explanation": "Traverse the haystack string and at each position check if the substring matches the needle string by comparing characters.\nTime complexity: O(n*m), Space complexity: O(1)\nAlgorithms: String matching, Sliding window, KMP (optimal)\nData Structures: String\nKey concepts: Substring search, Pattern matching, Early termination",
       "answers": [
         {
-          "id": 132005,
-          "text": "WHERE with NULL handling",
+          "id": 132461,
+          "text": "Linear string traversal",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -234,22 +234,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160570",
+      "id": "161025",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/description/\" target=\"_blank\">586. Customer Placing the Largest Number of Orders</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/search-insert-position\" target=\"_blank\">35. Search Insert Position</a>",
       "number": 10,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP BY to count orders and ORDER BY with LIMIT to find customer with most orders",
+      "explanation": "Use binary search to find the target or the position where it would be inserted. Return the left pointer after search terminates.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary search, Lower bound\nData Structures: Sorted array\nKey concepts: Search space reduction, Insertion point, Boundary conditions",
       "answers": [
         {
-          "id": 132006,
-          "text": "GROUP BY with ORDER BY and LIMIT",
+          "id": 132462,
+          "text": "Divide and conquer approach",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -259,22 +259,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160571",
+      "id": "161026",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/big-countries/description/\" target=\"_blank\">595. Big Countries</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/length-of-last-word\" target=\"_blank\">58. Length of Last Word</a>",
       "number": 11,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse simple WHERE clause with OR conditions to filter countries",
+      "explanation": "Trim trailing spaces and count characters from the end until a space is encountered or the start is reached.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: String traversal, Backward iteration\nData Structures: String\nKey concepts: String parsing, Whitespace handling, Boundary detection",
       "answers": [
         {
-          "id": 132007,
-          "text": "Basic WHERE with multiple conditions",
+          "id": 132463,
+          "text": "Backward string traversal",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -284,22 +284,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160572",
+      "id": "161027",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/classes-more-than-5-students/description/\" target=\"_blank\">596. Classes More Than 5 Students</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/plus-one\" target=\"_blank\">66. Plus One</a>",
       "number": 12,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP BY with HAVING to find classes with sufficient students",
+      "explanation": "Add one to the last digit and handle carry propagation. If all digits become zero, prepend a 1 to the result.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Array traversal, Digit arithmetic\nData Structures: Array\nKey concepts: Carry propagation, Array resizing, Decimal arithmetic",
       "answers": [
         {
-          "id": 132008,
-          "text": "GROUP BY with HAVING count",
+          "id": 132464,
+          "text": "Right-to-left processing with carry",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -309,22 +309,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160573",
+      "id": "161028",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/sales-person/description/\" target=\"_blank\">607. Sales Person</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/add-binary\" target=\"_blank\">67. Add Binary</a>",
       "number": 13,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse subquery or multiple joins to find salespeople not associated with specific company",
+      "explanation": "Process both strings from right to left, adding corresponding bits and a carry bit, then prepend results to form the sum.\nTime complexity: O(max(n,m)), Space complexity: O(max(n,m))\nAlgorithms: String manipulation, Binary addition\nData Structures: String, Character array\nKey concepts: Carry handling, Binary arithmetic, String building",
       "answers": [
         {
-          "id": 132009,
-          "text": "NOT IN subquery or LEFT JOIN with filtering",
+          "id": 132465,
+          "text": "Character-by-character processing",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -334,22 +334,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160574",
+      "id": "161029",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/triangle-judgement/description/\" target=\"_blank\">610. Triangle Judgement</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/sqrtx\" target=\"_blank\">69. Sqrt(x)</a>",
       "number": 14,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse CASE statement to check triangle inequality theorem",
+      "explanation": "Use binary search to find the largest integer whose square is less than or equal to x, or use Newton's method for numerical approximation.\nTime complexity: O(log n), Space complexity: O(1)\nAlgorithms: Binary search, Newton's method\nData Structures: Integer variables\nKey concepts: Numerical approximation, Integer truncation, Overflow prevention",
       "answers": [
         {
-          "id": 132010,
-          "text": "CASE with triangle inequality conditions",
+          "id": 132466,
+          "text": "Iterative approximation method",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -359,22 +359,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160575",
+      "id": "161030",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/biggest-single-number/description/\" target=\"_blank\">619. Biggest Single Number</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/climbing-stairs\" target=\"_blank\">70. Climbing Stairs</a>",
       "number": 15,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse subquery to find numbers appearing once and get maximum",
+      "explanation": "Use dynamic programming to build up from the base cases. Each step's ways equals the sum of ways to reach the previous one and two steps.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Dynamic programming, Fibonacci sequence\nData Structures: Integer variables\nKey concepts: State transition, Recursive relation, Optimized space usage",
       "answers": [
         {
-          "id": 132011,
-          "text": "Subquery with GROUP BY and MAX",
+          "id": 132467,
+          "text": "Bottom-up dynamic programming",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -384,22 +384,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160576",
+      "id": "161031",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/not-boring-movies/description/\" target=\"_blank\">620. Not Boring Movies</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/remove-duplicates-from-sorted-list\" target=\"_blank\">83. Remove Duplicates from Sorted List</a>",
       "number": 16,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFilter odd-numbered IDs and non-boring descriptions with ordering",
+      "explanation": "Traverse the list and when a duplicate value is found, update the current node's next pointer to skip the duplicate.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linked list traversal, Element comparison\nData Structures: Singly linked list\nKey concepts: Pointer manipulation, Node deletion, Sorted list properties",
       "answers": [
         {
-          "id": 132012,
-          "text": "WHERE with MOD and ORDER BY",
+          "id": 132468,
+          "text": "Next pointer manipulation",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -409,22 +409,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160577",
+      "id": "161032",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/swap-salary/description/\" target=\"_blank\">627. Swap Salary</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/merge-sorted-array\" target=\"_blank\">88. Merge Sorted Array</a>",
       "number": 17,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(1)",
+      "explanation": "Fill the array from the end to avoid overwriting elements, comparing and placing the larger elements from both arrays into their correct positions.\nTime complexity: O(n+m), Space complexity: O(1)\nAlgorithms: Two-pointer technique, Backward iteration\nData Structures: Array\nKey concepts: In-place merging, Reverse iteration, Sorted array properties",
       "answers": [
         {
-          "id": 132013,
-          "text": "UPDATE with CASE for gender swap",
+          "id": 132469,
+          "text": "Backward iteration approach",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -434,22 +434,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160578",
+      "id": "161033",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/\" target=\"_blank\">1050. Actors and Directors Who Cooperated at Least Three Times</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal\" target=\"_blank\">94. Binary Tree Inorder Traversal</a>",
       "number": 18,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by actor and director pairs and count collaborations",
+      "explanation": "Recursively visit the left subtree, then the root node, then the right subtree. Can also be implemented iteratively using a stack.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Tree traversal, Depth-first search\nData Structures: Binary tree, Stack\nKey concepts: Inorder traversal, Recursive/Iterative approaches, Left-Root-Right ordering",
       "answers": [
         {
-          "id": 132014,
-          "text": "GROUP BY with HAVING ",
+          "id": 132470,
+          "text": "Left-Root-Right traversal pattern",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -459,22 +459,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160579",
+      "id": "161034",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/product-sales-analysis-i/description/\" target=\"_blank\">1068. Product Sales Analysis I</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/same-tree\" target=\"_blank\">100. Same Tree</a>",
       "number": 19,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nSimple join between Sales and Product tables",
+      "explanation": "Recursively compare the nodes of both trees. Trees are identical if root values match and their left and right subtrees are identical.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Tree traversal, Recursive comparison\nData Structures: Binary tree, Queue (iterative approach)\nKey concepts: Structural equality, Depth-first search, Node value comparison",
       "answers": [
         {
-          "id": 132015,
-          "text": "Basic JOIN operation",
+          "id": 132471,
+          "text": "Recursive tree structure comparison",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -484,22 +484,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160580",
+      "id": "161035",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/project-employees-i/description/\" target=\"_blank\">1075. Project Employees I</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/symmetric-tree\" target=\"_blank\">101. Symmetric Tree</a>",
       "number": 20,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin tables and calculate average experience years per project",
+      "explanation": "Check if the tree is a mirror of itself by recursively comparing the left subtree with the right subtree in a mirrored fashion.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Tree traversal, Mirror comparison\nData Structures: Binary tree, Queue/Stack\nKey concepts: Tree symmetry, Mirrored traversal, Recursive/Iterative verification",
       "answers": [
         {
-          "id": 132016,
-          "text": "JOIN with GROUP BY and AVG",
+          "id": 132472,
+          "text": "Symmetry verification technique",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -509,22 +509,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160581",
+      "id": "161036",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/sales-analysis-iii/description/\" target=\"_blank\">1084. Sales Analysis III</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/maximum-depth-of-binary-tree\" target=\"_blank\">104. Maximum Depth of Binary Tree</a>",
       "number": 21,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind products sold only within a specific date range",
+      "explanation": "Use recursion to compute the height of the tree. The depth is 1 plus the maximum of the depths of the left and right subtrees.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, Breadth-first search\nData Structures: Binary tree, Queue/Stack\nKey concepts: Tree height, Recursive depth calculation, Level-order traversal",
       "answers": [
         {
-          "id": 132017,
-          "text": "JOIN with date range filtering",
+          "id": 132473,
+          "text": "Tree height calculation",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -534,22 +534,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160582",
+      "id": "161037",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/user-activity-for-the-past-30-days-i/description/\" target=\"_blank\">1141. User Activity for the Past 30 Days I</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree\" target=\"_blank\">108. Convert Sorted Array to Binary Search Tree</a>",
       "number": 22,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nCount daily active users within date range",
+      "explanation": "Recursively build the tree by selecting the middle element as the root and constructing left and right subtrees from the left and right halves.\nTime complexity: O(n), Space complexity: O(log n)\nAlgorithms: Binary search, Divide and conquer\nData Structures: Binary search tree, Array\nKey concepts: Height-balanced tree, Recursive construction, Midpoint selection",
       "answers": [
         {
-          "id": 132018,
-          "text": "GROUP BY with date filtering",
+          "id": 132474,
+          "text": "Recursive binary partitioning",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -559,22 +559,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160583",
+      "id": "161038",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/article-views-i/description/\" target=\"_blank\">1148. Article Views I</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/balanced-binary-tree\" target=\"_blank\">110. Balanced Binary Tree</a>",
       "number": 23,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind authors who viewed their own articles",
+      "explanation": "Use a bottom-up approach to check height balance, returning -1 when an imbalance is detected to avoid redundant calculations.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, Post-order traversal\nData Structures: Binary tree\nKey concepts: Height-balanced property, Recursive validation, Bottom-up approach",
       "answers": [
         {
-          "id": 132019,
-          "text": "Self-matching with DISTINCT",
+          "id": 132475,
+          "text": "Subtree height comparison",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -584,22 +584,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160584",
+      "id": "161039",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/reformat-department-table/description/\" target=\"_blank\">1179. Reformat Department Table</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/minimum-depth-of-binary-tree\" target=\"_blank\">111. Minimum Depth of Binary Tree</a>",
       "number": 24,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nTransform rows into columns using conditional aggregation",
+      "explanation": "Use BFS to find the first leaf node encountered for early termination, or recursively find the minimum depth of subtrees with special handling for cases with one empty subtree.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Breadth-first search, Depth-first search\nData Structures: Binary tree, Queue\nKey concepts: Tree traversal, Leaf node detection, Early termination optimization",
       "answers": [
         {
-          "id": 132020,
-          "text": "CASE with MAX for pivoting",
+          "id": 132476,
+          "text": "Level-order traversal",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -609,22 +609,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160585",
+      "id": "161040",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/queries-quality-and-percentage/description/\" target=\"_blank\">1211. Queries Quality and Percentage</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/path-sum\" target=\"_blank\">112. Path Sum</a>",
       "number": 25,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate quality metrics and poor query percentage",
+      "explanation": "Recursively check if any root-to-leaf path sums to the target by subtracting node values from the target as you traverse down the tree.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, Recursive subtraction\nData Structures: Binary tree, Stack\nKey concepts: Root-to-leaf paths, Path sum verification, Recursive problem reduction",
       "answers": [
         {
-          "id": 132021,
-          "text": "GROUP BY with multiple calculations",
+          "id": 132477,
+          "text": "Top-down tree traversal",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -634,22 +634,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160586",
+      "id": "161041",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/average-selling-price/description/\" target=\"_blank\">1251. Average Selling Price</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/pascals-triangle\" target=\"_blank\">118. Pascal's Triangle</a>",
       "number": 26,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCalculate weighted average price within date ranges",
+      "explanation": "Build the triangle row by row, where each element is the sum of the two elements directly above it in the previous row.\nTime complexity: O(n²), Space complexity: O(n²)\nAlgorithms: Dynamic programming, Combinatorial construction\nData Structures: 2D array, List of lists\nKey concepts: Pascal's identity, Row-by-row generation, Triangular structure",
       "answers": [
         {
-          "id": 132022,
-          "text": "JOIN with weighted average calculation",
+          "id": 132478,
+          "text": "Incremental array construction",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -659,22 +659,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160587",
+      "id": "161042",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/students-and-examinations/description/\" target=\"_blank\">1280. Students and Examinations</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/pascals-triangle-ii\" target=\"_blank\">119. Pascal's Triangle II</a>",
       "number": 27,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCount student attendance for each subject using cross join",
+      "explanation": "Generate the row by updating a single array in-place, working from right to left to avoid overwriting needed values.\nTime complexity: O(rowIndex²), Space complexity: O(rowIndex)\nAlgorithms: Dynamic programming, Space optimization\nData Structures: Array, List\nKey concepts: Binomial coefficients, In-place calculation, Reverse updating",
       "answers": [
         {
-          "id": 132081,
-          "text": "CROSS JOIN with LEFT JOIN counting",
+          "id": 132479,
+          "text": "In-place array updating",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -684,22 +684,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160646",
+      "id": "161043",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/list-the-products-ordered-in-a-period/description/\" target=\"_blank\">1327. List the Products Ordered in a Period</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock\" target=\"_blank\">121. Best Time to Buy and Sell Stock</a>",
       "number": 28,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin orders with products and filter by month/year",
+      "explanation": "Track the minimum price seen so far and calculate the maximum profit that could be made by selling at the current price.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: One-pass scan, Greedy approach\nData Structures: Array\nKey concepts: Maximum profit calculation, Running minimum tracking, Price difference",
       "answers": [
         {
-          "id": 132082,
-          "text": "JOIN with date filtering and GROUP BY",
+          "id": 132480,
+          "text": "Tracking extremes during traversal",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -709,22 +709,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160647",
+      "id": "161044",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/\" target=\"_blank\">1378. Replace Employee ID with The Unique Identifier</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/valid-palindrome\" target=\"_blank\">125. Valid Palindrome</a>",
       "number": 29,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse LEFT JOIN to keep all employees even without EmployeeUNI",
+      "explanation": "Use two pointers from both ends, skipping non-alphanumeric characters and comparing the rest case-insensitively until pointers meet.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, Character filtering\nData Structures: String\nKey concepts: Palindrome properties, Alphanumeric filtering, Case-insensitive comparison",
       "answers": [
         {
-          "id": 132083,
-          "text": "LEFT JOIN with NULL handling",
+          "id": 132481,
+          "text": "Two-pointer approach with filtering",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -734,22 +734,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160648",
+      "id": "161045",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/top-travellers/description/\" target=\"_blank\">1407. Top Travellers</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/single-number\" target=\"_blank\">136. Single Number</a>",
       "number": 30,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nLEFT JOIN rides and handle NULL distances with IFNULL/COALESCE",
+      "explanation": "Use XOR operation on all elements. Since XOR of a number with itself is 0 and XOR is commutative, the result will be the single number.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Bit manipulation, XOR operation\nData Structures: Array\nKey concepts: XOR properties, Element cancellation, Constant space solution",
       "answers": [
         {
-          "id": 132084,
-          "text": "LEFT JOIN with IFNULL and ORDER BY",
+          "id": 132482,
+          "text": "Bit manipulation technique",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -759,22 +759,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160649",
+      "id": "161046",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/group-sold-products-by-the-date/description/\" target=\"_blank\">1484. Group Sold Products By The Date</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/linked-list-cycle\" target=\"_blank\">141. Linked List Cycle</a>",
       "number": 31,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse GROUP_CONCAT or STRING_AGG to combine product names",
+      "explanation": "Use two pointers moving at different speeds. If there is a cycle, the fast pointer will eventually catch up to the slow pointer.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Two-pointer technique, Floyd's cycle-finding algorithm\nData Structures: Linked list\nKey concepts: Fast and slow pointers, Cycle detection, Tortoise and hare algorithm",
       "answers": [
         {
-          "id": 132085,
-          "text": "GROUP BY with string aggregation",
+          "id": 132483,
+          "text": "Dual-speed pointer technique",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -784,22 +784,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160650",
+      "id": "161047",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/find-users-with-valid-e-mails/description/\" target=\"_blank\">1517. Find Users With Valid E-Mails</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/binary-tree-preorder-traversal\" target=\"_blank\">144. Binary Tree Preorder Traversal</a>",
       "number": 32,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse REGEXP to validate email format",
+      "explanation": "Visit the root node first, then recursively traverse the left subtree, then the right subtree. Can also be implemented iteratively with a stack.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, Tree traversal\nData Structures: Binary tree, Stack\nKey concepts: Preorder traversal, Root-Left-Right ordering, Iterative implementation",
       "answers": [
         {
-          "id": 132086,
-          "text": "REGEXP pattern matching",
+          "id": 132484,
+          "text": "Root-first tree traversal",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -809,22 +809,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160651",
+      "id": "161048",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/patients-with-a-condition/description/\" target=\"_blank\">1527. Patients With a Condition</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/binary-tree-postorder-traversal\" target=\"_blank\">145. Binary Tree Postorder Traversal</a>",
       "number": 33,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse LIKE or REGEXP to match DIAB1 conditions",
+      "explanation": "Recursively traverse the left subtree, then the right subtree, and finally visit the root node. Iterative implementation is more complex than pre/in-order.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Depth-first search, Tree traversal\nData Structures: Binary tree, Stack\nKey concepts: Postorder traversal, Left-Right-Root ordering, Reverse pre-order technique",
       "answers": [
         {
-          "id": 132087,
-          "text": "Pattern matching with word boundaries",
+          "id": 132485,
+          "text": "Root-last tree traversal",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -834,22 +834,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160652",
+      "id": "161049",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/\" target=\"_blank\">1581. Customer Who Visited but Did Not Make Any Transactions</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/intersection-of-two-linked-lists\" target=\"_blank\">160. Intersection of Two Linked Lists</a>",
       "number": 34,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse LEFT JOIN and filter where transaction_id is NULL",
+      "explanation": "Have two pointers traverse both lists. When one reaches the end, redirect it to the head of the other list. They will meet at the intersection point.\nTime complexity: O(n+m), Space complexity: O(1)\nAlgorithms: Two-pointer technique, Length difference handling\nData Structures: Linked list\nKey concepts: Path synchronization, Intersection detection, Pointer realignment",
       "answers": [
         {
-          "id": 132088,
-          "text": "LEFT JOIN with NULL filtering",
+          "id": 132486,
+          "text": "Path synchronization approach",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -859,22 +859,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160653",
+      "id": "161050",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/bank-account-summary-ii/description/\" target=\"_blank\">1587. Bank Account Summary II</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/excel-sheet-column-title\" target=\"_blank\">168. Excel Sheet Column Title</a>",
       "number": 35,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin users and transactions, sum amounts and filter by total",
+      "explanation": "Convert from 1-based integer to base-26 representation, handling the offset by subtracting 1 before each digit extraction.\nTime complexity: O(log n), Space complexity: O(log n)\nAlgorithms: Base conversion, Remainder calculation\nData Structures: String\nKey concepts: Base-26 numbering, 1-indexed system, Modular arithmetic",
       "answers": [
         {
-          "id": 132089,
-          "text": "JOIN with GROUP BY and HAVING",
+          "id": 132487,
+          "text": "Numeric-to-alphabetic conversion",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -884,22 +884,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160654",
+      "id": "161051",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/\" target=\"_blank\">1633. Percentage of Users Attended a Contest</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/majority-element\" target=\"_blank\">169. Majority Element</a>",
       "number": 36,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nCount participants per contest and divide by total users",
+      "explanation": "Use Boyer-Moore voting algorithm. Maintain a candidate and count, incrementing when seeing the candidate and decrementing otherwise.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Boyer-Moore voting algorithm, Frequency counting\nData Structures: Array\nKey concepts: Majority element properties, Vote cancellation, Counter technique",
       "answers": [
         {
-          "id": 132090,
-          "text": "Percentage calculation with ROUND",
+          "id": 132488,
+          "text": "Frequency counting approach",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -909,22 +909,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160655",
+      "id": "161052",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/average-time-of-process-per-machine/description/\" target=\"_blank\">1661. Average Time of Process per Machine</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/excel-sheet-column-number\" target=\"_blank\">171. Excel Sheet Column Number</a>",
       "number": 37,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin start and end timestamps to calculate processing time",
+      "explanation": "Convert from base-26 alphabetic representation to decimal, treating each letter as a digit with A=1, B=2, etc., and applying positional weights.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Horner's method, Base conversion\nData Structures: String\nKey concepts: Base-26 numbering, Character to integer mapping, Positional number system",
       "answers": [
         {
-          "id": 132091,
-          "text": "Self join with timestamp subtraction",
+          "id": 132489,
+          "text": "Alphabetic-to-numeric conversion",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -934,22 +934,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160656",
+      "id": "161053",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/fix-names-in-a-table/description/\" target=\"_blank\">1667. Fix Names in a Table</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/reverse-bits\" target=\"_blank\">190. Reverse Bits</a>",
       "number": 38,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse string functions to capitalize first letter and lowercase rest",
+      "explanation": "Process each bit from right to left, shifting the result left and adding the current bit, continuing for all 32 bits.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Bit manipulation, Bit reversal\nData Structures: Integer\nKey concepts: Bitwise operations, Bit shifting, 32-bit manipulation",
       "answers": [
         {
-          "id": 132092,
-          "text": "CONCAT with string case functions",
+          "id": 132490,
+          "text": "Bit order inversion",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -959,22 +959,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160657",
+      "id": "161054",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/invalid-tweets/description/\" target=\"_blank\">1683. Invalid Tweets</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/number-of-1-bits\" target=\"_blank\">191. Number of 1 Bits</a>",
       "number": 39,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nFilter tweets where content length exceeds limit",
+      "explanation": "Count the number of set bits using either a loop checking each bit, or using Brian Kernighan's algorithm (n &amp; (n-1)) to clear the lowest set bit.\nTime complexity: O(1), Space complexity: O(1)\nAlgorithms: Bit manipulation, Hamming weight calculation\nData Structures: Integer\nKey concepts: Bitwise operations, Brian Kernighan's algorithm, Population count",
       "answers": [
         {
-          "id": 132093,
-          "text": "LENGTH or CHAR_LENGTH function",
+          "id": 132491,
+          "text": "Binary digit counting",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -984,22 +984,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160658",
+      "id": "161055",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/daily-leads-and-partners/description/\" target=\"_blank\">1693. Daily Leads and Partners</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/valid-phone-numbers\" target=\"_blank\">193. Valid Phone Numbers</a>",
       "number": 40,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by date and make_name, count distinct leads and partners",
+      "explanation": "Use regular expressions or command-line tools like grep, awk, or sed to match valid phone number patterns from the file.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Pattern matching, Text processing\nData Structures: String\nKey concepts: Regular expressions, Shell scripting, Format validation",
       "answers": [
         {
-          "id": 132094,
-          "text": "GROUP BY with COUNT DISTINCT",
+          "id": 132492,
+          "text": "Pattern matching in text",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1009,22 +1009,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160659",
+      "id": "161056",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/find-followers-count/description/\" target=\"_blank\">1729. Find Followers Count</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/tenth-line\" target=\"_blank\">195. Tenth Line</a>",
       "number": 41,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by user and count followers",
+      "explanation": "Use shell commands like sed, awk, or head/tail combinations to extract the tenth line of a text file, with proper handling if fewer lines exist.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Line counting, Text processing\nData Structures: File streams\nKey concepts: Unix command utilities, Line extraction, Shell scripting",
       "answers": [
         {
-          "id": 132095,
-          "text": "GROUP BY with COUNT",
+          "id": 132493,
+          "text": "Line-based text processing",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1034,22 +1034,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160660",
+      "id": "161057",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/\" target=\"_blank\">1731. The Number of Employees Which Report to Each Employee</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/happy-number\" target=\"_blank\">202. Happy Number</a>",
       "number": 42,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nJoin employees table with itself to count reports",
+      "explanation": "Compute the sum of squares of digits repeatedly. Use a hash set to detect cycles or the two-pointer method to determine if the sequence reaches 1.\nTime complexity: O(log n), Space complexity: O(log n)\nAlgorithms: Cycle detection, Digit manipulation\nData Structures: Hash set, Integer\nKey concepts: Sequence generation, Floyd's cycle-finding, Digit squaring",
       "answers": [
         {
-          "id": 132096,
-          "text": "Self join with GROUP BY",
+          "id": 132494,
+          "text": "Cycle detection in sequences",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1059,22 +1059,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160661",
+      "id": "161058",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/find-total-time-spent-by-each-employee/description/\" target=\"_blank\">1741. Find Total Time Spent by Each Employee</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/remove-linked-list-elements\" target=\"_blank\">203. Remove Linked List Elements</a>",
       "number": 43,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by date and emp_id, sum time differences",
+      "explanation": "Use a dummy head node to simplify edge cases. Traverse the list and for each node, check if its next node's value matches the target value for removal.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linked list traversal, Element filtering\nData Structures: Singly linked list\nKey concepts: Pointer manipulation, Sentinel node, Element removal",
       "answers": [
         {
-          "id": 132097,
-          "text": "GROUP BY with time calculation",
+          "id": 132495,
+          "text": "Element filtering in a sequence",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1084,22 +1084,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160662",
+      "id": "161059",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/recyclable-and-low-fat-products/description/\" target=\"_blank\">1757. Recyclable and Low Fat Products</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/isomorphic-strings\" target=\"_blank\">205. Isomorphic Strings</a>",
       "number": 44,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nFilter products that are both low fat and recyclable",
+      "explanation": "Use two maps to track character mappings in both directions, ensuring each character maps to exactly one other character in a consistent way.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Character mapping, Bijection verification\nData Structures: Hash map, Array\nKey concepts: Character replacement, Bidirectional mapping, Pattern matching",
       "answers": [
         {
-          "id": 132098,
-          "text": "WHERE with multiple conditions",
+          "id": 132496,
+          "text": "Bidirectional character mapping validation",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1109,22 +1109,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160663",
+      "id": "161060",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/primary-department-for-each-employee/description/\" target=\"_blank\">1789. Primary Department for Each Employee</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/reverse-linked-list\" target=\"_blank\">206. Reverse Linked List</a>",
       "number": 45,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse UNION to combine primary and single department employees",
+      "explanation": "Iteratively change the next pointers of each node to point to its previous node, using temporary variables to preserve the next node before modifying pointers.\nTime complexity: O(n), Space complexity: O(1)\nAlgorithms: Linked list manipulation, Pointer reversal\nData Structures: Singly linked list\nKey concepts: Iterative reversal, Recursive approach, Next pointer reassignment",
       "answers": [
         {
-          "id": 132099,
-          "text": "UNION with subqueries",
+          "id": 132497,
+          "text": "Sequential link direction inversion",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1134,22 +1134,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160664",
+      "id": "161061",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/rearrange-products-table/description/\" target=\"_blank\">1795. Rearrange Products Table</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/contains-duplicate\" target=\"_blank\">217. Contains Duplicate</a>",
       "number": 46,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse UNION ALL to transform columns to rows",
+      "explanation": "Use a hash set to track seen elements. When iterating through the array, if an element is already in the set, return true; otherwise add it to the set.\nTime complexity: O(n), Space complexity: O(n)\nAlgorithms: Hash-based lookup, Element tracking\nData Structures: Hash set, Array\nKey concepts: Duplicate detection, Element uniqueness, Set operations",
       "answers": [
         {
-          "id": 132100,
-          "text": "UNION ALL for unpivoting",
+          "id": 132498,
+          "text": "Element uniqueness verification",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1159,22 +1159,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160665",
+      "id": "161062",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/calculate-special-bonus/description/\" target=\"_blank\">1873. Calculate Special Bonus</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/contains-duplicate-ii\" target=\"_blank\">219. Contains Duplicate II</a>",
       "number": 47,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse CASE to determine bonus based on conditions",
+      "explanation": "Use a sliding window with a hash set, maintaining only elements within the k-distance window. Remove elements that fall outside the window.\nTime complexity: O(n), Space complexity: O(min(n,k))\nAlgorithms: Sliding window, Hash-based lookup\nData Structures: Hash map/set, Array\nKey concepts: Fixed-distance duplicates, Window maintenance, Index tracking",
       "answers": [
         {
-          "id": 132101,
-          "text": "CASE expression with string check",
+          "id": 132499,
+          "text": "Fixed-range element tracking",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1184,22 +1184,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160666",
+      "id": "161063",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/the-latest-login-in-2020/description/\" target=\"_blank\">1890. The Latest Login in 2020</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/count-complete-tree-nodes\" target=\"_blank\">222. Count Complete Tree Nodes</a>",
       "number": 48,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFilter logins in 2020 and find max time per user",
+      "explanation": "Exploit properties of complete binary trees by checking if left and right subtree heights are equal. If so, use the formula 2^h-1, otherwise recurse.\nTime complexity: O(log² n), Space complexity: O(log n)\nAlgorithms: Binary search, Tree traversal\nData Structures: Complete binary tree\nKey concepts: Complete tree properties, Height calculation, Recursive counting",
       "answers": [
         {
-          "id": 132102,
-          "text": "YEAR function with MAX aggregation",
+          "id": 132500,
+          "text": "Structure-specific node counting",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1209,22 +1209,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160667",
+      "id": "161064",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/employees-with-missing-information/description/\" target=\"_blank\">1965. Employees With Missing Information</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/implement-stack-using-queues\" target=\"_blank\">225. Implement Stack using Queues</a>",
       "number": 49,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nUse UNION to find employees missing either salary or name",
+      "explanation": "Use a single queue and rotate elements after each push by dequeueing and enqueueing all elements, or use two queues to transfer elements between them.\nTime complexity: O(n) for push, O(1) for pop/top, Space complexity: O(n)\nAlgorithms: Queue operations, Data structure design\nData Structures: Queue\nKey concepts: LIFO simulation with FIFO, Queue rearrangement, Operation adaptation",
       "answers": [
         {
-          "id": 132103,
-          "text": "UNION with LEFT JOINs",
+          "id": 132501,
+          "text": "Data structure behavior adaptation",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1234,22 +1234,22 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160668",
+      "id": "161065",
       "deckId": "_1"
     },
     {
       "type": "card",
       "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/employees-whose-manager-left-the-company/description/\" target=\"_blank\">1978. Employees Whose Manager Left the Company</a>",
+      "deck": "Leetcode program easy free 1",
+      "question": "<a href=\"https://leetcode.com/problems/invert-binary-tree\" target=\"_blank\">226. Invert Binary Tree</a>",
       "number": 50,
-      "hint": "",
+      "hint": null,
       "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nFind employees whose manager is not in company",
+      "explanation": "Recursively swap the left and right children of each node. Can also be done iteratively using a queue or stack for traversal.\nTime complexity: O(n), Space complexity: O(h)\nAlgorithms: Tree traversal, Recursive transformation\nData Structures: Binary tree\nKey concepts: Child node swapping, Mirror image, Pre-order/level-order traversal",
       "answers": [
         {
-          "id": 132104,
-          "text": "LEFT JOIN with salary threshold",
+          "id": 132502,
+          "text": "Child node position swapping",
           "number": 1,
           "isCorrect": 1,
           "groupIndex": 1
@@ -1259,83 +1259,21 @@
         "randomize": false,
         "confirmResponse": false
       },
-      "id": "160669",
+      "id": "161066",
       "deckId": "_1"
     },
     {
-      "type": "card",
-      "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/\" target=\"_blank\">2356. Number of Unique Subjects Taught by Each Teacher</a>",
-      "number": 51,
-      "hint": "",
-      "notes": "",
-      "explanation": "Time complexity: O(n log n), Space complexity: O(n)\n\nGroup by teacher and count distinct subjects",
-      "answers": [
-        {
-          "id": 132105,
-          "text": "GROUP BY with COUNT DISTINCT",
-          "number": 1,
-          "isCorrect": 1,
-          "groupIndex": 1
-        }
-      ],
-      "algoSettings": {
-        "randomize": false,
-        "confirmResponse": false
-      },
-      "id": "160670",
-      "deckId": "_1"
-    },
-    {
-      "type": "card",
-      "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/find-valid-emails/description/\" target=\"_blank\">3436. Find Valid Emails</a>",
-      "number": 52,
-      "hint": "",
-      "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse REGEXP to validate email format",
-      "answers": [
-        {
-          "id": 132106,
-          "text": "REGEXP pattern matching",
-          "number": 1,
-          "isCorrect": 1,
-          "groupIndex": 1
-        }
-      ],
-      "algoSettings": {
-        "randomize": false,
-        "confirmResponse": false
-      },
-      "id": "160671",
-      "deckId": "_1"
-    },
-    {
-      "type": "card",
-      "algo": 5,
-      "deck": "Leetcode - database (easy)",
-      "question": "<a href=\"https://leetcode.com/problems/find-products-with-valid-serial-numbers/description/\" target=\"_blank\">3465. Find Products with Valid Serial Numbers</a>",
-      "number": 53,
-      "hint": "",
-      "notes": "",
-      "explanation": "Time complexity: O(n), Space complexity: O(n)\n\nUse REGEXP to validate serial number format",
-      "answers": [
-        {
-          "id": 132107,
-          "text": "REGEXP pattern matching",
-          "number": 1,
-          "isCorrect": 1,
-          "groupIndex": 1
-        }
-      ],
-      "algoSettings": {
-        "randomize": false,
-        "confirmResponse": false
-      },
-      "id": "160672",
-      "deckId": "_1"
+      "type": "share",
+      "expiration": "2028-05-22T18:32:29.000Z",
+      "level": "PUBLIC",
+      "isLinkOnly": 0,
+      "defaultIsAdminMode": 1,
+      "defaultIsRandomMode": 1,
+      "defaultIsManualScoringMode": 0,
+      "defaultIsTextToSpeechMode": 0,
+      "defaultIsSaveResponsesMode": 0,
+      "defaultIsPoolMultipleChoiceOptionsMode": 1,
+      "default_layout_id": 1
     }
   ]
 }
